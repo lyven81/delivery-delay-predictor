@@ -1,0 +1,58 @@
+[
+  {
+    "feature": "Tight requested window",
+    "importance": 1.421
+  },
+  {
+    "feature": "High daily volume",
+    "importance": 1.075
+  },
+  {
+    "feature": "Courier",
+    "importance": 0.817
+  },
+  {
+    "feature": "DeliveryZone",
+    "importance": 0.756
+  },
+  {
+    "feature": "Order value",
+    "importance": 0.444
+  },
+  {
+    "feature": "DeliveryService",
+    "importance": 0.353
+  },
+  {
+    "feature": "Order hour",
+    "importance": 0.325
+  },
+  {
+    "feature": "Occasion",
+    "importance": 0.306
+  },
+  {
+    "feature": "Order weekday",
+    "importance": 0.216
+  },
+  {
+    "feature": "ProductCategory",
+    "importance": 0.19
+  },
+  {
+    "feature": "Zone standard",
+    "importance": 0.108
+  },
+  {
+    "feature": "Lead time",
+    "importance": 0.078
+  },
+  {
+    "feature": "FreshFlowers",
+    "importance": 0.032
+  },
+  {
+    "feature": "Hard-date occasion",
+    "importance": 0.025
+  }
+]

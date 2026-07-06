@@ -1,0 +1,25 @@
+{
+  "on_time_rate": 88,
+  "late_orders": 289,
+  "avg_delay_hours": 8.0,
+  "refund_cost_rm": 30512,
+  "courier_on_time": {
+    "In-house Rider": 90,
+    "Lalamove": 90,
+    "GrabExpress": 89,
+    "J&T Express": 86,
+    "Pos Laju": 86,
+    "Ninja Van": 82
+  },
+  "zone_delay_rate": {
+    "Other": 20,
+    "Penang": 16,
+    "Johor Bahru": 11,
+    "Klang Valley": 11
+  },
+  "bottleneck_pct": {
+    "Courier Transit": 67,
+    "Warehouse Handling": 22,
+    "Dispatch": 11
+  }
+}

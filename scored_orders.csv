@@ -1,0 +1,2410 @@
+OrderID,Courier,DeliveryZone,DeliveryService,DailyOrderVolume,risk,IsLate,key_driver
+ORD1593,GrabExpress,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1640,GrabExpress,Klang Valley,Same Day,57,100,1,High daily volume
+ORD2727,In-house Rider,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2757,In-house Rider,Klang Valley,Same Day,49,100,1,High daily volume
+ORD1588,GrabExpress,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1599,Lalamove,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1627,In-house Rider,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1641,Lalamove,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1586,GrabExpress,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1621,In-house Rider,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1602,Lalamove,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1638,Lalamove,Klang Valley,Same Day,57,100,1,High daily volume
+ORD1613,In-house Rider,Klang Valley,Same Day,57,100,1,High daily volume
+ORD2770,Lalamove,Klang Valley,Same Day,47,100,1,High daily volume
+ORD2731,Lalamove,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2759,Lalamove,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2739,Lalamove,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2787,In-house Rider,Klang Valley,Same Day,47,100,1,High daily volume
+ORD2748,Lalamove,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2761,GrabExpress,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2726,Lalamove,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2734,GrabExpress,Klang Valley,Same Day,49,100,1,High daily volume
+ORD2767,Lalamove,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2659,Lalamove,Klang Valley,Same Day,37,99,1,High daily volume
+ORD1606,GrabExpress,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1545,In-house Rider,Klang Valley,Same Day,45,99,1,High daily volume
+ORD1590,Lalamove,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1570,In-house Rider,Klang Valley,Same Day,45,99,1,High daily volume
+ORD2669,Lalamove,Klang Valley,Same Day,37,99,1,High daily volume
+ORD1605,Lalamove,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1597,In-house Rider,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1612,In-house Rider,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1618,GrabExpress,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1629,GrabExpress,Klang Valley,Same Day,57,99,1,High daily volume
+ORD1563,GrabExpress,Klang Valley,Same Day,45,99,1,High daily volume
+ORD1628,Lalamove,Klang Valley,Same Day,57,99,1,High daily volume
+ORD2793,In-house Rider,Klang Valley,Same Day,47,99,1,High daily volume
+ORD2766,Lalamove,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2785,GrabExpress,Klang Valley,Same Day,47,99,1,High daily volume
+ORD1549,Lalamove,Klang Valley,Same Day,45,99,1,High daily volume
+ORD1573,GrabExpress,Klang Valley,Same Day,45,99,1,High daily volume
+ORD2772,In-house Rider,Klang Valley,Same Day,47,99,1,High daily volume
+ORD2743,GrabExpress,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2732,GrabExpress,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2747,GrabExpress,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2804,GrabExpress,Klang Valley,Same Day,47,99,1,High daily volume
+ORD2812,GrabExpress,Klang Valley,Same Day,47,99,1,High daily volume
+ORD2755,GrabExpress,Klang Valley,Same Day,49,99,1,High daily volume
+ORD2815,GrabExpress,Klang Valley,Same Day,47,99,1,High daily volume
+ORD2797,In-house Rider,Klang Valley,Same Day,47,99,1,High daily volume
+ORD1598,Lalamove,Klang Valley,Same Day,57,99,1,High daily volume
+ORD3269,Lalamove,Klang Valley,Same Day,11,98,1,Tight requested window
+ORD1159,GrabExpress,Klang Valley,Same Day,11,98,1,Tight requested window
+ORD2795,Lalamove,Klang Valley,Same Day,47,98,1,High daily volume
+ORD2722,In-house Rider,Klang Valley,Same Day,49,98,1,High daily volume
+ORD2691,Lalamove,Klang Valley,Same Day,36,98,1,High daily volume
+ORD2780,Lalamove,Klang Valley,Same Day,47,98,1,High daily volume
+ORD2657,In-house Rider,Klang Valley,Same Day,37,98,1,High daily volume
+ORD1609,In-house Rider,Klang Valley,Same Day,57,98,1,High daily volume
+ORD3295,Lalamove,Klang Valley,Same Day,11,98,1,Tight requested window
+ORD1504,Lalamove,Klang Valley,Same Day,38,98,1,High daily volume
+ORD2062,Ninja Van,Johor Bahru,Next Day,9,98,1,Order hour
+ORD1547,In-house Rider,Klang Valley,Same Day,45,98,1,High daily volume
+ORD2745,GrabExpress,Klang Valley,Same Day,49,98,1,High daily volume
+ORD2792,Lalamove,Klang Valley,Same Day,47,98,1,High daily volume
+ORD2679,GrabExpress,Klang Valley,Same Day,37,98,1,High daily volume
+ORD2762,J&T Express,Johor Bahru,Next Day,49,98,1,High daily volume
+ORD1569,In-house Rider,Klang Valley,Same Day,45,97,1,High daily volume
+ORD2110,GrabExpress,Klang Valley,Same Day,10,97,0,Tight requested window
+ORD1521,Lalamove,Klang Valley,Same Day,38,97,1,High daily volume
+ORD1581,In-house Rider,Klang Valley,Same Day,45,97,1,High daily volume
+ORD1607,GrabExpress,Klang Valley,Same Day,57,97,1,High daily volume
+ORD2786,In-house Rider,Klang Valley,Same Day,47,97,1,High daily volume
+ORD2829,GrabExpress,Klang Valley,Same Day,12,97,1,Tight requested window
+ORD2651,Lalamove,Klang Valley,Same Day,37,97,0,High daily volume
+ORD2705,Lalamove,Klang Valley,Same Day,36,97,1,High daily volume
+ORD2760,Ninja Van,Penang,Scheduled,49,97,1,High daily volume
+ORD2673,Lalamove,Klang Valley,Same Day,37,97,1,High daily volume
+ORD1558,In-house Rider,Klang Valley,Same Day,45,96,0,High daily volume
+ORD1620,J&T Express,Penang,Next Day,57,96,1,High daily volume
+ORD1489,In-house Rider,Klang Valley,Same Day,31,96,1,High daily volume
+ORD2768,J&T Express,Penang,Next Day,49,96,1,High daily volume
+ORD2121,Ninja Van,Other,Next Day,6,96,1,Order hour
+ORD2472,Lalamove,Klang Valley,Same Day,9,96,1,Tight requested window
+ORD1796,Ninja Van,Other,Next Day,8,96,1,Order hour
+ORD1517,Lalamove,Klang Valley,Same Day,38,96,1,High daily volume
+ORD1608,Lalamove,Klang Valley,Scheduled,57,95,1,High daily volume
+ORD1610,Pos Laju,Johor Bahru,Scheduled,57,95,1,High daily volume
+ORD3296,Ninja Van,Other,Next Day,11,95,1,Other zone
+ORD1625,GrabExpress,Klang Valley,Same Day,57,95,1,High daily volume
+ORD2649,In-house Rider,Klang Valley,Same Day,37,95,1,High daily volume
+ORD1495,In-house Rider,Klang Valley,Same Day,31,95,1,Tight requested window
+ORD2711,In-house Rider,Klang Valley,Same Day,36,95,1,High daily volume
+ORD1615,J&T Express,Penang,Next Day,57,95,1,High daily volume
+ORD2699,Pos Laju,Penang,Scheduled,36,94,1,High daily volume
+ORD2135,Ninja Van,Other,Next Day,9,94,1,Order value
+ORD2311,Pos Laju,Other,Scheduled,16,94,1,Klang Valley zone
+ORD2295,Ninja Van,Other,Scheduled,11,94,1,Klang Valley zone
+ORD1477,In-house Rider,Klang Valley,Same Day,31,94,1,Tight requested window
+ORD2034,Lalamove,Klang Valley,Same Day,9,94,1,Tight requested window
+ORD1562,GrabExpress,Klang Valley,Same Day,45,94,1,High daily volume
+ORD2830,GrabExpress,Klang Valley,Same Day,12,94,1,Tight requested window
+ORD2670,GrabExpress,Klang Valley,Same Day,37,94,1,High daily volume
+ORD2703,In-house Rider,Klang Valley,Same Day,36,94,1,High daily volume
+ORD2764,Ninja Van,Klang Valley,Next Day,49,94,1,High daily volume
+ORD2713,Lalamove,Klang Valley,Same Day,36,94,1,High daily volume
+ORD1505,In-house Rider,Klang Valley,Same Day,38,94,1,High daily volume
+ORD1259,Pos Laju,Penang,Next Day,10,94,1,Klang Valley zone
+ORD1576,GrabExpress,Klang Valley,Same Day,45,94,1,High daily volume
+ORD1808,GrabExpress,Klang Valley,Same Day,13,93,1,Tight requested window
+ORD1636,Pos Laju,Penang,Next Day,57,93,1,High daily volume
+ORD3002,J&T Express,Other,Next Day,12,93,1,Tight requested window
+ORD1863,Ninja Van,Johor Bahru,Scheduled,15,93,1,Klang Valley zone
+ORD1837,Ninja Van,Other,Scheduled,14,93,1,Klang Valley zone
+ORD2312,Lalamove,Klang Valley,Same Day,16,93,1,Tight requested window
+ORD1559,In-house Rider,Klang Valley,Same Day,45,93,1,High daily volume
+ORD3351,Pos Laju,Other,Next Day,12,93,1,Order hour
+ORD1503,In-house Rider,Klang Valley,Same Day,38,92,0,High daily volume
+ORD1531,GrabExpress,Klang Valley,Same Day,38,92,1,High daily volume
+ORD2116,Ninja Van,Penang,Scheduled,10,92,1,Ninja Van
+ORD3117,Ninja Van,Other,Scheduled,12,92,1,Klang Valley zone
+ORD3218,J&T Express,Penang,Next Day,19,92,1,Order value
+ORD1195,In-house Rider,Klang Valley,Same Day,16,92,1,Tight requested window
+ORD1086,Lalamove,Klang Valley,Same Day,10,92,1,Tight requested window
+ORD1529,Lalamove,Klang Valley,Same Day,38,92,1,High daily volume
+ORD2648,Lalamove,Klang Valley,Same Day,37,92,1,High daily volume
+ORD1630,Ninja Van,Johor Bahru,Next Day,57,92,1,High daily volume
+ORD2738,J&T Express,Johor Bahru,Next Day,49,92,1,High daily volume
+ORD2982,Ninja Van,Penang,Scheduled,18,92,1,Klang Valley zone
+ORD1624,Ninja Van,Penang,Next Day,57,92,1,High daily volume
+ORD1578,Ninja Van,Other,Scheduled,45,91,1,High daily volume
+ORD1494,GrabExpress,Klang Valley,Same Day,31,91,1,High daily volume
+ORD3312,In-house Rider,Klang Valley,Same Day,16,91,1,Tight requested window
+ORD1224,Ninja Van,Penang,Next Day,11,91,1,Klang Valley zone
+ORD2895,Lalamove,Klang Valley,Same Day,17,91,1,Tight requested window
+ORD2277,Ninja Van,Penang,Next Day,12,91,1,Klang Valley zone
+ORD2354,In-house Rider,Klang Valley,Same Day,13,91,1,Tight requested window
+ORD1274,Lalamove,Klang Valley,Same Day,14,91,1,Tight requested window
+ORD2296,Pos Laju,Johor Bahru,Next Day,11,91,1,Order hour
+ORD1352,J&T Express,Penang,Next Day,14,91,1,Tight requested window
+ORD1742,J&T Express,Other,Next Day,10,91,1,Tight requested window
+ORD2721,Lalamove,Klang Valley,Scheduled,49,90,1,High daily volume
+ORD2625,Pos Laju,Other,Next Day,26,90,1,Tight requested window
+ORD1485,Ninja Van,Klang Valley,Next Day,31,90,1,Order hour
+ORD2803,Pos Laju,Penang,Next Day,47,90,1,High daily volume
+ORD1476,Lalamove,Klang Valley,Same Day,31,90,1,High daily volume
+ORD1262,Lalamove,Klang Valley,Same Day,14,90,0,Tight requested window
+ORD2432,J&T Express,Other,Next Day,15,90,0,Order value
+ORD3142,J&T Express,Penang,Scheduled,16,90,1,Klang Valley zone
+ORD1512,Pos Laju,Penang,Scheduled,38,90,1,High daily volume
+ORD2566,Ninja Van,Penang,Next Day,10,90,1,Ninja Van
+ORD2652,In-house Rider,Klang Valley,Same Day,37,90,1,High daily volume
+ORD2592,In-house Rider,Klang Valley,Same Day,13,90,1,Tight requested window
+ORD2127,Ninja Van,Penang,Scheduled,8,90,1,Ninja Van
+ORD2941,Ninja Van,Other,Next Day,8,89,1,Ninja Van
+ORD2810,GrabExpress,Klang Valley,Next Day,47,89,1,High daily volume
+ORD1067,J&T Express,Johor Bahru,Next Day,7,89,1,Order weekday
+ORD1482,Lalamove,Klang Valley,Same Day,31,89,1,High daily volume
+ORD1516,Pos Laju,Johor Bahru,Scheduled,38,89,1,High daily volume
+ORD2546,Pos Laju,Other,Scheduled,15,89,1,Order value
+ORD1571,In-house Rider,Klang Valley,Same Day,45,88,0,High daily volume
+ORD3164,Pos Laju,Other,Scheduled,11,88,1,Klang Valley zone
+ORD2353,GrabExpress,Klang Valley,Same Day,13,88,1,Tight requested window
+ORD2044,J&T Express,Penang,Next Day,9,88,1,Order weekday
+ORD2008,Ninja Van,Other,Next Day,14,88,1,Order hour
+ORD3290,Lalamove,Klang Valley,Same Day,11,88,1,Tight requested window
+ORD1360,Ninja Van,Penang,Scheduled,8,88,1,Ninja Van
+ORD1532,GrabExpress,Klang Valley,Same Day,38,87,0,High daily volume
+ORD1106,Ninja Van,Other,Next Day,13,87,1,Other zone
+ORD2712,In-house Rider,Klang Valley,Same Day,36,87,1,High daily volume
+ORD1481,Lalamove,Klang Valley,Same Day,31,87,1,High daily volume
+ORD3404,Ninja Van,Johor Bahru,Next Day,10,87,1,Ninja Van
+ORD2516,J&T Express,Other,Next Day,10,87,1,Other zone
+ORD1213,GrabExpress,Klang Valley,Same Day,11,87,1,Tight requested window
+ORD1693,In-house Rider,Klang Valley,Same Day,23,87,1,Tight requested window
+ORD2993,GrabExpress,Klang Valley,Same Day,9,86,1,Tight requested window
+ORD2749,Lalamove,Klang Valley,Scheduled,49,86,1,High daily volume
+ORD1431,Pos Laju,Other,Next Day,15,86,1,Order value
+ORD3020,GrabExpress,Klang Valley,Same Day,10,86,1,Tight requested window
+ORD2207,In-house Rider,Klang Valley,Same Day,14,86,1,Tight requested window
+ORD3259,Lalamove,Klang Valley,Same Day,10,86,1,Tight requested window
+ORD1437,Pos Laju,Other,Next Day,15,86,1,Other zone
+ORD1815,Pos Laju,Other,Scheduled,13,85,1,Klang Valley zone
+ORD3053,J&T Express,Johor Bahru,Scheduled,15,85,1,Klang Valley zone
+ORD1997,J&T Express,Penang,Next Day,17,85,1,J&T Express
+ORD2015,In-house Rider,Klang Valley,Same Day,14,85,1,Tight requested window
+ORD2643,Pos Laju,Other,Next Day,26,85,1,Other zone
+ORD2744,GrabExpress,Klang Valley,Scheduled,49,85,1,High daily volume
+ORD3391,In-house Rider,Klang Valley,Same Day,14,84,1,Tight requested window
+ORD2021,Pos Laju,Other,Scheduled,11,84,1,Other zone
+ORD2064,J&T Express,Johor Bahru,Next Day,9,84,1,J&T Express
+ORD3251,Pos Laju,Johor Bahru,Next Day,10,84,1,Tight requested window
+ORD2143,In-house Rider,Klang Valley,Same Day,12,84,1,Tight requested window
+ORD1663,J&T Express,Other,Next Day,26,84,1,Klang Valley zone
+ORD1035,J&T Express,Penang,Next Day,15,84,1,J&T Express
+ORD2635,Lalamove,Klang Valley,Same Day,26,84,1,Tight requested window
+ORD1196,Ninja Van,Johor Bahru,Scheduled,16,84,1,Klang Valley zone
+ORD3392,In-house Rider,Klang Valley,Same Day,14,84,0,Tight requested window
+ORD1142,Lalamove,Klang Valley,Same Day,13,84,1,Tight requested window
+ORD2196,Ninja Van,Johor Bahru,Next Day,11,83,1,Klang Valley zone
+ORD2892,Lalamove,Klang Valley,Same Day,17,83,1,Tight requested window
+ORD1236,GrabExpress,Klang Valley,Same Day,12,83,1,Tight requested window
+ORD3319,In-house Rider,Klang Valley,Same Day,16,83,1,Tight requested window
+ORD1429,Ninja Van,Penang,Next Day,15,83,1,Ninja Van
+ORD1764,Ninja Van,Klang Valley,Next Day,12,83,1,Order hour
+ORD1528,Ninja Van,Penang,Next Day,38,83,1,High daily volume
+ORD3248,In-house Rider,Klang Valley,Same Day,13,82,1,Tight requested window
+ORD2123,J&T Express,Other,Scheduled,6,82,1,Klang Valley zone
+ORD1885,In-house Rider,Klang Valley,Same Day,11,82,1,Tight requested window
+ORD1054,Lalamove,Klang Valley,Same Day,11,82,1,Tight requested window
+ORD2102,GrabExpress,Klang Valley,Same Day,11,82,1,Tight requested window
+ORD2820,Ninja Van,Klang Valley,Next Day,11,82,1,Order value
+ORD3092,GrabExpress,Klang Valley,Same Day,12,82,1,Tight requested window
+ORD2551,Ninja Van,Other,Next Day,10,82,1,Klang Valley zone
+ORD2695,In-house Rider,Klang Valley,Same Day,36,82,0,High daily volume
+ORD2224,Ninja Van,Other,Scheduled,13,81,1,Klang Valley zone
+ORD1302,J&T Express,Johor Bahru,Next Day,12,81,1,Klang Valley zone
+ORD1905,In-house Rider,Klang Valley,Same Day,14,81,0,Tight requested window
+ORD2496,J&T Express,Johor Bahru,Next Day,17,81,1,Klang Valley zone
+ORD1185,GrabExpress,Klang Valley,Same Day,13,81,0,Tight requested window
+ORD2208,Ninja Van,Johor Bahru,Scheduled,14,81,1,Klang Valley zone
+ORD2408,J&T Express,Other,Next Day,13,81,1,Other zone
+ORD2965,Ninja Van,Penang,Next Day,12,81,0,Ninja Van
+ORD2158,Lalamove,Klang Valley,Same Day,16,80,1,Tight requested window
+ORD1008,In-house Rider,Klang Valley,Same Day,11,80,1,Order value
+ORD2488,GrabExpress,Klang Valley,Same Day,11,80,1,Tight requested window
+ORD1720,GrabExpress,Klang Valley,Same Day,9,80,1,Tight requested window
+ORD2801,GrabExpress,Klang Valley,Scheduled,47,80,1,High daily volume
+ORD2309,In-house Rider,Klang Valley,Same Day,16,80,1,Tight requested window
+ORD1490,Lalamove,Klang Valley,Same Day,31,79,0,High daily volume
+ORD2441,GrabExpress,Klang Valley,Same Day,13,79,1,Order value
+ORD3398,In-house Rider,Klang Valley,Same Day,14,79,0,Tight requested window
+ORD2660,In-house Rider,Klang Valley,Same Day,37,79,1,High daily volume
+ORD3266,GrabExpress,Klang Valley,Same Day,11,79,1,Tight requested window
+ORD3280,In-house Rider,Klang Valley,Same Day,15,78,1,Tight requested window
+ORD1835,GrabExpress,Klang Valley,Same Day,14,78,1,Tight requested window
+ORD1525,In-house Rider,Klang Valley,Same Day,38,78,0,High daily volume
+ORD2854,In-house Rider,Klang Valley,Same Day,16,78,1,Tight requested window
+ORD1260,Lalamove,Klang Valley,Same Day,10,78,1,Tight requested window
+ORD1110,J&T Express,Other,Next Day,13,78,1,Klang Valley zone
+ORD3335,Pos Laju,Other,Next Day,11,78,0,Other zone
+ORD2914,GrabExpress,Klang Valley,Same Day,13,78,1,Tight requested window
+ORD2073,Lalamove,Klang Valley,Same Day,11,78,1,Tight requested window
+ORD2063,GrabExpress,Klang Valley,Same Day,9,77,1,Tight requested window
+ORD1398,In-house Rider,Klang Valley,Same Day,13,77,1,Tight requested window
+ORD3067,J&T Express,Penang,Next Day,17,77,1,J&T Express
+ORD2672,In-house Rider,Klang Valley,Same Day,37,77,1,Tight requested window
+ORD2572,GrabExpress,Klang Valley,Same Day,11,76,0,Tight requested window
+ORD1976,In-house Rider,Klang Valley,Same Day,13,76,0,Tight requested window
+ORD2378,Ninja Van,Penang,Scheduled,8,76,0,Ninja Van
+ORD3062,In-house Rider,Klang Valley,Same Day,17,75,1,Tight requested window
+ORD1729,Pos Laju,Other,Next Day,9,75,0,Klang Valley zone
+ORD2315,In-house Rider,Klang Valley,Same Day,16,75,1,Tight requested window
+ORD1207,In-house Rider,Klang Valley,Same Day,16,74,0,Tight requested window
+ORD1768,In-house Rider,Klang Valley,Same Day,12,74,0,Tight requested window
+ORD2341,Lalamove,Klang Valley,Same Day,17,74,1,Order value
+ORD2917,J&T Express,Johor Bahru,Next Day,13,74,1,Klang Valley zone
+ORD2918,Ninja Van,Other,Next Day,13,73,0,Klang Valley zone
+ORD2717,GrabExpress,Klang Valley,Same Day,36,73,0,High daily volume
+ORD1737,GrabExpress,Klang Valley,Same Day,10,72,0,Tight requested window
+ORD2446,Lalamove,Klang Valley,Same Day,13,72,1,Tight requested window
+ORD1942,GrabExpress,Klang Valley,Same Day,12,72,0,Tight requested window
+ORD1520,In-house Rider,Klang Valley,Same Day,38,72,0,High daily volume
+ORD1472,Lalamove,Klang Valley,Same Day,31,72,1,High daily volume
+ORD3003,Ninja Van,Other,Next Day,12,72,0,Klang Valley zone
+ORD2042,Pos Laju,Johor Bahru,Next Day,9,71,1,Klang Valley zone
+ORD3389,In-house Rider,Klang Valley,Same Day,14,71,1,Tight requested window
+ORD2960,Pos Laju,Other,Scheduled,12,71,0,Other zone
+ORD1743,Lalamove,Klang Valley,Same Day,10,71,1,Tight requested window
+ORD3345,Ninja Van,Other,Next Day,12,70,0,Klang Valley zone
+ORD3210,GrabExpress,Klang Valley,Same Day,12,70,1,Tight requested window
+ORD2310,Lalamove,Klang Valley,Same Day,16,70,0,Tight requested window
+ORD2681,In-house Rider,Klang Valley,Same Day,37,70,0,High daily volume
+ORD3167,In-house Rider,Klang Valley,Same Day,13,70,0,Tight requested window
+ORD2716,GrabExpress,Klang Valley,Same Day,36,69,0,High daily volume
+ORD3106,Pos Laju,Penang,Scheduled,12,69,1,Klang Valley zone
+ORD2298,GrabExpress,Klang Valley,Same Day,11,69,0,Tight requested window
+ORD3048,Ninja Van,Penang,Next Day,15,68,0,Tight requested window
+ORD2680,In-house Rider,Klang Valley,Same Day,37,68,0,High daily volume
+ORD3383,GrabExpress,Klang Valley,Same Day,13,68,1,Tight requested window
+ORD2206,In-house Rider,Klang Valley,Same Day,14,67,0,Tight requested window
+ORD3433,J&T Express,Johor Bahru,Next Day,10,67,0,Klang Valley zone
+ORD2259,GrabExpress,Klang Valley,Same Day,15,67,1,Tight requested window
+ORD1601,Pos Laju,Penang,Next Day,57,66,0,High daily volume
+ORD1980,In-house Rider,Klang Valley,Same Day,13,66,1,Tight requested window
+ORD2903,In-house Rider,Klang Valley,Same Day,17,66,0,Tight requested window
+ORD1912,Lalamove,Klang Valley,Same Day,14,66,0,Tight requested window
+ORD1497,Ninja Van,Other,Next Day,31,65,0,Order hour
+ORD1971,GrabExpress,Klang Valley,Same Day,13,64,0,Tight requested window
+ORD1209,In-house Rider,Klang Valley,Same Day,16,64,0,Tight requested window
+ORD3393,Lalamove,Klang Valley,Same Day,14,63,0,Tight requested window
+ORD3250,Ninja Van,Klang Valley,Next Day,10,63,0,Order hour
+ORD3359,GrabExpress,Klang Valley,Same Day,12,61,0,Tight requested window
+ORD2293,GrabExpress,Klang Valley,Same Day,14,61,0,Tight requested window
+ORD2894,Ninja Van,Penang,Next Day,17,60,0,Klang Valley zone
+ORD1293,Lalamove,Klang Valley,Same Day,10,60,0,Tight requested window
+ORD2869,Ninja Van,Other,Scheduled,14,59,0,Klang Valley zone
+ORD1523,In-house Rider,Klang Valley,Same Day,38,59,1,High daily volume
+ORD2321,Ninja Van,Johor Bahru,Next Day,16,58,1,Klang Valley zone
+ORD1479,GrabExpress,Klang Valley,Same Day,31,58,1,High daily volume
+ORD1453,Ninja Van,Johor Bahru,Scheduled,26,58,0,Klang Valley zone
+ORD2616,In-house Rider,Klang Valley,Same Day,13,57,0,Tight requested window
+ORD1996,J&T Express,Other,Next Day,17,56,0,Klang Valley zone
+ORD1724,GrabExpress,Klang Valley,Same Day,9,56,0,Tight requested window
+ORD2483,J&T Express,Other,Next Day,9,56,0,Tight requested window
+ORD2573,J&T Express,Other,Next Day,11,56,0,Klang Valley zone
+ORD2618,GrabExpress,Klang Valley,Same Day,13,55,0,Tight requested window
+ORD2701,In-house Rider,Klang Valley,Same Day,36,55,0,High daily volume
+ORD1441,Ninja Van,Other,Next Day,8,55,0,Ninja Van
+ORD2174,In-house Rider,Klang Valley,Same Day,13,55,0,Tight requested window
+ORD1002,Lalamove,Klang Valley,Same Day,11,55,0,Tight requested window
+ORD3039,In-house Rider,Klang Valley,Same Day,12,54,0,Tight requested window
+ORD2790,J&T Express,Penang,Next Day,47,54,0,High daily volume
+ORD2426,GrabExpress,Klang Valley,Same Day,15,54,0,Tight requested window
+ORD1333,Lalamove,Klang Valley,Same Day,13,54,0,Tight requested window
+ORD2069,Lalamove,Klang Valley,Same Day,9,54,0,Tight requested window
+ORD1939,Ninja Van,Penang,Next Day,13,54,0,Klang Valley zone
+ORD2431,GrabExpress,Klang Valley,Same Day,15,54,0,Tight requested window
+ORD2958,Pos Laju,Penang,Next Day,12,53,0,Klang Valley zone
+ORD1024,GrabExpress,Klang Valley,Same Day,12,53,0,Tight requested window
+ORD2316,In-house Rider,Klang Valley,Same Day,16,53,0,Tight requested window
+ORD3183,GrabExpress,Klang Valley,Same Day,15,52,1,Tight requested window
+ORD2202,Pos Laju,Other,Next Day,11,52,0,Klang Valley zone
+ORD2677,Pos Laju,Other,Next Day,37,52,0,High daily volume
+ORD1564,In-house Rider,Klang Valley,Same Day,45,52,0,High daily volume
+ORD3379,GrabExpress,Klang Valley,Same Day,13,52,0,Tight requested window
+ORD1465,In-house Rider,Klang Valley,Same Day,26,51,0,Tight requested window
+ORD1032,J&T Express,Other,Next Day,12,51,0,Klang Valley zone
+ORD2134,Ninja Van,Other,Next Day,9,51,0,Ninja Van
+ORD2336,In-house Rider,Klang Valley,Same Day,17,51,0,Tight requested window
+ORD2506,GrabExpress,Klang Valley,Same Day,17,51,0,Tight requested window
+ORD2248,GrabExpress,Klang Valley,Same Day,10,51,0,Tight requested window
+ORD2204,In-house Rider,Klang Valley,Same Day,11,51,0,Tight requested window
+ORD1508,In-house Rider,Klang Valley,Same Day,38,51,0,Tight requested window
+ORD2730,Ninja Van,Johor Bahru,Scheduled,49,51,0,High daily volume
+ORD1524,J&T Express,Penang,Next Day,38,51,0,High daily volume
+ORD2834,GrabExpress,Klang Valley,Same Day,12,51,0,Tight requested window
+ORD2781,J&T Express,Penang,Scheduled,47,50,0,High daily volume
+ORD2159,GrabExpress,Klang Valley,Same Day,16,50,0,Tight requested window
+ORD3177,Ninja Van,Other,Scheduled,13,50,0,Klang Valley zone
+ORD3074,GrabExpress,Klang Valley,Same Day,11,50,0,Order value
+ORD1994,Lalamove,Klang Valley,Same Day,17,49,0,Tight requested window
+ORD3268,J&T Express,Other,Next Day,11,48,0,Klang Valley zone
+ORD2818,J&T Express,Other,Next Day,11,48,0,Klang Valley zone
+ORD3114,In-house Rider,Klang Valley,Same Day,12,47,0,Tight requested window
+ORD2777,GrabExpress,Klang Valley,Next Day,47,47,0,High daily volume
+ORD1480,In-house Rider,Klang Valley,Same Day,31,47,0,High daily volume
+ORD1929,GrabExpress,Klang Valley,Same Day,13,47,0,Tight requested window
+ORD1975,Ninja Van,Penang,Next Day,13,47,0,Klang Valley zone
+ORD3256,GrabExpress,Klang Valley,Same Day,10,47,0,Tight requested window
+ORD1391,In-house Rider,Klang Valley,Same Day,13,47,0,Tight requested window
+ORD2166,J&T Express,Other,Next Day,16,47,0,Tight requested window
+ORD2863,GrabExpress,Klang Valley,Same Day,14,47,0,Order value
+ORD2459,GrabExpress,Klang Valley,Same Day,13,47,0,Tight requested window
+ORD1981,In-house Rider,Klang Valley,Same Day,13,47,0,Tight requested window
+ORD1662,J&T Express,Other,Next Day,26,47,0,Klang Valley zone
+ORD2141,GrabExpress,Klang Valley,Same Day,12,47,0,Tight requested window
+ORD3204,In-house Rider,Klang Valley,Same Day,13,46,0,Tight requested window
+ORD1968,In-house Rider,Klang Valley,Same Day,13,46,0,Tight requested window
+ORD2951,GrabExpress,Klang Valley,Same Day,12,46,0,Tight requested window
+ORD1728,In-house Rider,Klang Valley,Same Day,9,46,0,Tight requested window
+ORD2252,Pos Laju,Other,Scheduled,10,46,1,Other zone
+ORD2609,J&T Express,Other,Next Day,13,45,0,Klang Valley zone
+ORD2530,Ninja Van,Other,Next Day,10,45,1,Klang Valley zone
+ORD3018,GrabExpress,Klang Valley,Same Day,10,45,0,Tight requested window
+ORD2610,J&T Express,Johor Bahru,Next Day,13,45,0,Klang Valley zone
+ORD1166,J&T Express,Other,Next Day,9,45,0,Klang Valley zone
+ORD3293,GrabExpress,Klang Valley,Same Day,11,45,0,Tight requested window
+ORD3243,GrabExpress,Klang Valley,Same Day,13,45,0,Tight requested window
+ORD2433,GrabExpress,Klang Valley,Same Day,15,45,0,Tight requested window
+ORD1446,GrabExpress,Klang Valley,Same Day,26,44,0,Tight requested window
+ORD2751,Ninja Van,Penang,Next Day,49,44,0,High daily volume
+ORD1101,GrabExpress,Klang Valley,Same Day,13,44,0,Tight requested window
+ORD2361,Ninja Van,Other,Next Day,13,44,0,Other zone
+ORD1491,Ninja Van,Penang,Scheduled,31,44,0,Klang Valley zone
+ORD1982,Ninja Van,Other,Scheduled,13,44,0,Ninja Van
+ORD2510,In-house Rider,Klang Valley,Same Day,17,43,0,Tight requested window
+ORD3194,In-house Rider,Klang Valley,Same Day,13,43,0,Tight requested window
+ORD3338,J&T Express,Other,Next Day,6,42,0,Klang Valley zone
+ORD2746,Lalamove,Klang Valley,Scheduled,49,42,0,High daily volume
+ORD2789,Ninja Van,Other,Next Day,47,42,0,Tight requested window
+ORD2952,GrabExpress,Klang Valley,Same Day,12,42,0,Tight requested window
+ORD2443,GrabExpress,Klang Valley,Same Day,13,42,0,Order value
+ORD2997,Lalamove,Klang Valley,Same Day,9,42,0,Tight requested window
+ORD1131,J&T Express,Other,Next Day,14,42,0,Klang Valley zone
+ORD2153,Lalamove,Klang Valley,Same Day,16,42,0,Tight requested window
+ORD1033,Ninja Van,Klang Valley,Next Day,12,41,0,Ninja Van
+ORD2724,J&T Express,Penang,Next Day,49,41,0,High daily volume
+ORD2814,GrabExpress,Klang Valley,Scheduled,47,41,0,High daily volume
+ORD1740,Lalamove,Klang Valley,Same Day,10,41,0,Tight requested window
+ORD2333,Pos Laju,Penang,Next Day,17,41,0,Tight requested window
+ORD1830,Ninja Van,Penang,Scheduled,15,40,0,Klang Valley zone
+ORD1169,Lalamove,Klang Valley,Same Day,9,40,0,Tight requested window
+ORD2926,J&T Express,Penang,Next Day,11,40,0,Klang Valley zone
+ORD3101,GrabExpress,Klang Valley,Same Day,12,40,0,Tight requested window
+ORD1936,GrabExpress,Klang Valley,Same Day,13,40,0,Tight requested window
+ORD1731,In-house Rider,Klang Valley,Same Day,9,39,0,Tight requested window
+ORD2334,Pos Laju,Other,Next Day,17,39,1,Klang Valley zone
+ORD1034,In-house Rider,Klang Valley,Same Day,12,39,0,Order value
+ORD1761,GrabExpress,Klang Valley,Same Day,12,39,0,Tight requested window
+ORD3333,In-house Rider,Klang Valley,Same Day,11,39,0,Tight requested window
+ORD2265,In-house Rider,Klang Valley,Same Day,15,39,0,Tight requested window
+ORD1137,GrabExpress,Klang Valley,Same Day,14,39,0,Tight requested window
+ORD1644,J&T Express,Johor Bahru,Next Day,26,39,0,Klang Valley zone
+ORD1833,J&T Express,Penang,Next Day,14,39,1,J&T Express
+ORD2653,Ninja Van,Penang,Scheduled,37,39,0,Ninja Van
+ORD3408,In-house Rider,Klang Valley,Same Day,10,38,0,Tight requested window
+ORD3332,Pos Laju,Penang,Next Day,11,38,0,Klang Valley zone
+ORD2507,Lalamove,Klang Valley,Same Day,17,38,0,Tight requested window
+ORD3058,In-house Rider,Klang Valley,Same Day,17,38,0,Tight requested window
+ORD3386,In-house Rider,Klang Valley,Same Day,13,38,0,Order hour
+ORD1778,Lalamove,Klang Valley,Same Day,17,38,0,Tight requested window
+ORD3061,J&T Express,Other,Next Day,17,37,0,Klang Valley zone
+ORD1091,Pos Laju,Other,Next Day,10,37,0,Other zone
+ORD1871,Ninja Van,Other,Scheduled,15,37,0,Klang Valley zone
+ORD1536,GrabExpress,Klang Valley,Same Day,38,37,0,High daily volume
+ORD1844,Pos Laju,Other,Scheduled,14,37,0,Other zone
+ORD1766,GrabExpress,Klang Valley,Same Day,12,37,0,Tight requested window
+ORD1779,J&T Express,Penang,Next Day,17,37,0,J&T Express
+ORD2694,Pos Laju,Other,Scheduled,36,37,0,Klang Valley zone
+ORD2476,GrabExpress,Klang Valley,Same Day,9,36,0,Tight requested window
+ORD2639,In-house Rider,Klang Valley,Same Day,26,36,0,Tight requested window
+ORD3316,GrabExpress,Klang Valley,Same Day,16,36,0,Tight requested window
+ORD2027,In-house Rider,Klang Valley,Same Day,11,36,0,Tight requested window
+ORD1587,GrabExpress,Klang Valley,Scheduled,57,36,0,High daily volume
+ORD2525,Lalamove,Klang Valley,Same Day,10,36,0,Order value
+ORD2942,Ninja Van,Other,Next Day,8,36,0,Ninja Van
+ORD1806,J&T Express,Other,Next Day,13,36,0,Klang Valley zone
+ORD1841,In-house Rider,Klang Valley,Same Day,14,36,1,Tight requested window
+ORD1300,Pos Laju,Penang,Next Day,12,36,0,Klang Valley zone
+ORD2473,GrabExpress,Klang Valley,Same Day,9,36,0,Tight requested window
+ORD2168,In-house Rider,Klang Valley,Same Day,16,36,0,Tight requested window
+ORD2274,Pos Laju,Other,Next Day,12,36,0,Klang Valley zone
+ORD2225,GrabExpress,Klang Valley,Same Day,13,36,0,Tight requested window
+ORD1649,GrabExpress,Klang Valley,Same Day,26,36,0,Tight requested window
+ORD1817,In-house Rider,Klang Valley,Same Day,15,36,0,Order hour
+ORD1388,In-house Rider,Klang Valley,Same Day,13,36,0,Tight requested window
+ORD1401,GrabExpress,Klang Valley,Same Day,13,36,0,Tight requested window
+ORD1092,GrabExpress,Klang Valley,Same Day,10,35,0,Tight requested window
+ORD1147,Pos Laju,Other,Scheduled,13,35,0,Klang Valley zone
+ORD3091,In-house Rider,Klang Valley,Same Day,12,35,0,Tight requested window
+ORD2350,In-house Rider,Klang Valley,Same Day,13,35,0,Tight requested window
+ORD1911,GrabExpress,Klang Valley,Same Day,14,35,0,Tight requested window
+ORD2089,Pos Laju,Penang,Next Day,15,35,1,Klang Valley zone
+ORD1347,Lalamove,Klang Valley,Same Day,14,35,0,Tight requested window
+ORD2838,Ninja Van,Klang Valley,Next Day,12,35,0,Order hour
+ORD3311,J&T Express,Other,Next Day,16,34,0,Klang Valley zone
+ORD1832,In-house Rider,Klang Valley,Same Day,14,34,0,Tight requested window
+ORD1866,Lalamove,Klang Valley,Same Day,15,34,0,Tight requested window
+ORD1295,Ninja Van,Johor Bahru,Next Day,10,34,0,Order hour
+ORD3289,GrabExpress,Klang Valley,Same Day,11,34,0,Tight requested window
+ORD1684,J&T Express,Johor Bahru,Next Day,24,34,0,Klang Valley zone
+ORD1412,GrabExpress,Klang Valley,Same Day,13,34,0,Tight requested window
+ORD1794,GrabExpress,Klang Valley,Same Day,9,34,0,Tight requested window
+ORD2291,Ninja Van,Penang,Next Day,14,34,0,Klang Valley zone
+ORD1726,GrabExpress,Klang Valley,Same Day,9,34,0,Tight requested window
+ORD2554,Ninja Van,Other,Scheduled,10,34,0,Klang Valley zone
+ORD1155,Ninja Van,Other,Next Day,11,34,0,Klang Valley zone
+ORD3080,Pos Laju,Penang,Scheduled,11,34,0,Klang Valley zone
+ORD1546,GrabExpress,Klang Valley,Same Day,45,33,0,High daily volume
+ORD2048,In-house Rider,Klang Valley,Same Day,14,33,0,Tight requested window
+ORD1275,Ninja Van,Penang,Next Day,15,33,0,Klang Valley zone
+ORD2405,In-house Rider,Klang Valley,Same Day,15,33,0,Order value
+ORD2003,Lalamove,Klang Valley,Same Day,17,33,0,Tight requested window
+ORD1475,J&T Express,Penang,Next Day,31,33,0,Klang Valley zone
+ORD2244,GrabExpress,Klang Valley,Same Day,10,33,0,Order value
+ORD3305,GrabExpress,Klang Valley,Same Day,12,32,0,Tight requested window
+ORD2778,Pos Laju,Other,Next Day,47,32,0,High daily volume
+ORD2046,Pos Laju,Other,Scheduled,9,32,1,Klang Valley zone
+ORD1289,Pos Laju,Other,Scheduled,15,32,0,Klang Valley zone
+ORD2661,Pos Laju,Penang,Next Day,37,32,0,High daily volume
+ORD2075,GrabExpress,Klang Valley,Same Day,11,32,0,Tight requested window
+ORD1823,Ninja Van,Other,Scheduled,15,32,0,Klang Valley zone
+ORD1326,Pos Laju,Other,Next Day,13,32,0,Other zone
+ORD2322,GrabExpress,Klang Valley,Same Day,10,32,0,In-house Rider
+ORD2241,Pos Laju,Johor Bahru,Scheduled,12,31,0,Order value
+ORD3111,Ninja Van,Johor Bahru,Next Day,12,31,0,Klang Valley zone
+ORD3116,Lalamove,Klang Valley,Same Day,12,31,0,Tight requested window
+ORD1083,GrabExpress,Klang Valley,Same Day,10,31,0,Order value
+ORD3122,In-house Rider,Klang Valley,Same Day,12,31,0,Tight requested window
+ORD2984,Ninja Van,Penang,Next Day,18,31,0,Klang Valley zone
+ORD3004,GrabExpress,Klang Valley,Same Day,12,31,0,Order value
+ORD1254,Ninja Van,Other,Next Day,10,31,0,Klang Valley zone
+ORD3201,J&T Express,Other,Next Day,13,31,1,Klang Valley zone
+ORD1350,Pos Laju,Johor Bahru,Next Day,14,31,0,Order hour
+ORD1919,GrabExpress,Klang Valley,Same Day,9,31,0,Tight requested window
+ORD2009,Pos Laju,Other,Next Day,14,31,0,Order value
+ORD2845,J&T Express,Johor Bahru,Scheduled,16,31,0,Klang Valley zone
+ORD2633,Lalamove,Klang Valley,Same Day,26,31,0,Tight requested window
+ORD3323,GrabExpress,Klang Valley,Same Day,16,30,0,Tight requested window
+ORD1379,GrabExpress,Klang Valley,Same Day,9,30,0,Tight requested window
+ORD2212,Ninja Van,Other,Next Day,14,30,0,Order value
+ORD1420,Pos Laju,Penang,Next Day,9,30,0,Klang Valley zone
+ORD1705,Lalamove,Klang Valley,Same Day,23,30,0,Tight requested window
+ORD1355,GrabExpress,Klang Valley,Same Day,14,30,0,Tight requested window
+ORD1922,Ninja Van,Johor Bahru,Scheduled,9,30,0,Klang Valley zone
+ORD1869,In-house Rider,Klang Valley,Same Day,15,30,0,Order value
+ORD1788,J&T Express,Other,Next Day,9,30,0,Klang Valley zone
+ORD2596,Ninja Van,Other,Next Day,13,30,0,Klang Valley zone
+ORD2886,GrabExpress,Klang Valley,Same Day,14,30,0,Tight requested window
+ORD2613,Pos Laju,Penang,Next Day,13,30,0,Klang Valley zone
+ORD1281,J&T Express,Johor Bahru,Next Day,15,30,0,Klang Valley zone
+ORD1093,Pos Laju,Other,Next Day,10,30,0,Other zone
+ORD3113,Lalamove,Klang Valley,Same Day,12,30,0,Tight requested window
+ORD3273,Pos Laju,Penang,Next Day,15,30,0,Klang Valley zone
+ORD1657,Pos Laju,Other,Scheduled,26,30,0,Klang Valley zone
+ORD3382,Lalamove,Klang Valley,Same Day,13,30,0,Tight requested window
+ORD1466,GrabExpress,Klang Valley,Same Day,26,29,0,Tight requested window
+ORD1266,J&T Express,Other,Next Day,14,29,0,Klang Valley zone
+ORD2504,Lalamove,Klang Valley,Same Day,17,29,0,Tight requested window
+ORD3151,Ninja Van,Penang,Next Day,16,29,0,Klang Valley zone
+ORD2534,Pos Laju,Penang,Next Day,15,29,1,Klang Valley zone
+ORD3257,Ninja Van,Penang,Next Day,10,29,0,Klang Valley zone
+ORD2774,Ninja Van,Johor Bahru,Scheduled,47,29,0,High daily volume
+ORD3125,Ninja Van,Penang,Next Day,12,29,0,Klang Valley zone
+ORD2415,GrabExpress,Klang Valley,Same Day,13,29,0,Tight requested window
+ORD2933,GrabExpress,Klang Valley,Same Day,10,28,0,Tight requested window
+ORD2969,Lalamove,Klang Valley,Same Day,12,28,0,Tight requested window
+ORD1141,GrabExpress,Klang Valley,Same Day,13,28,0,Tight requested window
+ORD1345,GrabExpress,Klang Valley,Same Day,14,28,0,Tight requested window
+ORD2160,GrabExpress,Klang Valley,Same Day,16,28,0,Tight requested window
+ORD1292,GrabExpress,Klang Valley,Same Day,10,28,0,Order weekday
+ORD2335,In-house Rider,Klang Valley,Same Day,17,28,0,Tight requested window
+ORD3166,J&T Express,Other,Next Day,13,28,0,Klang Valley zone
+ORD2692,Ninja Van,Penang,Scheduled,36,28,0,Klang Valley zone
+ORD2275,J&T Express,Other,Next Day,12,28,0,Klang Valley zone
+ORD1029,Pos Laju,Penang,Next Day,12,28,0,Klang Valley zone
+ORD1298,GrabExpress,Klang Valley,Same Day,10,28,0,Tight requested window
+ORD1425,Ninja Van,Penang,Next Day,15,28,0,Klang Valley zone
+ORD1838,Ninja Van,Penang,Next Day,14,28,0,Ninja Van
+ORD3159,Ninja Van,Other,Scheduled,11,28,0,Klang Valley zone
+ORD3128,Pos Laju,Penang,Scheduled,11,28,0,Klang Valley zone
+ORD3402,Lalamove,Klang Valley,Same Day,10,27,0,Tight requested window
+ORD2995,Ninja Van,Johor Bahru,Next Day,9,27,0,Ninja Van
+ORD1387,J&T Express,Other,Next Day,8,27,0,Klang Valley zone
+ORD2382,Lalamove,Klang Valley,Same Day,11,27,0,Tight requested window
+ORD2084,Ninja Van,Penang,Scheduled,15,27,0,Klang Valley zone
+ORD2861,Ninja Van,Other,Scheduled,14,27,0,Klang Valley zone
+ORD1836,GrabExpress,Klang Valley,Same Day,14,27,0,Tight requested window
+ORD2242,J&T Express,Penang,Next Day,12,27,0,Klang Valley zone
+ORD1314,Ninja Van,Penang,Next Day,12,27,0,Klang Valley zone
+ORD1772,J&T Express,Johor Bahru,Next Day,17,27,0,Klang Valley zone
+ORD1707,Lalamove,Klang Valley,Same Day,23,26,0,Tight requested window
+ORD2339,In-house Rider,Klang Valley,Same Day,17,26,0,Tight requested window
+ORD3219,Ninja Van,Johor Bahru,Scheduled,19,26,0,Klang Valley zone
+ORD2715,Ninja Van,Penang,Scheduled,36,26,0,Ninja Van
+ORD1152,Ninja Van,Penang,Scheduled,13,26,0,Klang Valley zone
+ORD2831,Ninja Van,Other,Next Day,12,26,0,Klang Valley zone
+ORD2848,Ninja Van,Penang,Scheduled,16,26,0,Klang Valley zone
+ORD1117,J&T Express,Other,Next Day,13,26,0,Klang Valley zone
+ORD1488,Lalamove,Klang Valley,Same Day,31,26,0,High daily volume
+ORD1221,Ninja Van,Other,Scheduled,11,26,0,Klang Valley zone
+ORD3328,Ninja Van,Klang Valley,Next Day,11,26,0,Ninja Van
+ORD1874,GrabExpress,Klang Valley,Same Day,15,26,0,Tight requested window
+ORD2051,GrabExpress,Klang Valley,Same Day,14,25,0,Tight requested window
+ORD2896,In-house Rider,Klang Valley,Same Day,17,25,0,Tight requested window
+ORD2002,Pos Laju,Johor Bahru,Scheduled,17,25,0,Klang Valley zone
+ORD1658,In-house Rider,Klang Valley,Same Day,26,25,0,Tight requested window
+ORD2807,Lalamove,Klang Valley,Next Day,47,25,0,High daily volume
+ORD3390,J&T Express,Other,Next Day,14,25,0,Klang Valley zone
+ORD1354,J&T Express,Other,Scheduled,14,25,0,Klang Valley zone
+ORD2605,Ninja Van,Penang,Next Day,8,25,0,Ninja Van
+ORD3139,J&T Express,Other,Next Day,16,25,0,Klang Valley zone
+ORD3225,In-house Rider,Klang Valley,Same Day,19,25,0,Tight requested window
+ORD1650,Ninja Van,Other,Scheduled,26,25,0,Klang Valley zone
+ORD3420,J&T Express,Penang,Next Day,12,25,0,Klang Valley zone
+ORD3022,Lalamove,Klang Valley,Same Day,10,25,0,Tight requested window
+ORD1632,Lalamove,Klang Valley,Scheduled,57,25,0,High daily volume
+ORD1208,J&T Express,Other,Scheduled,16,25,0,Klang Valley zone
+ORD3326,GrabExpress,Klang Valley,Same Day,11,25,0,Tight requested window
+ORD1394,Pos Laju,Penang,Next Day,13,25,0,Klang Valley zone
+ORD2966,Lalamove,Klang Valley,Same Day,12,25,0,Tight requested window
+ORD2576,Ninja Van,Johor Bahru,Next Day,11,25,0,Klang Valley zone
+ORD2912,Ninja Van,Penang,Scheduled,13,24,0,Klang Valley zone
+ORD1821,J&T Express,Johor Bahru,Next Day,15,24,0,Klang Valley zone
+ORD3395,Ninja Van,Johor Bahru,Scheduled,14,24,0,Klang Valley zone
+ORD1843,J&T Express,Other,Next Day,14,24,0,Klang Valley zone
+ORD2115,J&T Express,Other,Next Day,10,24,0,Klang Valley zone
+ORD3006,Lalamove,Klang Valley,Same Day,12,24,0,Tight requested window
+ORD1899,Lalamove,Klang Valley,Same Day,10,24,0,Tight requested window
+ORD2403,In-house Rider,Klang Valley,Same Day,15,24,0,Tight requested window
+ORD1280,Ninja Van,Johor Bahru,Next Day,15,24,0,Klang Valley zone
+ORD3334,Lalamove,Klang Valley,Same Day,11,24,0,Tight requested window
+ORD3141,GrabExpress,Klang Valley,Same Day,16,24,0,Tight requested window
+ORD2303,Ninja Van,Penang,Scheduled,11,24,0,Klang Valley zone
+ORD3192,GrabExpress,Klang Valley,Same Day,15,24,0,Order value
+ORD2344,Lalamove,Klang Valley,Same Day,17,24,0,Tight requested window
+ORD1674,Ninja Van,Other,Scheduled,24,24,0,Klang Valley zone
+ORD1622,GrabExpress,Klang Valley,Next Day,57,24,0,High daily volume
+ORD2106,GrabExpress,Klang Valley,Same Day,11,23,1,In-house Rider
+ORD1991,Pos Laju,Other,Scheduled,17,23,0,Klang Valley zone
+ORD1129,Lalamove,Klang Valley,Same Day,14,23,0,Tight requested window
+ORD2515,Lalamove,Klang Valley,Same Day,10,23,0,Tight requested window
+ORD3361,GrabExpress,Klang Valley,Same Day,12,23,0,Tight requested window
+ORD1276,GrabExpress,Klang Valley,Same Day,15,23,0,Tight requested window
+ORD1167,In-house Rider,Klang Valley,Same Day,9,23,0,Tight requested window
+ORD2026,Pos Laju,Johor Bahru,Next Day,11,23,0,Klang Valley zone
+ORD2499,Ninja Van,Penang,Next Day,17,23,0,Klang Valley zone
+ORD1069,Ninja Van,Other,Next Day,12,23,1,Klang Valley zone
+ORD1752,GrabExpress,Klang Valley,Same Day,14,23,0,Tight requested window
+ORD3140,Lalamove,Klang Valley,Same Day,16,23,0,Tight requested window
+ORD3179,J&T Express,Penang,Scheduled,15,23,0,Klang Valley zone
+ORD2377,Ninja Van,Other,Next Day,8,23,0,Klang Valley zone
+ORD1738,J&T Express,Johor Bahru,Scheduled,10,23,0,Klang Valley zone
+ORD2612,Pos Laju,Other,Scheduled,13,23,0,Klang Valley zone
+ORD2306,Pos Laju,Other,Next Day,16,23,0,Klang Valley zone
+ORD1303,Lalamove,Klang Valley,Same Day,12,23,0,Tight requested window
+ORD1732,Lalamove,Klang Valley,Same Day,9,23,0,Tight requested window
+ORD1120,J&T Express,Penang,Next Day,13,23,0,Klang Valley zone
+ORD1075,Pos Laju,Other,Next Day,12,23,0,Klang Valley zone
+ORD2784,GrabExpress,Klang Valley,Scheduled,47,23,0,High daily volume
+ORD2559,J&T Express,Johor Bahru,Next Day,10,23,0,Klang Valley zone
+ORD2690,GrabExpress,Klang Valley,Same Day,36,23,0,High daily volume
+ORD1734,GrabExpress,Klang Valley,Same Day,10,23,0,Order value
+ORD2422,In-house Rider,Klang Valley,Same Day,15,23,0,Tight requested window
+ORD2498,GrabExpress,Klang Valley,Same Day,17,22,0,Tight requested window
+ORD3138,Lalamove,Klang Valley,Same Day,16,22,0,Order hour
+ORD3171,Lalamove,Klang Valley,Same Day,13,22,0,Tight requested window
+ORD2328,Pos Laju,Other,Scheduled,10,22,0,Klang Valley zone
+ORD1935,J&T Express,Penang,Scheduled,13,22,0,Klang Valley zone
+ORD1895,Ninja Van,Klang Valley,Next Day,10,22,0,Ninja Van
+ORD3057,In-house Rider,Klang Valley,Same Day,17,22,0,Tight requested window
+ORD2567,Ninja Van,Johor Bahru,Next Day,11,22,0,Klang Valley zone
+ORD1584,Pos Laju,Penang,Next Day,45,22,0,High daily volume
+ORD3275,J&T Express,Other,Next Day,15,22,0,Klang Valley zone
+ORD1537,J&T Express,Other,Next Day,38,22,0,High daily volume
+ORD3378,In-house Rider,Klang Valley,Same Day,13,22,0,Order value
+ORD2129,J&T Express,Penang,Next Day,8,22,0,Klang Valley zone
+ORD2697,GrabExpress,Klang Valley,Same Day,36,22,0,High daily volume
+ORD2098,In-house Rider,Klang Valley,Same Day,11,22,1,Tight requested window
+ORD2856,Pos Laju,Johor Bahru,Next Day,6,22,0,Klang Valley zone
+ORD3187,Lalamove,Klang Valley,Same Day,15,22,0,Tight requested window
+ORD2391,In-house Rider,Klang Valley,Same Day,15,22,0,Tight requested window
+ORD2492,Ninja Van,Other,Next Day,11,22,0,Klang Valley zone
+ORD1985,Pos Laju,Penang,Scheduled,13,22,0,Klang Valley zone
+ORD2735,Pos Laju,Penang,Next Day,49,22,0,High daily volume
+ORD1272,GrabExpress,Klang Valley,Same Day,14,22,0,Tight requested window
+ORD2765,J&T Express,Penang,Scheduled,49,22,0,High daily volume
+ORD2292,Pos Laju,Other,Scheduled,14,22,0,Klang Valley zone
+ORD2081,GrabExpress,Klang Valley,Same Day,11,22,0,Tight requested window
+ORD1978,GrabExpress,Klang Valley,Same Day,13,22,0,Order hour
+ORD3403,Lalamove,Klang Valley,Same Day,10,21,0,Tight requested window
+ORD2593,Pos Laju,Other,Scheduled,13,21,0,Klang Valley zone
+ORD2389,In-house Rider,Klang Valley,Same Day,11,21,0,Tight requested window
+ORD2771,Pos Laju,Penang,Next Day,47,21,0,High daily volume
+ORD2783,J&T Express,Other,Scheduled,47,21,0,High daily volume
+ORD1755,Pos Laju,Other,Scheduled,14,21,0,Klang Valley zone
+ORD2355,Ninja Van,Other,Next Day,13,21,0,Klang Valley zone
+ORD2791,Ninja Van,Penang,Next Day,47,21,0,High daily volume
+ORD2359,In-house Rider,Klang Valley,Next Day,13,21,0,Order value
+ORD2349,GrabExpress,Klang Valley,Same Day,13,21,0,Order value
+ORD2215,Lalamove,Klang Valley,Same Day,14,21,0,Tight requested window
+ORD2632,GrabExpress,Klang Valley,Same Day,26,21,0,Tight requested window
+ORD2396,Ninja Van,Johor Bahru,Next Day,15,21,0,Klang Valley zone
+ORD1340,J&T Express,Johor Bahru,Next Day,8,21,0,Klang Valley zone
+ORD2973,In-house Rider,Klang Valley,Same Day,18,21,0,Tight requested window
+ORD3325,Lalamove,Klang Valley,Same Day,11,21,0,Tight requested window
+ORD2913,GrabExpress,Klang Valley,Next Day,13,21,0,Order value
+ORD1241,Ninja Van,Johor Bahru,Scheduled,12,21,0,Klang Valley zone
+ORD1217,Lalamove,Klang Valley,Same Day,11,21,0,In-house Rider
+ORD1857,GrabExpress,Klang Valley,Same Day,15,21,0,Tight requested window
+ORD1901,GrabExpress,Klang Valley,Same Day,10,21,0,Tight requested window
+ORD1178,Pos Laju,Other,Scheduled,8,21,0,Klang Valley zone
+ORD2619,In-house Rider,Klang Valley,Same Day,13,21,0,Tight requested window
+ORD2840,J&T Express,Johor Bahru,Next Day,16,21,0,Klang Valley zone
+ORD1834,J&T Express,Johor Bahru,Next Day,14,21,0,Klang Valley zone
+ORD3066,In-house Rider,Klang Valley,Same Day,17,21,0,Tight requested window
+ORD2200,Pos Laju,Other,Next Day,11,21,0,Klang Valley zone
+ORD2232,GrabExpress,Klang Valley,Same Day,12,21,0,Tight requested window
+ORD2301,GrabExpress,Klang Valley,Same Day,11,21,0,Tight requested window
+ORD3172,Pos Laju,Johor Bahru,Next Day,13,21,0,Klang Valley zone
+ORD2591,In-house Rider,Klang Valley,Same Day,13,21,0,Tight requested window
+ORD2733,Lalamove,Klang Valley,Scheduled,49,21,0,High daily volume
+ORD2282,GrabExpress,Klang Valley,Same Day,14,21,0,Order value
+ORD3358,Lalamove,Klang Valley,Same Day,12,21,0,Tight requested window
+ORD3406,Pos Laju,Penang,Scheduled,10,21,0,Klang Valley zone
+ORD2031,Pos Laju,Other,Next Day,9,21,1,Klang Valley zone
+ORD2474,Pos Laju,Johor Bahru,Next Day,9,20,0,Klang Valley zone
+ORD1668,Lalamove,Klang Valley,Same Day,26,20,0,Tight requested window
+ORD1492,Ninja Van,Penang,Next Day,31,20,0,Klang Valley zone
+ORD1309,Ninja Van,Penang,Next Day,12,20,0,Klang Valley zone
+ORD1055,Lalamove,Klang Valley,Same Day,11,20,0,Tight requested window
+ORD3253,Pos Laju,Penang,Next Day,10,20,0,Klang Valley zone
+ORD2817,Ninja Van,Penang,Scheduled,11,20,0,Klang Valley zone
+ORD3261,Ninja Van,Johor Bahru,Scheduled,11,20,0,Klang Valley zone
+ORD1921,Lalamove,Klang Valley,Same Day,9,20,0,Tight requested window
+ORD1158,GrabExpress,Klang Valley,Same Day,11,20,0,Tight requested window
+ORD1634,J&T Express,Other,Next Day,57,20,0,High daily volume
+ORD2255,GrabExpress,Klang Valley,Same Day,15,20,0,Order value
+ORD1448,In-house Rider,Klang Valley,Same Day,26,20,0,Order hour
+ORD3364,In-house Rider,Klang Valley,Same Day,12,20,0,Tight requested window
+ORD2558,Pos Laju,Other,Next Day,10,20,0,Klang Valley zone
+ORD1691,Lalamove,Klang Valley,Same Day,24,20,0,Tight requested window
+ORD2314,In-house Rider,Klang Valley,Same Day,16,20,0,Tight requested window
+ORD3277,Ninja Van,Other,Scheduled,15,20,0,Klang Valley zone
+ORD2191,Pos Laju,Johor Bahru,Scheduled,12,20,0,Klang Valley zone
+ORD3231,Ninja Van,Johor Bahru,Next Day,19,20,0,Klang Valley zone
+ORD3235,In-house Rider,Klang Valley,Same Day,19,20,0,Tight requested window
+ORD2273,GrabExpress,Klang Valley,Same Day,12,20,0,Tight requested window
+ORD2615,Lalamove,Klang Valley,Same Day,13,20,0,Tight requested window
+ORD2549,Lalamove,Klang Valley,Same Day,10,20,0,Order value
+ORD3309,J&T Express,Other,Next Day,16,19,1,Klang Valley zone
+ORD2485,Pos Laju,Other,Scheduled,11,19,0,Klang Valley zone
+ORD1048,In-house Rider,Klang Valley,Same Day,15,19,0,Tight requested window
+ORD3396,GrabExpress,Klang Valley,Same Day,14,19,0,Tight requested window
+ORD2491,In-house Rider,Klang Valley,Same Day,11,19,0,Tight requested window
+ORD1973,Pos Laju,Other,Next Day,13,19,0,Klang Valley zone
+ORD1868,Lalamove,Klang Valley,Same Day,15,19,0,Tight requested window
+ORD2380,In-house Rider,Klang Valley,Same Day,11,19,0,Order hour
+ORD2136,GrabExpress,Klang Valley,Same Day,9,19,0,Tight requested window
+ORD1999,Lalamove,Klang Valley,Same Day,17,19,0,Tight requested window
+ORD3081,Lalamove,Klang Valley,Same Day,11,19,0,In-house Rider
+ORD1947,Lalamove,Klang Valley,Same Day,12,19,0,Order weekday
+ORD2356,Ninja Van,Johor Bahru,Scheduled,13,19,0,Klang Valley zone
+ORD1951,J&T Express,Johor Bahru,Scheduled,12,19,0,Klang Valley zone
+ORD1945,J&T Express,Penang,Next Day,12,19,0,Klang Valley zone
+ORD2948,In-house Rider,Klang Valley,Same Day,12,19,0,Tight requested window
+ORD2531,GrabExpress,Klang Valley,Same Day,10,19,0,Tight requested window
+ORD1290,GrabExpress,Klang Valley,Same Day,10,19,0,In-house Rider
+ORD3254,Ninja Van,Johor Bahru,Scheduled,10,19,0,Klang Valley zone
+ORD2898,Ninja Van,Johor Bahru,Next Day,17,19,0,Klang Valley zone
+ORD1136,Pos Laju,Penang,Scheduled,14,19,0,Klang Valley zone
+ORD1072,Lalamove,Klang Valley,Same Day,12,19,0,Order value
+ORD2490,Lalamove,Klang Valley,Same Day,11,19,0,Order value
+ORD2723,Ninja Van,Other,Scheduled,49,19,0,High daily volume
+ORD2664,Ninja Van,Johor Bahru,Scheduled,37,19,0,Klang Valley zone
+ORD3056,Lalamove,Klang Valley,Same Day,17,19,0,Tight requested window
+ORD1306,Pos Laju,Johor Bahru,Next Day,12,18,0,Klang Valley zone
+ORD1323,Pos Laju,Penang,Scheduled,12,18,0,Klang Valley zone
+ORD2151,Pos Laju,Other,Scheduled,12,18,0,Klang Valley zone
+ORD2103,GrabExpress,Klang Valley,Same Day,11,18,0,In-house Rider
+ORD1198,In-house Rider,Klang Valley,Same Day,16,18,0,GrabExpress
+ORD1746,Lalamove,Klang Valley,Same Day,14,18,0,Tight requested window
+ORD3223,GrabExpress,Klang Valley,Same Day,19,18,0,Tight requested window
+ORD2304,In-house Rider,Klang Valley,Same Day,11,18,0,Tight requested window
+ORD1884,Lalamove,Klang Valley,Same Day,11,18,0,Tight requested window
+ORD1780,J&T Express,Penang,Next Day,17,18,0,Klang Valley zone
+ORD2910,Pos Laju,Other,Next Day,13,18,0,Klang Valley zone
+ORD2824,GrabExpress,Klang Valley,Same Day,11,18,0,Order weekday
+ORD2000,Ninja Van,Other,Scheduled,17,18,0,Klang Valley zone
+ORD2634,In-house Rider,Klang Valley,Same Day,26,18,0,Tight requested window
+ORD1393,Ninja Van,Penang,Next Day,13,18,0,Klang Valley zone
+ORD1686,GrabExpress,Klang Valley,Same Day,24,18,0,Tight requested window
+ORD3009,Ninja Van,Penang,Scheduled,12,18,0,Klang Valley zone
+ORD2323,J&T Express,Other,Scheduled,10,18,0,Klang Valley zone
+ORD1717,GrabExpress,Klang Valley,Same Day,9,18,0,Tight requested window
+ORD2023,J&T Express,Johor Bahru,Next Day,11,18,0,Klang Valley zone
+ORD2849,Ninja Van,Penang,Next Day,16,18,0,Klang Valley zone
+ORD2050,GrabExpress,Klang Valley,Same Day,14,18,0,Tight requested window
+ORD3301,Ninja Van,Other,Next Day,12,18,0,Klang Valley zone
+ORD2880,J&T Express,Johor Bahru,Next Day,14,18,0,Klang Valley zone
+ORD3423,Pos Laju,Other,Next Day,12,17,0,Klang Valley zone
+ORD1464,In-house Rider,Klang Valley,Same Day,26,17,0,Order hour
+ORD2773,Ninja Van,Johor Bahru,Next Day,47,17,0,High daily volume
+ORD2267,Ninja Van,Penang,Next Day,15,17,0,Klang Valley zone
+ORD3399,GrabExpress,Klang Valley,Same Day,14,17,0,Order hour
+ORD1037,GrabExpress,Klang Valley,Same Day,15,17,0,Tight requested window
+ORD2011,J&T Express,Johor Bahru,Next Day,14,17,0,Klang Valley zone
+ORD2054,Ninja Van,Penang,Next Day,14,17,1,Klang Valley zone
+ORD1631,Ninja Van,Other,Next Day,57,17,0,High daily volume
+ORD1065,J&T Express,Other,Scheduled,7,17,0,Klang Valley zone
+ORD1004,In-house Rider,Klang Valley,Same Day,11,17,0,Lalamove
+ORD2979,Pos Laju,Other,Next Day,18,17,0,Klang Valley zone
+ORD1456,In-house Rider,Klang Valley,Same Day,26,17,0,Tight requested window
+ORD3282,Lalamove,Klang Valley,Same Day,15,17,0,Order value
+ORD2581,GrabExpress,Klang Valley,Same Day,9,17,0,Tight requested window
+ORD1191,Lalamove,Klang Valley,Same Day,13,17,0,Tight requested window
+ORD1200,J&T Express,Penang,Next Day,16,17,0,Klang Valley zone
+ORD1099,In-house Rider,Klang Valley,Same Day,10,17,0,Tight requested window
+ORD2968,Lalamove,Klang Valley,Same Day,12,17,0,Tight requested window
+ORD2533,In-house Rider,Klang Valley,Same Day,15,17,0,Tight requested window
+ORD2544,GrabExpress,Klang Valley,Same Day,15,17,0,Order hour
+ORD1709,Ninja Van,Other,Next Day,23,17,0,Klang Valley zone
+ORD3158,J&T Express,Johor Bahru,Next Day,11,17,0,Klang Valley zone
+ORD1949,Lalamove,Klang Valley,Same Day,12,17,0,Order weekday
+ORD1986,Lalamove,Klang Valley,Same Day,13,17,0,Order hour
+ORD1074,Lalamove,Klang Valley,Same Day,12,17,0,Order value
+ORD1852,In-house Rider,Klang Valley,Same Day,15,17,0,Tight requested window
+ORD2177,Ninja Van,Penang,Next Day,13,17,0,Klang Valley zone
+ORD3105,J&T Express,Johor Bahru,Next Day,12,17,0,Klang Valley zone
+ORD3133,Lalamove,Klang Valley,Same Day,11,16,0,Same Day service
+ORD3264,In-house Rider,Klang Valley,Same Day,11,16,0,Tight requested window
+ORD2736,GrabExpress,Klang Valley,Scheduled,49,16,0,High daily volume
+ORD2280,Ninja Van,Johor Bahru,Next Day,12,16,0,Klang Valley zone
+ORD3042,Lalamove,Klang Valley,Same Day,15,16,0,Tight requested window
+ORD2929,Ninja Van,Johor Bahru,Next Day,11,16,0,Klang Valley zone
+ORD1406,Lalamove,Klang Valley,Same Day,13,16,0,Tight requested window
+ORD2906,J&T Express,Other,Next Day,13,16,0,Klang Valley zone
+ORD2300,In-house Rider,Klang Valley,Same Day,11,16,0,Order value
+ORD1296,J&T Express,Johor Bahru,Next Day,10,16,0,Klang Valley zone
+ORD3021,GrabExpress,Klang Valley,Same Day,10,16,0,In-house Rider
+ORD2577,Lalamove,Klang Valley,Same Day,11,16,0,Tight requested window
+ORD2574,Lalamove,Klang Valley,Same Day,11,16,0,In-house Rider
+ORD1757,In-house Rider,Klang Valley,Same Day,14,16,0,Order value
+ORD2357,Lalamove,Klang Valley,Same Day,13,16,0,Tight requested window
+ORD1373,Pos Laju,Johor Bahru,Next Day,9,16,0,Klang Valley zone
+ORD1012,Lalamove,Klang Valley,Same Day,11,16,0,Tight requested window
+ORD1736,Ninja Van,Other,Scheduled,10,16,0,Klang Valley zone
+ORD1748,Lalamove,Klang Valley,Same Day,14,16,0,Tight requested window
+ORD2900,Lalamove,Klang Valley,Same Day,17,16,1,Order hour
+ORD1989,Ninja Van,Penang,Scheduled,17,16,0,Klang Valley zone
+ORD2825,In-house Rider,Klang Valley,Same Day,11,16,0,Tight requested window
+ORD2495,Pos Laju,Johor Bahru,Scheduled,17,16,0,Klang Valley zone
+ORD2988,GrabExpress,Klang Valley,Same Day,18,16,0,Tight requested window
+ORD1228,Lalamove,Klang Valley,Same Day,11,16,0,Tight requested window
+ORD1045,Lalamove,Klang Valley,Same Day,15,15,0,Order value
+ORD2369,Lalamove,Klang Valley,Same Day,10,15,0,Order value
+ORD3377,In-house Rider,Klang Valley,Same Day,13,15,0,Tight requested window
+ORD1003,In-house Rider,Klang Valley,Same Day,11,15,0,Tight requested window
+ORD1424,Ninja Van,Johor Bahru,Next Day,15,15,0,Klang Valley zone
+ORD2891,GrabExpress,Klang Valley,Same Day,17,15,0,Tight requested window
+ORD1655,J&T Express,Johor Bahru,Next Day,26,15,0,Klang Valley zone
+ORD2083,Pos Laju,Other,Next Day,15,15,0,Klang Valley zone
+ORD3108,Lalamove,Klang Valley,Same Day,12,15,0,Order hour
+ORD2025,Pos Laju,Other,Next Day,11,15,0,Other zone
+ORD2438,J&T Express,Other,Next Day,6,15,0,Klang Valley zone
+ORD1941,GrabExpress,Klang Valley,Same Day,12,15,0,Order weekday
+ORD2340,Ninja Van,Other,Next Day,17,15,0,Klang Valley zone
+ORD2294,Pos Laju,Other,Scheduled,14,15,0,Klang Valley zone
+ORD3191,Ninja Van,Johor Bahru,Scheduled,15,15,0,Klang Valley zone
+ORD1642,Ninja Van,Klang Valley,Next Day,57,15,0,High daily volume
+ORD1031,Lalamove,Klang Valley,Same Day,12,15,0,Tight requested window
+ORD1170,Lalamove,Klang Valley,Same Day,9,15,0,Tight requested window
+ORD2447,Lalamove,Klang Valley,Same Day,13,15,0,Tight requested window
+ORD3170,In-house Rider,Klang Valley,Same Day,13,15,0,Tight requested window
+ORD1924,Ninja Van,Johor Bahru,Scheduled,9,15,0,Klang Valley zone
+ORD2284,GrabExpress,Klang Valley,Same Day,14,15,0,Order value
+ORD1604,Lalamove,Klang Valley,Scheduled,57,15,0,High daily volume
+ORD1325,Ninja Van,Other,Next Day,13,15,0,Klang Valley zone
+ORD3064,Ninja Van,Penang,Scheduled,17,15,0,Ninja Van
+ORD3070,In-house Rider,Klang Valley,Same Day,17,15,0,Anniversary occasion
+ORD2899,J&T Express,Penang,Scheduled,17,14,0,Klang Valley zone
+ORD2092,J&T Express,Penang,Next Day,15,14,0,Klang Valley zone
+ORD1096,Pos Laju,Other,Scheduled,10,14,0,Klang Valley zone
+ORD3152,GrabExpress,Klang Valley,Same Day,16,14,0,Tight requested window
+ORD1557,J&T Express,Johor Bahru,Scheduled,45,14,0,High daily volume
+ORD2052,Ninja Van,Penang,Next Day,14,14,0,Klang Valley zone
+ORD1856,Ninja Van,Penang,Scheduled,15,14,0,Klang Valley zone
+ORD1626,Lalamove,Klang Valley,Scheduled,57,14,0,High daily volume
+ORD2501,GrabExpress,Klang Valley,Same Day,17,14,0,Tight requested window
+ORD2742,Pos Laju,Penang,Scheduled,49,14,0,High daily volume
+ORD1258,Lalamove,Klang Valley,Same Day,10,14,0,In-house Rider
+ORD2904,Lalamove,Klang Valley,Same Day,17,14,0,Tight requested window
+ORD1372,In-house Rider,Klang Valley,Same Day,9,14,0,Tight requested window
+ORD1538,Lalamove,Klang Valley,Scheduled,38,14,0,High daily volume
+ORD2843,J&T Express,Penang,Next Day,16,14,0,Klang Valley zone
+ORD1180,J&T Express,Penang,Next Day,8,14,0,Klang Valley zone
+ORD2752,Ninja Van,Johor Bahru,Next Day,49,14,0,High daily volume
+ORD3260,Lalamove,Klang Valley,Same Day,11,14,0,Order value
+ORD1304,Lalamove,Klang Valley,Same Day,12,14,0,Tight requested window
+ORD1689,Lalamove,Klang Valley,Same Day,24,14,0,Tight requested window
+ORD1483,Ninja Van,Other,Next Day,31,14,0,Klang Valley zone
+ORD2022,In-house Rider,Klang Valley,Same Day,11,14,0,Tight requested window
+ORD2978,GrabExpress,Klang Valley,Same Day,18,14,0,Tight requested window
+ORD2126,Ninja Van,Johor Bahru,Next Day,8,14,0,Ninja Van
+ORD3236,In-house Rider,Klang Valley,Same Day,19,14,0,Order weekday
+ORD2775,J&T Express,Johor Bahru,Scheduled,47,14,0,High daily volume
+ORD2101,Ninja Van,Klang Valley,Next Day,11,14,0,Ninja Van
+ORD3165,In-house Rider,Klang Valley,Same Day,13,14,0,Tight requested window
+ORD3232,GrabExpress,Klang Valley,Same Day,19,14,0,Tight requested window
+ORD2597,J&T Express,Other,Next Day,13,14,0,Klang Valley zone
+ORD1839,J&T Express,Johor Bahru,Next Day,14,14,0,Klang Valley zone
+ORD2203,In-house Rider,Klang Valley,Same Day,11,14,0,Tight requested window
+ORD3045,Pos Laju,Johor Bahru,Next Day,15,14,0,Klang Valley zone
+ORD3085,Pos Laju,Penang,Next Day,8,14,0,Klang Valley zone
+ORD2325,Pos Laju,Other,Next Day,10,14,1,Klang Valley zone
+ORD2513,Ninja Van,Other,Next Day,10,14,0,Klang Valley zone
+ORD2542,GrabExpress,Klang Valley,Same Day,15,14,0,Tight requested window
+ORD2601,J&T Express,Penang,Next Day,8,14,0,Klang Valley zone
+ORD2700,Ninja Van,Johor Bahru,Next Day,36,14,0,Order hour
+ORD1682,In-house Rider,Klang Valley,Same Day,24,14,0,Tight requested window
+ORD1057,GrabExpress,Klang Valley,Same Day,11,14,0,In-house Rider
+ORD2626,GrabExpress,Klang Valley,Same Day,26,14,1,Order value
+ORD3028,In-house Rider,Klang Valley,Same Day,12,14,0,Order hour
+ORD3107,GrabExpress,Klang Valley,Same Day,12,14,0,Tight requested window
+ORD1805,Pos Laju,Other,Next Day,13,14,0,Other zone
+ORD3148,Lalamove,Klang Valley,Same Day,16,13,0,GrabExpress
+ORD2095,Ninja Van,Johor Bahru,Next Day,15,13,0,Klang Valley zone
+ORD3247,Ninja Van,Johor Bahru,Next Day,13,13,0,Klang Valley zone
+ORD1937,GrabExpress,Klang Valley,Same Day,13,13,0,Tight requested window
+ORD1160,Lalamove,Klang Valley,Same Day,11,13,0,In-house Rider
+ORD1079,Pos Laju,Penang,Scheduled,12,13,0,Klang Valley zone
+ORD3124,Lalamove,Klang Valley,Same Day,12,13,0,Tight requested window
+ORD2833,Ninja Van,Penang,Scheduled,12,13,0,Klang Valley zone
+ORD1831,Lalamove,Klang Valley,Same Day,15,13,0,Order value
+ORD1422,Pos Laju,Johor Bahru,Next Day,9,13,0,Klang Valley zone
+ORD1100,Ninja Van,Johor Bahru,Next Day,13,13,0,Klang Valley zone
+ORD1286,Ninja Van,Klang Valley,Next Day,15,13,0,Ninja Van
+ORD2045,GrabExpress,Klang Valley,Same Day,9,13,0,Tight requested window
+ORD2505,GrabExpress,Klang Valley,Same Day,17,13,0,Tight requested window
+ORD2257,In-house Rider,Klang Valley,Same Day,15,13,0,Order value
+ORD2826,J&T Express,Johor Bahru,Next Day,11,13,0,Klang Valley zone
+ORD1530,Lalamove,Klang Valley,Scheduled,38,13,0,High daily volume
+ORD2448,J&T Express,Johor Bahru,Next Day,13,13,0,Klang Valley zone
+ORD3371,GrabExpress,Klang Valley,Same Day,9,13,0,In-house Rider
+ORD2035,Pos Laju,Penang,Next Day,9,13,1,Klang Valley zone
+ORD3161,Lalamove,Klang Valley,Same Day,11,13,0,Tight requested window
+ORD1390,In-house Rider,Klang Valley,Same Day,13,13,0,Tight requested window
+ORD2386,Pos Laju,Other,Next Day,11,13,0,Klang Valley zone
+ORD1053,Lalamove,Klang Valley,Same Day,11,13,0,Tight requested window
+ORD2852,Pos Laju,Other,Scheduled,16,13,0,Klang Valley zone
+ORD1527,Ninja Van,Johor Bahru,Next Day,38,13,0,High daily volume
+ORD3353,In-house Rider,Klang Valley,Same Day,12,13,0,Tight requested window
+ORD2402,Lalamove,Klang Valley,Same Day,15,13,0,Tight requested window
+ORD1027,Ninja Van,Other,Next Day,12,12,1,Klang Valley zone
+ORD3300,Lalamove,Klang Valley,Same Day,12,12,0,Tight requested window
+ORD2266,Lalamove,Klang Valley,Same Day,15,12,0,Tight requested window
+ORD1940,Pos Laju,Penang,Scheduled,12,12,0,Klang Valley zone
+ORD2221,In-house Rider,Klang Valley,Same Day,13,12,0,Tight requested window
+ORD2079,GrabExpress,Klang Valley,Same Day,11,12,0,Same Day service
+ORD3143,Lalamove,Klang Valley,Same Day,16,12,0,Tight requested window
+ORD2763,Ninja Van,Johor Bahru,Scheduled,49,12,0,High daily volume
+ORD2053,Lalamove,Klang Valley,Same Day,14,12,0,Tight requested window
+ORD1603,In-house Rider,Klang Valley,Scheduled,57,12,0,High daily volume
+ORD2565,GrabExpress,Klang Valley,Same Day,10,12,0,In-house Rider
+ORD1983,Lalamove,Klang Valley,Same Day,13,12,0,Order hour
+ORD2911,Lalamove,Klang Valley,Same Day,13,12,0,Tight requested window
+ORD3131,Lalamove,Klang Valley,Same Day,11,12,0,Tight requested window
+ORD2696,Pos Laju,Other,Scheduled,36,12,0,Klang Valley zone
+ORD1814,J&T Express,Johor Bahru,Next Day,13,12,0,Klang Valley zone
+ORD2623,Lalamove,Klang Valley,Same Day,26,12,0,Same Day service
+ORD1810,Lalamove,Klang Valley,Same Day,13,12,0,Order value
+ORD2250,Pos Laju,Penang,Next Day,10,12,0,Klang Valley zone
+ORD2155,In-house Rider,Klang Valley,Same Day,16,12,0,Tight requested window
+ORD1960,Lalamove,Klang Valley,Same Day,10,12,0,In-house Rider
+ORD2666,Pos Laju,Penang,Next Day,37,12,0,High daily volume
+ORD2538,In-house Rider,Klang Valley,Same Day,15,12,0,Tight requested window
+ORD1097,In-house Rider,Klang Valley,Same Day,10,12,0,Tight requested window
+ORD2194,Ninja Van,Penang,Scheduled,11,12,0,Klang Valley zone
+ORD1548,Ninja Van,Penang,Scheduled,45,12,0,Klang Valley zone
+ORD3363,Ninja Van,Other,Next Day,12,12,0,Klang Valley zone
+ORD1371,Pos Laju,Other,Scheduled,9,12,0,Klang Valley zone
+ORD3310,GrabExpress,Klang Valley,Same Day,16,12,0,Tight requested window
+ORD3320,Ninja Van,Penang,Next Day,16,12,0,Klang Valley zone
+ORD3239,Lalamove,Klang Valley,Same Day,13,12,0,Tight requested window
+ORD2475,Ninja Van,Johor Bahru,Scheduled,9,12,0,Ninja Van
+ORD1660,In-house Rider,Klang Valley,Same Day,26,12,0,Order hour
+ORD1694,J&T Express,Johor Bahru,Scheduled,23,12,0,Klang Valley zone
+ORD2924,In-house Rider,Klang Valley,Same Day,11,12,0,Tight requested window
+ORD2950,Pos Laju,Penang,Next Day,12,12,0,Klang Valley zone
+ORD2932,In-house Rider,Klang Valley,Same Day,10,12,0,Tight requested window
+ORD2429,Ninja Van,Johor Bahru,Next Day,15,11,0,Klang Valley zone
+ORD2925,Ninja Van,Other,Scheduled,11,11,0,Klang Valley zone
+ORD1561,GrabExpress,Klang Valley,Scheduled,45,11,0,High daily volume
+ORD2421,J&T Express,Johor Bahru,Scheduled,15,11,0,Klang Valley zone
+ORD2957,GrabExpress,Klang Valley,Same Day,12,11,0,Tight requested window
+ORD2872,Lalamove,Klang Valley,Same Day,14,11,0,Order hour
+ORD2865,Pos Laju,Penang,Next Day,14,11,0,Klang Valley zone
+ORD2874,Ninja Van,Penang,Scheduled,14,11,0,Klang Valley zone
+ORD3063,GrabExpress,Klang Valley,Same Day,17,11,0,Tight requested window
+ORD3044,GrabExpress,Klang Valley,Same Day,15,11,0,Tight requested window
+ORD2823,Pos Laju,Penang,Scheduled,11,11,0,Klang Valley zone
+ORD2821,In-house Rider,Klang Valley,Same Day,11,11,0,Tight requested window
+ORD2397,Ninja Van,Penang,Next Day,15,11,0,Klang Valley zone
+ORD1957,GrabExpress,Klang Valley,Same Day,10,11,0,Tight requested window
+ORD3330,J&T Express,Johor Bahru,Next Day,11,11,0,Klang Valley zone
+ORD1920,Pos Laju,Johor Bahru,Scheduled,9,11,0,Klang Valley zone
+ORD2179,J&T Express,Other,Scheduled,13,11,0,Klang Valley zone
+ORD1144,Pos Laju,Other,Scheduled,13,11,0,Klang Valley zone
+ORD1551,Ninja Van,Other,Scheduled,45,11,0,High daily volume
+ORD3244,In-house Rider,Klang Valley,Same Day,13,11,0,Tight requested window
+ORD1257,GrabExpress,Klang Valley,Same Day,10,11,1,In-house Rider
+ORD2541,Lalamove,Klang Valley,Same Day,15,11,0,Tight requested window
+ORD2338,Lalamove,Klang Valley,Same Day,17,11,0,GrabExpress
+ORD3292,GrabExpress,Klang Valley,Same Day,11,11,0,In-house Rider
+ORD3373,In-house Rider,Klang Valley,Same Day,9,11,0,Tight requested window
+ORD3278,Ninja Van,Penang,Next Day,15,11,0,Klang Valley zone
+ORD2043,In-house Rider,Klang Valley,Same Day,9,11,0,Tight requested window
+ORD1723,Pos Laju,Other,Next Day,9,11,0,Klang Valley zone
+ORD1380,J&T Express,Penang,Scheduled,8,11,0,Klang Valley zone
+ORD1370,GrabExpress,Klang Valley,Same Day,4,11,0,Tight requested window
+ORD1849,Pos Laju,Penang,Next Day,15,11,0,Klang Valley zone
+ORD1910,Pos Laju,Penang,Scheduled,14,11,0,Klang Valley zone
+ORD1089,Lalamove,Klang Valley,Same Day,10,11,0,Tight requested window
+ORD1878,Lalamove,Klang Valley,Same Day,11,11,0,Tight requested window
+ORD1211,Lalamove,Klang Valley,Same Day,11,11,0,Order weekday
+ORD1969,GrabExpress,Klang Valley,Same Day,13,11,0,Tight requested window
+ORD2754,GrabExpress,Klang Valley,Scheduled,49,11,0,High daily volume
+ORD1967,GrabExpress,Klang Valley,Same Day,13,11,0,Tight requested window
+ORD3209,Lalamove,Klang Valley,Same Day,12,11,0,Tight requested window
+ORD2249,In-house Rider,Klang Valley,Same Day,10,11,0,Tight requested window
+ORD1799,Ninja Van,Penang,Next Day,8,11,0,Klang Valley zone
+ORD2240,GrabExpress,Klang Valley,Same Day,12,11,1,Lalamove
+ORD1043,Lalamove,Klang Valley,Same Day,15,11,0,Tight requested window
+ORD2038,Lalamove,Klang Valley,Same Day,9,10,0,In-house Rider
+ORD1579,GrabExpress,Klang Valley,Scheduled,45,10,0,High daily volume
+ORD2451,Lalamove,Klang Valley,Same Day,13,10,0,Tight requested window
+ORD2931,J&T Express,Johor Bahru,Next Day,10,10,0,Klang Valley zone
+ORD1006,In-house Rider,Klang Valley,Same Day,11,10,0,Same Day service
+ORD1596,GrabExpress,Klang Valley,Scheduled,57,10,0,High daily volume
+ORD2916,Ninja Van,Penang,Scheduled,13,10,0,Klang Valley zone
+ORD3414,Lalamove,Klang Valley,Same Day,12,10,0,Tight requested window
+ORD1128,J&T Express,Other,Next Day,14,10,0,Klang Valley zone
+ORD2519,J&T Express,Johor Bahru,Scheduled,10,10,0,Klang Valley zone
+ORD2782,Lalamove,Klang Valley,Next Day,47,10,0,High daily volume
+ORD2494,Lalamove,Klang Valley,Same Day,11,10,0,In-house Rider
+ORD2400,Ninja Van,Johor Bahru,Next Day,15,10,0,Klang Valley zone
+ORD1317,GrabExpress,Klang Valley,Same Day,12,10,0,Same Day service
+ORD1299,Ninja Van,Penang,Scheduled,10,10,0,Klang Valley zone
+ORD1825,J&T Express,Penang,Next Day,15,10,0,Klang Valley zone
+ORD1218,Pos Laju,Other,Scheduled,11,10,0,Klang Valley zone
+ORD1115,Ninja Van,Johor Bahru,Scheduled,13,10,0,Klang Valley zone
+ORD2409,GrabExpress,Klang Valley,Same Day,13,10,0,Order weekday
+ORD1903,In-house Rider,Klang Valley,Same Day,10,10,0,Tight requested window
+ORD1979,Lalamove,Klang Valley,Same Day,13,10,0,Order hour
+ORD2975,Lalamove,Klang Valley,Same Day,18,10,0,Tight requested window
+ORD1449,GrabExpress,Klang Valley,Same Day,26,10,0,Tight requested window
+ORD2130,Ninja Van,Johor Bahru,Scheduled,8,10,0,Ninja Van
+ORD2837,GrabExpress,Klang Valley,Same Day,12,10,0,Tight requested window
+ORD1715,Ninja Van,Penang,Scheduled,23,10,0,Klang Valley zone
+ORD1595,Pos Laju,Other,Next Day,57,10,0,High daily volume
+ORD2327,Ninja Van,Klang Valley,Next Day,10,10,0,Ninja Van
+ORD3308,Ninja Van,Johor Bahru,Scheduled,12,10,0,Klang Valley zone
+ORD3213,Ninja Van,Penang,Next Day,12,10,1,Klang Valley zone
+ORD1706,GrabExpress,Klang Valley,Same Day,23,10,0,Tight requested window
+ORD1430,GrabExpress,Klang Valley,Same Day,15,10,0,Order value
+ORD1652,In-house Rider,Klang Valley,Same Day,26,10,0,Tight requested window
+ORD3258,In-house Rider,Klang Valley,Same Day,10,10,0,Tight requested window
+ORD1704,In-house Rider,Klang Valley,Same Day,23,10,0,Tight requested window
+ORD2363,In-house Rider,Klang Valley,Same Day,10,10,0,Tight requested window
+ORD1452,GrabExpress,Klang Valley,Same Day,26,10,0,Order value
+ORD2462,In-house Rider,Klang Valley,Same Day,13,10,0,Tight requested window
+ORD2457,GrabExpress,Klang Valley,Same Day,13,10,0,Lalamove
+ORD2887,J&T Express,Other,Next Day,14,10,0,Klang Valley zone
+ORD1543,Pos Laju,Johor Bahru,Next Day,45,9,0,High daily volume
+ORD1506,Ninja Van,Johor Bahru,Next Day,38,9,0,High daily volume
+ORD2040,Pos Laju,Johor Bahru,Next Day,9,9,0,Klang Valley zone
+ORD3317,Ninja Van,Other,Next Day,16,9,1,Klang Valley zone
+ORD2366,J&T Express,Penang,Scheduled,10,9,0,Klang Valley zone
+ORD1510,GrabExpress,Klang Valley,Scheduled,38,9,0,High daily volume
+ORD2057,Lalamove,Klang Valley,Same Day,14,9,0,Order value
+ORD2901,Pos Laju,Other,Scheduled,17,9,0,Klang Valley zone
+ORD2832,GrabExpress,Klang Valley,Same Day,12,9,0,Tight requested window
+ORD2836,GrabExpress,Klang Valley,Same Day,12,9,1,Tight requested window
+ORD1651,Lalamove,Klang Valley,Same Day,26,9,0,Same Day service
+ORD1972,In-house Rider,Klang Valley,Same Day,13,9,0,Tight requested window
+ORD1458,Pos Laju,Johor Bahru,Scheduled,26,9,0,Klang Valley zone
+ORD1421,Lalamove,Klang Valley,Same Day,9,9,0,In-house Rider
+ORD3272,Ninja Van,Penang,Next Day,15,9,0,Klang Valley zone
+ORD3285,Ninja Van,Penang,Next Day,15,9,0,Klang Valley zone
+ORD1460,J&T Express,Other,Scheduled,26,9,0,Klang Valley zone
+ORD1307,Ninja Van,Johor Bahru,Next Day,12,9,0,Klang Valley zone
+ORD2885,Pos Laju,Other,Scheduled,14,9,0,Klang Valley zone
+ORD2004,Pos Laju,Penang,Next Day,17,9,0,Klang Valley zone
+ORD2319,Lalamove,Klang Valley,Same Day,16,9,0,Order hour
+ORD2547,Pos Laju,Johor Bahru,Next Day,10,9,0,Klang Valley zone
+ORD1253,Lalamove,Klang Valley,Same Day,10,9,0,Tight requested window
+ORD1268,Pos Laju,Other,Next Day,14,9,0,Klang Valley zone
+ORD1710,In-house Rider,Klang Valley,Same Day,23,9,0,Tight requested window
+ORD1050,Lalamove,Klang Valley,Same Day,11,9,0,In-house Rider
+ORD2222,J&T Express,Other,Scheduled,13,9,0,Klang Valley zone
+ORD2028,In-house Rider,Klang Valley,Same Day,11,9,0,Order value
+ORD2844,Pos Laju,Penang,Next Day,16,9,0,Klang Valley zone
+ORD3075,Ninja Van,Penang,Scheduled,11,9,0,Klang Valley zone
+ORD1227,Pos Laju,Johor Bahru,Scheduled,11,9,0,Klang Valley zone
+ORD1202,In-house Rider,Klang Valley,Next Day,16,9,0,Order weekday
+ORD1683,J&T Express,Johor Bahru,Scheduled,24,9,0,Klang Valley zone
+ORD1397,GrabExpress,Klang Valley,Same Day,13,9,0,Same Day service
+ORD3102,In-house Rider,Klang Valley,Same Day,12,9,0,Order value
+ORD1847,Ninja Van,Penang,Scheduled,15,9,0,Ninja Van
+ORD1867,J&T Express,Penang,Scheduled,15,9,0,Klang Valley zone
+ORD1782,Lalamove,Klang Valley,Same Day,17,9,0,Tight requested window
+ORD3136,Pos Laju,Penang,Next Day,11,9,0,Klang Valley zone
+ORD1787,GrabExpress,Klang Valley,Same Day,9,9,0,Anniversary occasion
+ORD3162,Pos Laju,Penang,Next Day,11,9,1,Klang Valley zone
+ORD2223,Lalamove,Klang Valley,Same Day,13,9,0,Tight requested window
+ORD2090,Lalamove,Klang Valley,Same Day,15,9,0,Same Day service
+ORD1514,GrabExpress,Klang Valley,Scheduled,38,9,0,High daily volume
+ORD1366,Pos Laju,Other,Next Day,8,9,0,Klang Valley zone
+ORD1140,Ninja Van,Klang Valley,Next Day,13,9,0,Ninja Van
+ORD3221,Ninja Van,Other,Next Day,19,9,0,Klang Valley zone
+ORD1301,Lalamove,Klang Valley,Same Day,12,9,0,Tight requested window
+ORD1820,GrabExpress,Klang Valley,Same Day,15,9,0,Tight requested window
+ORD2758,GrabExpress,Klang Valley,Next Day,49,9,0,High daily volume
+ORD3103,Pos Laju,Johor Bahru,Scheduled,12,9,0,Klang Valley zone
+ORD2210,GrabExpress,Klang Valley,Same Day,14,9,0,Order value
+ORD1263,J&T Express,Other,Scheduled,14,9,0,Klang Valley zone
+ORD2776,GrabExpress,Klang Valley,Scheduled,47,9,0,High daily volume
+ORD1966,Lalamove,Klang Valley,Same Day,13,8,0,Tight requested window
+ORD2097,Pos Laju,Johor Bahru,Scheduled,11,8,0,Klang Valley zone
+ORD1675,GrabExpress,Klang Valley,Same Day,24,8,0,Order weekday
+ORD3230,GrabExpress,Klang Valley,Same Day,19,8,0,Order value
+ORD2080,Pos Laju,Other,Next Day,11,8,0,Klang Valley zone
+ORD1648,Lalamove,Klang Valley,Same Day,26,8,0,Same Day service
+ORD2850,Ninja Van,Klang Valley,Next Day,16,8,0,Order value
+ORD1369,Lalamove,Klang Valley,Same Day,4,8,0,Order weekday
+ORD2508,Lalamove,Klang Valley,Same Day,17,8,0,GrabExpress
+ORD1278,GrabExpress,Klang Valley,Same Day,15,8,0,Order hour
+ORD2425,Ninja Van,Johor Bahru,Next Day,15,8,0,Klang Valley zone
+ORD1567,Lalamove,Klang Valley,Scheduled,45,8,0,High daily volume
+ORD1550,Lalamove,Klang Valley,Scheduled,45,8,0,High daily volume
+ORD2440,Pos Laju,Penang,Next Day,13,8,0,Klang Valley zone
+ORD1020,Pos Laju,Johor Bahru,Next Day,11,8,0,Klang Valley zone
+ORD2497,GrabExpress,Klang Valley,Same Day,17,8,1,Tight requested window
+ORD3267,Lalamove,Klang Valley,Same Day,11,8,0,Order value
+ORD2418,J&T Express,Other,Scheduled,13,8,0,Klang Valley zone
+ORD2882,GrabExpress,Klang Valley,Same Day,14,8,0,Birthday occasion
+ORD2324,In-house Rider,Klang Valley,Same Day,10,8,0,Lalamove
+ORD2594,J&T Express,Johor Bahru,Scheduled,13,8,0,Klang Valley zone
+ORD2828,Lalamove,Klang Valley,Same Day,12,8,0,Tight requested window
+ORD2935,In-house Rider,Klang Valley,Same Day,10,8,0,Tight requested window
+ORD2728,Ninja Van,Johor Bahru,Scheduled,49,8,0,High daily volume
+ORD2586,Lalamove,Klang Valley,Same Day,9,8,0,Tight requested window
+ORD2934,Lalamove,Klang Valley,Next Day,10,8,0,Order hour
+ORD2720,In-house Rider,Klang Valley,Scheduled,49,8,0,High daily volume
+ORD2638,Ninja Van,Johor Bahru,Scheduled,26,8,0,Klang Valley zone
+ORD1775,In-house Rider,Klang Valley,Same Day,17,8,0,Anniversary occasion
+ORD1076,Lalamove,Klang Valley,Same Day,12,8,0,Tight requested window
+ORD1186,J&T Express,Johor Bahru,Scheduled,13,8,0,Klang Valley zone
+ORD1781,GrabExpress,Klang Valley,Next Day,17,8,0,Anniversary occasion
+ORD2229,GrabExpress,Klang Valley,Same Day,13,8,0,Tight requested window
+ORD2114,GrabExpress,Klang Valley,Same Day,10,8,1,Order weekday
+ORD2270,In-house Rider,Klang Valley,Same Day,12,8,0,Order value
+ORD3175,Pos Laju,Other,Next Day,13,8,0,Klang Valley zone
+ORD2956,Pos Laju,Penang,Scheduled,12,8,0,Klang Valley zone
+ORD2953,Lalamove,Klang Valley,Next Day,12,8,0,Tight requested window
+ORD1356,GrabExpress,Klang Valley,Same Day,14,8,0,Order hour
+ORD2794,Pos Laju,Other,Next Day,47,8,0,High daily volume
+ORD2093,Pos Laju,Penang,Next Day,15,8,0,Klang Valley zone
+ORD3181,GrabExpress,Klang Valley,Same Day,15,8,0,Tight requested window
+ORD1719,J&T Express,Other,Next Day,9,8,0,Klang Valley zone
+ORD1349,Lalamove,Klang Valley,Same Day,14,8,0,Tight requested window
+ORD2124,Lalamove,Klang Valley,Same Day,8,8,0,Tight requested window
+ORD3078,Lalamove,Klang Valley,Same Day,11,8,0,Tight requested window
+ORD2630,J&T Express,Penang,Next Day,26,8,0,Klang Valley zone
+ORD2981,Pos Laju,Penang,Next Day,18,8,0,Klang Valley zone
+ORD1894,In-house Rider,Klang Valley,Same Day,10,8,0,Tight requested window
+ORD2806,GrabExpress,Klang Valley,Scheduled,47,8,0,High daily volume
+ORD2709,Pos Laju,Penang,Next Day,36,8,0,Klang Valley zone
+ORD1344,In-house Rider,Klang Valley,Same Day,8,8,0,Tight requested window
+ORD3025,GrabExpress,Klang Valley,Same Day,10,8,0,In-house Rider
+ORD2137,Ninja Van,Klang Valley,Next Day,9,8,0,Ninja Van
+ORD3010,Lalamove,Klang Valley,Same Day,12,8,0,Tight requested window
+ORD2990,GrabExpress,Klang Valley,Same Day,9,8,0,Order weekday
+ORD3410,Lalamove,Klang Valley,Same Day,10,8,0,Tight requested window
+ORD1059,J&T Express,Johor Bahru,Scheduled,11,8,0,Klang Valley zone
+ORD2444,Lalamove,Klang Valley,Same Day,13,7,0,Order weekday
+ORD1886,In-house Rider,Klang Valley,Next Day,11,7,0,Order hour
+ORD1111,Pos Laju,Johor Bahru,Scheduled,13,7,0,Klang Valley zone
+ORD2140,GrabExpress,Klang Valley,Same Day,9,7,0,In-house Rider
+ORD2879,Pos Laju,Johor Bahru,Next Day,14,7,0,Klang Valley zone
+ORD1368,GrabExpress,Klang Valley,Same Day,4,7,0,Tight requested window
+ORD2365,In-house Rider,Klang Valley,Same Day,10,7,0,Tight requested window
+ORD3331,Lalamove,Klang Valley,Same Day,11,7,0,Tight requested window
+ORD3037,J&T Express,Johor Bahru,Next Day,12,7,0,Klang Valley zone
+ORD1623,Pos Laju,Johor Bahru,Scheduled,57,7,0,High daily volume
+ORD2813,Lalamove,Klang Valley,Next Day,47,7,0,High daily volume
+ORD2564,Lalamove,Klang Valley,Same Day,10,7,0,In-house Rider
+ORD2109,In-house Rider,Klang Valley,Same Day,10,7,0,Tight requested window
+ORD1678,GrabExpress,Klang Valley,Same Day,24,7,0,Tight requested window
+ORD2271,Lalamove,Klang Valley,Same Day,12,7,0,Anniversary occasion
+ORD1767,J&T Express,Penang,Scheduled,12,7,0,Klang Valley zone
+ORD3206,J&T Express,Penang,Scheduled,12,7,0,Klang Valley zone
+ORD2233,Pos Laju,Johor Bahru,Scheduled,12,7,0,Klang Valley zone
+ORD1243,J&T Express,Johor Bahru,Next Day,12,7,0,Klang Valley zone
+ORD2905,GrabExpress,Klang Valley,Same Day,17,7,0,Order value
+ORD2563,Pos Laju,Johor Bahru,Next Day,10,7,0,Klang Valley zone
+ORD1665,GrabExpress,Klang Valley,Same Day,26,7,0,Tight requested window
+ORD2527,In-house Rider,Klang Valley,Same Day,10,7,0,Tight requested window
+ORD3318,Pos Laju,Other,Scheduled,16,7,0,Klang Valley zone
+ORD2708,J&T Express,Johor Bahru,Scheduled,36,7,0,Klang Valley zone
+ORD2199,In-house Rider,Klang Valley,Same Day,11,7,0,Order value
+ORD2816,In-house Rider,Klang Valley,Same Day,11,7,0,Tight requested window
+ORD3046,Pos Laju,Penang,Next Day,15,7,0,Klang Valley zone
+ORD1190,Lalamove,Klang Valley,Same Day,13,7,0,Order weekday
+ORD1172,In-house Rider,Klang Valley,Same Day,9,7,0,Tight requested window
+ORD1876,In-house Rider,Klang Valley,Same Day,11,7,0,Order value
+ORD1103,J&T Express,Penang,Scheduled,13,7,0,Klang Valley zone
+ORD2524,J&T Express,Johor Bahru,Next Day,10,7,0,Klang Valley zone
+ORD1232,Pos Laju,Other,Scheduled,12,7,0,Klang Valley zone
+ORD3341,J&T Express,Johor Bahru,Scheduled,6,7,0,Klang Valley zone
+ORD2521,Lalamove,Klang Valley,Same Day,10,7,0,In-house Rider
+ORD2514,Lalamove,Klang Valley,Same Day,10,7,0,In-house Rider
+ORD1518,J&T Express,Other,Scheduled,38,7,0,Order value
+ORD3195,Lalamove,Klang Valley,Same Day,13,7,0,Tight requested window
+ORD3215,Ninja Van,Other,Next Day,12,7,0,Klang Valley zone
+ORD1993,J&T Express,Penang,Scheduled,17,7,0,Klang Valley zone
+ORD2424,Lalamove,Klang Valley,Same Day,15,7,0,Tight requested window
+ORD3369,GrabExpress,Klang Valley,Same Day,9,7,0,Tight requested window
+ORD1509,GrabExpress,Klang Valley,Next Day,38,7,0,High daily volume
+ORD1589,GrabExpress,Klang Valley,Scheduled,57,7,0,High daily volume
+ORD2449,Pos Laju,Penang,Scheduled,13,7,0,Klang Valley zone
+ORD2478,Ninja Van,Johor Bahru,Next Day,9,7,0,Klang Valley zone
+ORD1687,J&T Express,Penang,Scheduled,24,7,0,Klang Valley zone
+ORD1287,Pos Laju,Penang,Next Day,15,7,0,Klang Valley zone
+ORD2435,In-house Rider,Klang Valley,Same Day,6,7,0,Tight requested window
+ORD2414,Ninja Van,Other,Next Day,13,7,0,Klang Valley zone
+ORD1961,J&T Express,Johor Bahru,Scheduled,10,7,0,Klang Valley zone
+ORD1695,Lalamove,Klang Valley,Same Day,23,7,1,Tight requested window
+ORD2071,In-house Rider,Klang Valley,Same Day,11,7,0,Tight requested window
+ORD1943,In-house Rider,Klang Valley,Same Day,12,7,0,Tight requested window
+ORD2753,In-house Rider,Klang Valley,Scheduled,49,6,0,High daily volume
+ORD2884,Ninja Van,Klang Valley,Next Day,14,6,0,Ninja Van
+ORD2033,Lalamove,Klang Valley,Same Day,9,6,0,In-house Rider
+ORD1416,J&T Express,Other,Scheduled,9,6,0,Klang Valley zone
+ORD3001,In-house Rider,Klang Valley,Same Day,12,6,0,Same Day service
+ORD1870,Ninja Van,Other,Next Day,15,6,1,Klang Valley zone
+ORD1039,In-house Rider,Klang Valley,Same Day,15,6,0,Tight requested window
+ORD3394,GrabExpress,Klang Valley,Same Day,14,6,0,Lalamove
+ORD2464,Lalamove,Klang Valley,Same Day,13,6,0,Tight requested window
+ORD3348,J&T Express,Johor Bahru,Scheduled,12,6,0,Klang Valley zone
+ORD2458,Pos Laju,Other,Next Day,13,6,0,Klang Valley zone
+ORD2864,Lalamove,Klang Valley,Same Day,14,6,0,Tight requested window
+ORD2411,Pos Laju,Penang,Next Day,13,6,0,Klang Valley zone
+ORD2302,In-house Rider,Klang Valley,Same Day,11,6,0,Order hour
+ORD2693,J&T Express,Johor Bahru,Scheduled,36,6,0,Klang Valley zone
+ORD1539,Lalamove,Klang Valley,Next Day,38,6,0,High daily volume
+ORD1667,Ninja Van,Johor Bahru,Scheduled,26,6,0,Klang Valley zone
+ORD1535,Ninja Van,Klang Valley,Next Day,38,6,0,High daily volume
+ORD1522,GrabExpress,Klang Valley,Scheduled,38,6,0,High daily volume
+ORD1399,J&T Express,Penang,Scheduled,13,6,0,Klang Valley zone
+ORD1138,In-house Rider,Klang Valley,Same Day,14,6,0,Tight requested window
+ORD2261,In-house Rider,Klang Valley,Same Day,15,6,0,Tight requested window
+ORD2584,GrabExpress,Klang Valley,Same Day,9,6,0,In-house Rider
+ORD3245,In-house Rider,Klang Valley,Same Day,13,6,0,Tight requested window
+ORD1739,In-house Rider,Klang Valley,Same Day,10,6,0,Tight requested window
+ORD1714,Ninja Van,Johor Bahru,Next Day,23,6,0,Klang Valley zone
+ORD2145,Ninja Van,Johor Bahru,Scheduled,12,6,0,Klang Valley zone
+ORD2243,Ninja Van,Penang,Next Day,12,6,0,Klang Valley zone
+ORD2827,Lalamove,Klang Valley,Same Day,12,6,0,Tight requested window
+ORD3279,Lalamove,Klang Valley,Same Day,15,6,0,Same Day service
+ORD1114,GrabExpress,Klang Valley,Next Day,13,6,0,Lalamove
+ORD1225,Lalamove,Klang Valley,Same Day,11,6,0,In-house Rider
+ORD3163,Pos Laju,Johor Bahru,Scheduled,11,6,0,Klang Valley zone
+ORD1819,Pos Laju,Penang,Next Day,15,6,0,Klang Valley zone
+ORD2041,Lalamove,Klang Valley,Same Day,9,6,0,Tight requested window
+ORD1850,Pos Laju,Johor Bahru,Next Day,15,6,0,Klang Valley zone
+ORD2029,In-house Rider,Klang Valley,Same Day,11,6,0,Tight requested window
+ORD1777,In-house Rider,Klang Valley,Same Day,17,6,0,Tight requested window
+ORD3079,Lalamove,Klang Valley,Same Day,11,6,0,Order weekday
+ORD1585,Ninja Van,Johor Bahru,Scheduled,45,6,0,Klang Valley zone
+ORD1365,J&T Express,Other,Scheduled,8,6,0,Klang Valley zone
+ORD3089,Lalamove,Klang Valley,Same Day,8,6,0,Tight requested window
+ORD2128,GrabExpress,Klang Valley,Same Day,8,6,0,Tight requested window
+ORD2671,Ninja Van,Other,Next Day,37,6,0,Klang Valley zone
+ORD3023,Pos Laju,Johor Bahru,Scheduled,10,6,0,Klang Valley zone
+ORD1633,Pos Laju,Penang,Next Day,57,6,0,High daily volume
+ORD1829,GrabExpress,Klang Valley,Same Day,15,6,0,Tight requested window
+ORD3355,GrabExpress,Klang Valley,Same Day,12,6,0,Same Day service
+ORD2305,J&T Express,Penang,Scheduled,11,6,0,Klang Valley zone
+ORD1769,Pos Laju,Other,Next Day,12,6,0,Klang Valley zone
+ORD1721,Lalamove,Klang Valley,Same Day,9,6,0,Tight requested window
+ORD1679,Lalamove,Klang Valley,Same Day,24,6,0,Order weekday
+ORD1161,In-house Rider,Klang Valley,Same Day,11,6,0,Order hour
+ORD2234,In-house Rider,Klang Valley,Same Day,12,6,0,Order weekday
+ORD2016,J&T Express,Penang,Scheduled,14,6,0,Klang Valley zone
+ORD3199,In-house Rider,Klang Valley,Same Day,13,6,0,Tight requested window
+ORD3005,Lalamove,Klang Valley,Same Day,12,5,0,Tight requested window
+ORD2006,GrabExpress,Klang Valley,Same Day,14,5,0,Tight requested window
+ORD3428,J&T Express,Other,Scheduled,10,5,0,Klang Valley zone
+ORD3059,Pos Laju,Other,Scheduled,17,5,0,Klang Valley zone
+ORD2420,GrabExpress,Klang Valley,Same Day,15,5,0,Tight requested window
+ORD2484,J&T Express,Penang,Scheduled,11,5,0,Klang Valley zone
+ORD2383,GrabExpress,Klang Valley,Same Day,11,5,0,Same Day service
+ORD1653,Pos Laju,Penang,Scheduled,26,5,0,Klang Valley zone
+ORD1433,Lalamove,Klang Valley,Same Day,15,5,0,Order value
+ORD3342,GrabExpress,Klang Valley,Next Day,12,5,0,Order weekday
+ORD3409,Pos Laju,Other,Scheduled,10,5,0,Klang Valley zone
+ORD1555,In-house Rider,Klang Valley,Scheduled,45,5,0,High daily volume
+ORD2393,Ninja Van,Other,Next Day,15,5,0,Klang Valley zone
+ORD1082,Ninja Van,Penang,Scheduled,10,5,0,Klang Valley zone
+ORD1619,Lalamove,Klang Valley,Scheduled,57,5,0,High daily volume
+ORD2178,Lalamove,Klang Valley,Same Day,13,5,0,Order hour
+ORD2557,J&T Express,Other,Scheduled,10,5,0,Klang Valley zone
+ORD3321,Ninja Van,Johor Bahru,Next Day,16,5,0,Klang Valley zone
+ORD3315,In-house Rider,Klang Valley,Next Day,16,5,0,GrabExpress
+ORD2187,J&T Express,Johor Bahru,Scheduled,12,5,0,Klang Valley zone
+ORD1611,Pos Laju,Other,Next Day,57,5,0,High daily volume
+ORD2517,Lalamove,Klang Valley,Same Day,10,5,0,Tight requested window
+ORD1616,J&T Express,Penang,Next Day,57,5,0,High daily volume
+ORD2923,Pos Laju,Johor Bahru,Next Day,11,5,0,Klang Valley zone
+ORD1240,Lalamove,Klang Valley,Same Day,12,5,0,Tight requested window
+ORD1229,In-house Rider,Klang Valley,Same Day,11,5,0,Tight requested window
+ORD2740,Lalamove,Klang Valley,Scheduled,49,5,0,High daily volume
+ORD1685,Lalamove,Klang Valley,Same Day,24,5,0,Order weekday
+ORD2332,Pos Laju,Johor Bahru,Next Day,17,5,0,Klang Valley zone
+ORD1699,Pos Laju,Other,Scheduled,23,5,0,Klang Valley zone
+ORD2937,Pos Laju,Other,Scheduled,10,5,0,Klang Valley zone
+ORD1330,Lalamove,Klang Valley,Same Day,13,5,0,Tight requested window
+ORD3276,In-house Rider,Klang Valley,Same Day,15,5,0,Same Day service
+ORD2562,J&T Express,Penang,Scheduled,10,5,0,Klang Valley zone
+ORD2529,In-house Rider,Klang Valley,Same Day,10,5,0,Order value
+ORD2641,GrabExpress,Klang Valley,Same Day,26,5,0,Same Day service
+ORD2769,GrabExpress,Klang Valley,Scheduled,47,5,0,High daily volume
+ORD1926,Lalamove,Klang Valley,Same Day,9,5,0,In-house Rider
+ORD1925,In-house Rider,Klang Valley,Same Day,9,5,0,Order value
+ORD1826,Lalamove,Klang Valley,Same Day,15,5,0,Same Day service
+ORD1560,Lalamove,Klang Valley,Scheduled,45,5,0,High daily volume
+ORD1669,GrabExpress,Klang Valley,Same Day,24,5,0,Order weekday
+ORD1320,Ninja Van,Johor Bahru,Next Day,12,5,0,Klang Valley zone
+ORD1962,In-house Rider,Klang Valley,Same Day,13,5,0,Order hour
+ORD1471,J&T Express,Johor Bahru,Scheduled,26,5,0,Order value
+ORD1139,Pos Laju,Penang,Scheduled,14,5,0,Klang Valley zone
+ORD2318,Lalamove,Klang Valley,Same Day,16,5,0,Tight requested window
+ORD1285,In-house Rider,Klang Valley,Same Day,15,5,0,Tight requested window
+ORD1583,GrabExpress,Klang Valley,Scheduled,45,5,0,High daily volume
+ORD2921,GrabExpress,Klang Valley,Same Day,11,5,0,Same Day service
+ORD2583,In-house Rider,Klang Valley,Same Day,9,5,0,Tight requested window
+ORD3370,In-house Rider,Klang Valley,Same Day,9,5,0,Tight requested window
+ORD2471,Lalamove,Klang Valley,Same Day,9,5,0,In-house Rider
+ORD1556,J&T Express,Other,Next Day,45,5,0,High daily volume
+ORD2842,GrabExpress,Klang Valley,Same Day,16,5,0,Order hour
+ORD1511,GrabExpress,Klang Valley,Scheduled,38,4,0,High daily volume
+ORD1440,Lalamove,Klang Valley,Same Day,8,4,0,Order weekday
+ORD2642,Pos Laju,Johor Bahru,Scheduled,26,4,0,Klang Valley zone
+ORD2944,In-house Rider,Klang Valley,Same Day,8,4,0,Tight requested window
+ORD2258,Lalamove,Klang Valley,Same Day,15,4,0,Tight requested window
+ORD1478,In-house Rider,Klang Valley,Scheduled,31,4,0,High daily volume
+ORD1639,J&T Express,Other,Scheduled,57,4,0,High daily volume
+ORD2839,J&T Express,Other,Scheduled,16,4,0,Klang Valley zone
+ORD3224,In-house Rider,Klang Valley,Same Day,19,4,0,Tight requested window
+ORD2086,Lalamove,Klang Valley,Same Day,15,4,0,Order weekday
+ORD1056,In-house Rider,Klang Valley,Same Day,11,4,0,Tight requested window
+ORD1722,J&T Express,Johor Bahru,Next Day,9,4,0,Klang Valley zone
+ORD1952,Lalamove,Klang Valley,Same Day,10,4,0,In-house Rider
+ORD1109,GrabExpress,Klang Valley,Same Day,13,4,0,Lalamove
+ORD1744,In-house Rider,Klang Valley,Same Day,14,4,0,Tight requested window
+ORD2729,In-house Rider,Klang Valley,Scheduled,49,4,0,High daily volume
+ORD1676,GrabExpress,Klang Valley,Same Day,24,4,0,Order weekday
+ORD1404,In-house Rider,Klang Valley,Same Day,13,4,0,Order hour
+ORD3242,Pos Laju,Penang,Scheduled,13,4,0,Klang Valley zone
+ORD3220,Lalamove,Klang Valley,Same Day,19,4,0,GrabExpress
+ORD2227,In-house Rider,Klang Valley,Same Day,13,4,0,Order hour
+ORD2707,Lalamove,Klang Valley,Scheduled,36,4,0,High daily volume
+ORD2281,Lalamove,Klang Valley,Same Day,14,4,1,Anniversary occasion
+ORD1288,J&T Express,Penang,Scheduled,15,4,0,Klang Valley zone
+ORD1216,In-house Rider,Klang Valley,Same Day,11,4,0,Tight requested window
+ORD1212,In-house Rider,Klang Valley,Same Day,11,4,0,Tight requested window
+ORD3026,Ninja Van,Klang Valley,Next Day,10,4,0,Ninja Van
+ORD1893,Lalamove,Klang Valley,Same Day,7,4,0,Tight requested window
+ORD1188,In-house Rider,Klang Valley,Same Day,13,4,0,Tight requested window
+ORD2822,J&T Express,Johor Bahru,Scheduled,11,4,0,Klang Valley zone
+ORD2741,J&T Express,Johor Bahru,Scheduled,49,4,0,High daily volume
+ORD1385,Pos Laju,Other,Scheduled,8,4,0,Klang Valley zone
+ORD1461,In-house Rider,Klang Valley,Same Day,26,4,0,Same Day service
+ORD1017,Pos Laju,Penang,Next Day,11,4,0,Klang Valley zone
+ORD3419,In-house Rider,Klang Valley,Same Day,12,4,0,Tight requested window
+ORD1060,J&T Express,Johor Bahru,Scheduled,11,4,0,Klang Valley zone
+ORD2866,Lalamove,Klang Valley,Same Day,14,4,0,Tight requested window
+ORD1681,Lalamove,Klang Valley,Same Day,24,4,0,Tight requested window
+ORD3297,J&T Express,Other,Scheduled,12,4,1,Klang Valley zone
+ORD1094,Lalamove,Klang Valley,Same Day,10,4,0,In-house Rider
+ORD3146,Ninja Van,Klang Valley,Next Day,16,4,0,Ninja Van
+ORD1346,In-house Rider,Klang Valley,Same Day,14,4,0,Same Day service
+ORD1487,Lalamove,Klang Valley,Scheduled,31,4,0,High daily volume
+ORD2802,GrabExpress,Klang Valley,Scheduled,47,4,0,High daily volume
+ORD2238,Pos Laju,Penang,Scheduled,12,4,0,Klang Valley zone
+ORD2184,Lalamove,Klang Valley,Same Day,12,4,0,Tight requested window
+ORD2621,Lalamove,Klang Valley,Same Day,26,4,0,Tight requested window
+ORD3178,J&T Express,Johor Bahru,Scheduled,15,4,0,Klang Valley zone
+ORD2908,In-house Rider,Klang Valley,Same Day,13,4,0,Same Day service
+ORD2788,GrabExpress,Klang Valley,Scheduled,47,4,0,High daily volume
+ORD2805,GrabExpress,Klang Valley,Scheduled,47,4,0,High daily volume
+ORD2980,Ninja Van,Johor Bahru,Scheduled,18,4,0,Klang Valley zone
+ORD1987,GrabExpress,Klang Valley,Same Day,13,4,0,Tight requested window
+ORD1948,Lalamove,Klang Valley,Same Day,12,4,0,Order weekday
+ORD2523,Pos Laju,Penang,Scheduled,10,4,0,Klang Valley zone
+ORD1284,GrabExpress,Klang Valley,Scheduled,15,4,0,Order weekday
+ORD1822,GrabExpress,Klang Valley,Same Day,15,4,0,Same Day service
+ORD3040,GrabExpress,Klang Valley,Same Day,15,4,0,Tight requested window
+ORD3047,Lalamove,Klang Valley,Same Day,15,4,1,Same Day service
+ORD2381,Lalamove,Klang Valley,Next Day,11,4,0,Order value
+ORD3336,Ninja Van,Klang Valley,Next Day,6,4,0,Ninja Van
+ORD1635,Lalamove,Klang Valley,Scheduled,57,4,0,High daily volume
+ORD1592,GrabExpress,Klang Valley,Scheduled,57,4,0,High daily volume
+ORD1923,In-house Rider,Klang Valley,Same Day,9,4,0,Order value
+ORD2152,Lalamove,Klang Valley,Same Day,12,4,0,Same Day service
+ORD3038,In-house Rider,Klang Valley,Same Day,12,4,0,Tight requested window
+ORD1499,J&T Express,Johor Bahru,Scheduled,31,4,0,Klang Valley zone
+ORD1474,Lalamove,Klang Valley,Scheduled,31,4,0,High daily volume
+ORD3088,Ninja Van,Klang Valley,Next Day,8,4,0,Ninja Van
+ORD2017,In-house Rider,Klang Valley,Same Day,14,4,0,Order hour
+ORD2500,GrabExpress,Klang Valley,Same Day,17,4,0,Order hour
+ORD2352,In-house Rider,Klang Valley,Same Day,13,4,0,Same Day service
+ORD1493,J&T Express,Penang,Scheduled,31,4,0,Klang Valley zone
+ORD3205,GrabExpress,Klang Valley,Same Day,13,3,0,Order hour
+ORD2714,Ninja Van,Penang,Scheduled,36,3,0,Klang Valley zone
+ORD3229,J&T Express,Penang,Scheduled,19,3,0,Klang Valley zone
+ORD2470,Pos Laju,Penang,Next Day,9,3,0,Klang Valley zone
+ORD1148,Ninja Van,Klang Valley,Next Day,13,3,0,Ninja Van
+ORD2667,Ninja Van,Johor Bahru,Scheduled,37,3,1,Klang Valley zone
+ORD1444,GrabExpress,Klang Valley,Same Day,8,3,0,Order weekday
+ORD1600,In-house Rider,Klang Valley,Scheduled,57,3,0,High daily volume
+ORD3366,GrabExpress,Klang Valley,Same Day,9,3,0,Tight requested window
+ORD3429,J&T Express,Penang,Scheduled,10,3,0,Klang Valley zone
+ORD2024,In-house Rider,Klang Valley,Same Day,11,3,1,Same Day service
+ORD1501,GrabExpress,Klang Valley,Scheduled,31,3,0,High daily volume
+ORD2254,GrabExpress,Klang Valley,Same Day,15,3,0,Same Day service
+ORD2798,In-house Rider,Klang Valley,Scheduled,47,3,0,High daily volume
+ORD1415,In-house Rider,Klang Valley,Same Day,9,3,0,Tight requested window
+ORD1250,GrabExpress,Klang Valley,Same Day,7,3,0,Tight requested window
+ORD1374,Pos Laju,Johor Bahru,Scheduled,9,3,0,Klang Valley zone
+ORD1247,Lalamove,Klang Valley,Same Day,7,3,0,Tight requested window
+ORD3098,Lalamove,Klang Valley,Same Day,12,3,0,Same Day service
+ORD1199,Lalamove,Klang Valley,Scheduled,16,3,0,Order hour
+ORD1182,In-house Rider,Klang Valley,Same Day,13,3,0,Tight requested window
+ORD2189,In-house Rider,Klang Valley,Same Day,12,3,0,Same Day service
+ORD2373,Pos Laju,Other,Scheduled,8,3,0,Klang Valley zone
+ORD2883,Lalamove,Klang Valley,Same Day,14,3,0,Tight requested window
+ORD3126,Lalamove,Klang Valley,Next Day,12,3,0,In-house Rider
+ORD3115,In-house Rider,Klang Valley,Same Day,12,3,0,Same Day service
+ORD1068,Lalamove,Klang Valley,Same Day,12,3,0,Tight requested window
+ORD3129,Lalamove,Klang Valley,Same Day,11,3,0,Scheduled service
+ORD3237,Lalamove,Klang Valley,Same Day,13,3,0,Tight requested window
+ORD2348,Ninja Van,Penang,Next Day,17,3,1,Klang Valley zone
+ORD2308,Pos Laju,Penang,Next Day,16,3,0,Klang Valley zone
+ORD2656,Lalamove,Klang Valley,Scheduled,37,3,0,High daily volume
+ORD2725,In-house Rider,Klang Valley,Scheduled,49,3,0,High daily volume
+ORD3234,Pos Laju,Other,Scheduled,19,3,0,Klang Valley zone
+ORD1321,Ninja Van,Klang Valley,Next Day,12,3,0,Ninja Van
+ORD2326,J&T Express,Johor Bahru,Scheduled,10,3,0,Klang Valley zone
+ORD2268,Ninja Van,Klang Valley,Next Day,15,3,0,Ninja Van
+ORD2809,GrabExpress,Klang Valley,Scheduled,47,3,0,High daily volume
+ORD1784,In-house Rider,Klang Valley,Same Day,17,3,0,Tight requested window
+ORD1797,Pos Laju,Other,Scheduled,8,3,0,Klang Valley zone
+ORD3226,Lalamove,Klang Valley,Same Day,19,3,0,Order hour
+ORD2379,J&T Express,Other,Scheduled,8,3,0,Klang Valley zone
+ORD2088,In-house Rider,Klang Valley,Same Day,15,3,0,Order hour
+ORD1918,In-house Rider,Klang Valley,Same Day,9,3,0,Tight requested window
+ORD2851,In-house Rider,Klang Valley,Scheduled,16,3,0,Anniversary occasion
+ORD1964,In-house Rider,Klang Valley,Same Day,13,3,0,Tight requested window
+ORD2598,GrabExpress,Klang Valley,Same Day,13,3,0,Same Day service
+ORD2756,GrabExpress,Klang Valley,Scheduled,49,3,0,High daily volume
+ORD1432,Lalamove,Klang Valley,Same Day,15,3,0,Tight requested window
+ORD3356,Ninja Van,Klang Valley,Next Day,12,3,0,Ninja Van
+ORD2374,In-house Rider,Klang Valley,Same Day,8,3,0,Tight requested window
+ORD1223,Ninja Van,Klang Valley,Next Day,11,3,0,Ninja Van
+ORD1637,In-house Rider,Klang Valley,Next Day,57,3,0,High daily volume
+ORD1042,Lalamove,Klang Valley,Same Day,15,3,0,Order hour
+ORD1643,Ninja Van,Penang,Scheduled,26,3,0,Ninja Van
+ORD1435,GrabExpress,Klang Valley,Next Day,15,3,0,Lalamove
+ORD2362,Lalamove,Klang Valley,Next Day,10,3,0,In-house Rider
+ORD1418,Lalamove,Klang Valley,Same Day,9,3,0,In-house Rider
+ORD2977,GrabExpress,Klang Valley,Same Day,18,3,0,Tight requested window
+ORD1249,Pos Laju,Johor Bahru,Scheduled,7,3,0,Klang Valley zone
+ORD1173,Lalamove,Klang Valley,Same Day,8,3,0,Tight requested window
+ORD1879,GrabExpress,Klang Valley,Same Day,11,3,0,In-house Rider
+ORD1930,Pos Laju,Other,Scheduled,13,3,0,Klang Valley zone
+ORD1888,In-house Rider,Klang Valley,Same Day,7,3,0,Order value
+ORD2144,GrabExpress,Klang Valley,Next Day,12,3,0,Anniversary occasion
+ORD1848,GrabExpress,Klang Valley,Same Day,15,3,0,Tight requested window
+ORD1279,J&T Express,Penang,Scheduled,15,3,0,Klang Valley zone
+ORD1861,Lalamove,Klang Valley,Same Day,15,3,0,Tight requested window
+ORD3094,J&T Express,Other,Scheduled,12,3,0,Klang Valley zone
+ORD2149,In-house Rider,Klang Valley,Same Day,12,3,0,Tight requested window
+ORD2930,J&T Express,Penang,Scheduled,10,3,0,Klang Valley zone
+ORD2902,Pos Laju,Johor Bahru,Scheduled,17,3,0,Klang Valley zone
+ORD2996,GrabExpress,Klang Valley,Same Day,9,3,0,In-house Rider
+ORD2520,Pos Laju,Penang,Scheduled,10,3,0,Klang Valley zone
+ORD3014,Pos Laju,Johor Bahru,Next Day,7,3,0,Klang Valley zone
+ORD2072,GrabExpress,Klang Valley,Scheduled,11,3,0,Order value
+ORD1030,Lalamove,Klang Valley,Same Day,12,3,0,Tight requested window
+ORD1044,J&T Express,Other,Scheduled,15,3,0,Klang Valley zone
+ORD1575,Ninja Van,Penang,Scheduled,45,2,0,High daily volume
+ORD3160,Lalamove,Klang Valley,Next Day,11,2,0,In-house Rider
+ORD1698,GrabExpress,Klang Valley,Same Day,23,2,0,Same Day service
+ORD3368,Lalamove,Klang Valley,Same Day,9,2,0,In-house Rider
+ORD2367,GrabExpress,Klang Valley,Next Day,10,2,0,In-house Rider
+ORD1703,Ninja Van,Johor Bahru,Scheduled,23,2,0,Klang Valley zone
+ORD1568,In-house Rider,Klang Valley,Scheduled,45,2,0,High daily volume
+ORD1500,Lalamove,Klang Valley,Scheduled,31,2,0,High daily volume
+ORD1061,Ninja Van,Penang,Scheduled,7,2,0,Ninja Van
+ORD2442,GrabExpress,Klang Valley,Next Day,13,2,0,Lalamove
+ORD2468,GrabExpress,Klang Valley,Scheduled,9,2,0,Preserved Flowers
+ORD2307,Lalamove,Klang Valley,Same Day,16,2,0,Same Day service
+ORD3421,In-house Rider,Klang Valley,Same Day,12,2,0,Lalamove
+ORD1066,J&T Express,Johor Bahru,Scheduled,7,2,0,Klang Valley zone
+ORD1502,Lalamove,Klang Valley,Scheduled,31,2,0,High daily volume
+ORD3431,J&T Express,Penang,Scheduled,10,2,0,Klang Valley zone
+ORD1402,GrabExpress,Klang Valley,Same Day,13,2,0,Order hour
+ORD2406,GrabExpress,Klang Valley,Same Day,13,2,0,Same Day service
+ORD2503,Lalamove,Klang Valley,Same Day,17,2,0,Order hour
+ORD2684,GrabExpress,Klang Valley,Scheduled,36,2,0,High daily volume
+ORD1507,Ninja Van,Klang Valley,Next Day,38,2,0,High daily volume
+ORD1664,Lalamove,Klang Valley,Scheduled,26,2,0,Order hour
+ORD1828,J&T Express,Johor Bahru,Scheduled,15,2,0,Klang Valley zone
+ORD3185,Ninja Van,Johor Bahru,Scheduled,15,2,0,Klang Valley zone
+ORD2345,In-house Rider,Klang Valley,Next Day,17,2,0,GrabExpress
+ORD2477,In-house Rider,Klang Valley,Same Day,9,2,0,Tight requested window
+ORD2587,GrabExpress,Klang Valley,Next Day,13,2,0,Lalamove
+ORD1270,GrabExpress,Klang Valley,Same Day,14,2,0,Order hour
+ORD1310,In-house Rider,Klang Valley,Scheduled,12,2,0,Order value
+ORD3340,GrabExpress,Klang Valley,Next Day,6,2,0,Order hour
+ORD2518,Lalamove,Klang Valley,Same Day,10,2,0,Tight requested window
+ORD3347,Lalamove,Klang Valley,Same Day,12,2,0,Order hour
+ORD2512,In-house Rider,Klang Valley,Same Day,10,2,0,Tight requested window
+ORD1617,Pos Laju,Penang,Next Day,57,2,0,High daily volume
+ORD1758,GrabExpress,Klang Valley,Same Day,12,2,1,Same Day service
+ORD2603,GrabExpress,Klang Valley,Same Day,8,2,0,In-house Rider
+ORD3137,GrabExpress,Klang Valley,Next Day,11,2,0,In-house Rider
+ORD3149,J&T Express,Other,Scheduled,16,2,0,Klang Valley zone
+ORD1582,Pos Laju,Penang,Scheduled,45,2,0,High daily volume
+ORD3270,Lalamove,Klang Valley,Same Day,11,2,0,In-house Rider
+ORD1646,GrabExpress,Klang Valley,Next Day,26,2,0,In-house Rider
+ORD1749,Pos Laju,Johor Bahru,Next Day,14,2,0,Klang Valley zone
+ORD1680,Lalamove,Klang Valley,Next Day,24,2,0,Anniversary occasion
+ORD2683,J&T Express,Other,Scheduled,37,2,0,Klang Valley zone
+ORD2454,Ninja Van,Penang,Scheduled,13,2,0,Klang Valley zone
+ORD3214,Ninja Van,Klang Valley,Next Day,12,2,0,Lalamove
+ORD1672,Lalamove,Klang Valley,Same Day,24,2,0,In-house Rider
+ORD1580,In-house Rider,Klang Valley,Scheduled,45,2,0,High daily volume
+ORD2682,In-house Rider,Klang Valley,Scheduled,37,2,0,High daily volume
+ORD3190,GrabExpress,Klang Valley,Scheduled,15,2,0,Anniversary occasion
+ORD1572,Ninja Van,Johor Bahru,Scheduled,45,2,0,High daily volume
+ORD1666,In-house Rider,Klang Valley,Same Day,26,2,1,Order hour
+ORD3329,GrabExpress,Klang Valley,Scheduled,11,2,0,In-house Rider
+ORD1255,Lalamove,Klang Valley,Next Day,10,2,0,In-house Rider
+ORD3362,Pos Laju,Penang,Scheduled,12,2,0,Klang Valley zone
+ORD1395,Lalamove,Klang Valley,Next Day,13,2,0,Scheduled service
+ORD2285,Lalamove,Klang Valley,Same Day,14,2,0,Same Day service
+ORD1343,J&T Express,Johor Bahru,Scheduled,8,2,0,Klang Valley zone
+ORD1566,In-house Rider,Klang Valley,Scheduled,45,2,0,High daily volume
+ORD1305,Lalamove,Klang Valley,Same Day,12,2,0,Same Day service
+ORD3095,Pos Laju,Johor Bahru,Next Day,12,2,0,Klang Valley zone
+ORD1134,J&T Express,Penang,Scheduled,14,2,0,Klang Valley zone
+ORD1730,GrabExpress,Klang Valley,Same Day,9,2,0,In-house Rider
+ORD2289,Pos Laju,Penang,Scheduled,14,2,0,Klang Valley zone
+ORD2663,GrabExpress,Klang Valley,Scheduled,37,2,0,High daily volume
+ORD3083,Lalamove,Klang Valley,Next Day,8,2,0,In-house Rider
+ORD1917,GrabExpress,Klang Valley,Scheduled,14,2,0,Order value
+ORD3069,GrabExpress,Klang Valley,Next Day,17,2,0,Order weekday
+ORD1315,In-house Rider,Klang Valley,Same Day,12,2,0,Lalamove
+ORD1324,GrabExpress,Klang Valley,Next Day,13,2,0,Lalamove
+ORD2290,Pos Laju,Penang,Scheduled,14,2,0,Klang Valley zone
+ORD2811,J&T Express,Penang,Scheduled,47,2,0,High daily volume
+ORD1084,In-house Rider,Klang Valley,Same Day,10,2,0,Birthday occasion
+ORD1853,GrabExpress,Klang Valley,Next Day,15,2,0,Lalamove
+ORD3036,In-house Rider,Klang Valley,Next Day,12,2,0,Lalamove
+ORD3016,Pos Laju,Penang,Next Day,7,2,0,Klang Valley zone
+ORD1950,GrabExpress,Klang Valley,Scheduled,12,2,0,Lalamove
+ORD1892,In-house Rider,Klang Valley,Same Day,7,2,0,Tight requested window
+ORD2991,Lalamove,Klang Valley,Same Day,9,2,0,In-house Rider
+ORD2637,GrabExpress,Klang Valley,Next Day,26,2,0,In-house Rider
+ORD2201,GrabExpress,Klang Valley,Scheduled,11,2,0,In-house Rider
+ORD2192,In-house Rider,Klang Valley,Same Day,12,2,0,Same Day service
+ORD3000,GrabExpress,Klang Valley,Scheduled,12,2,0,Anniversary occasion
+ORD2964,In-house Rider,Klang Valley,Same Day,12,2,0,Order weekday
+ORD2985,In-house Rider,Klang Valley,Next Day,18,2,0,Order weekday
+ORD1283,GrabExpress,Klang Valley,Scheduled,15,2,0,Order weekday
+ORD2636,Lalamove,Klang Valley,Next Day,26,2,0,Order value
+ORD1434,Pos Laju,Johor Bahru,Scheduled,15,2,0,Klang Valley zone
+ORD1931,Lalamove,Klang Valley,Same Day,13,2,0,Order hour
+ORD1934,Lalamove,Klang Valley,Same Day,13,2,0,Birthday occasion
+ORD1944,GrabExpress,Klang Valley,Same Day,12,2,0,Tight requested window
+ORD1332,In-house Rider,Klang Valley,Same Day,13,2,0,Same Day service
+ORD1215,In-house Rider,Klang Valley,Same Day,11,2,0,Same Day service
+ORD2058,Ninja Van,Penang,Scheduled,14,2,0,Klang Valley zone
+ORD2907,Lalamove,Klang Valley,Next Day,13,2,0,Order value
+ORD1119,In-house Rider,Klang Valley,Same Day,13,2,0,Same Day service
+ORD1378,In-house Rider,Klang Valley,Same Day,9,2,0,Tight requested window
+ORD1376,GrabExpress,Klang Valley,Same Day,9,2,0,In-house Rider
+ORD2890,In-house Rider,Klang Valley,Next Day,17,2,0,Order weekday
+ORD2893,GrabExpress,Klang Valley,Same Day,17,2,0,Scheduled service
+ORD2122,Lalamove,Klang Valley,Same Day,6,2,0,In-house Rider
+ORD2118,GrabExpress,Klang Valley,Same Day,6,2,0,In-house Rider
+ORD2737,GrabExpress,Klang Valley,Scheduled,49,2,0,High daily volume
+ORD2005,In-house Rider,Klang Valley,Next Day,14,2,0,Lalamove
+ORD2078,GrabExpress,Klang Valley,Scheduled,11,2,0,In-house Rider
+ORD2841,In-house Rider,Klang Valley,Same Day,16,2,0,Order hour
+ORD1230,Pos Laju,Johor Bahru,Scheduled,11,2,0,Klang Valley zone
+ORD1175,GrabExpress,Klang Valley,Same Day,8,2,0,Order value
+ORD2835,Ninja Van,Klang Valley,Next Day,12,2,0,Ninja Van
+ORD2117,In-house Rider,Klang Valley,Same Day,10,2,0,Tight requested window
+ORD2049,Lalamove,Klang Valley,Same Day,14,2,0,Tight requested window
+ORD2066,Pos Laju,Penang,Next Day,9,2,0,Klang Valley zone
+ORD1363,GrabExpress,Klang Valley,Same Day,8,2,0,Order value
+ORD1445,Lalamove,Klang Valley,Same Day,8,2,0,Order weekday
+ORD2455,In-house Rider,Klang Valley,Same Day,13,2,0,Tight requested window
+ORD2456,GrabExpress,Klang Valley,Scheduled,13,2,0,Order hour
+ORD2436,Pos Laju,Penang,Next Day,6,2,0,Klang Valley zone
+ORD2509,Pos Laju,Penang,Scheduled,17,2,0,Klang Valley zone
+ORD3350,Lalamove,Klang Valley,Same Day,12,2,0,Same Day service
+ORD1594,Lalamove,Klang Valley,Scheduled,57,2,0,High daily volume
+ORD2407,Lalamove,Klang Valley,Same Day,13,2,0,Order hour
+ORD2165,Lalamove,Klang Valley,Scheduled,16,2,0,Anniversary occasion
+ORD2100,GrabExpress,Klang Valley,Same Day,11,2,0,In-house Rider
+ORD1130,Lalamove,Klang Valley,Same Day,14,2,0,Order hour
+ORD1364,Lalamove,Klang Valley,Same Day,8,2,0,Preserved Flowers
+ORD3322,Ninja Van,Johor Bahru,Scheduled,16,1,0,Klang Valley zone
+ORD1700,GrabExpress,Klang Valley,Same Day,23,1,0,Same Day service
+ORD3241,GrabExpress,Klang Valley,Same Day,13,1,0,Order hour
+ORD3228,Lalamove,Klang Valley,Next Day,19,1,0,In-house Rider
+ORD2575,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2654,GrabExpress,Klang Valley,Scheduled,37,1,0,High daily volume
+ORD2561,GrabExpress,Klang Valley,Same Day,10,1,0,In-house Rider
+ORD2556,Lalamove,Klang Valley,Next Day,10,1,0,In-house Rider
+ORD1308,Lalamove,Klang Valley,Scheduled,12,1,0,In-house Rider
+ORD1252,Pos Laju,Penang,Next Day,10,1,0,Klang Valley zone
+ORD1791,J&T Express,Penang,Scheduled,9,1,0,Klang Valley zone
+ORD1513,GrabExpress,Klang Valley,Scheduled,38,1,0,High daily volume
+ORD1405,GrabExpress,Klang Valley,Same Day,13,1,1,Same Day service
+ORD1747,In-house Rider,Klang Valley,Next Day,14,1,0,Lalamove
+ORD1802,GrabExpress,Klang Valley,Scheduled,8,1,0,Order value
+ORD3208,GrabExpress,Klang Valley,Scheduled,12,1,0,Order hour
+ORD3281,Pos Laju,Johor Bahru,Scheduled,15,1,0,Klang Valley zone
+ORD3216,GrabExpress,Klang Valley,Scheduled,12,1,0,Lalamove
+ORD2706,J&T Express,Johor Bahru,Scheduled,36,1,0,Klang Valley zone
+ORD2674,GrabExpress,Klang Valley,Scheduled,37,1,0,High daily volume
+ORD3147,Lalamove,Klang Valley,Same Day,16,1,0,GrabExpress
+ORD1565,In-house Rider,Klang Valley,Scheduled,45,1,0,High daily volume
+ORD1760,GrabExpress,Klang Valley,Same Day,12,1,0,Same Day service
+ORD1770,Lalamove,Klang Valley,Next Day,17,1,0,Anniversary occasion
+ORD1786,GrabExpress,Klang Valley,Next Day,17,1,0,Birthday occasion
+ORD3182,GrabExpress,Klang Valley,Scheduled,15,1,0,Lalamove
+ORD3135,In-house Rider,Klang Valley,Next Day,11,1,0,Lalamove
+ORD2580,In-house Rider,Klang Valley,Same Day,9,1,0,Same Day service
+ORD2313,In-house Rider,Klang Valley,Scheduled,16,1,0,Order value
+ORD2644,Ninja Van,Johor Bahru,Scheduled,26,1,0,Klang Valley zone
+ORD1773,In-house Rider,Klang Valley,Same Day,17,1,0,Scheduled service
+ORD1846,Lalamove,Klang Valley,Scheduled,15,1,0,Order weekday
+ORD1827,GrabExpress,Klang Valley,Next Day,15,1,0,Lalamove
+ORD1842,GrabExpress,Klang Valley,Scheduled,14,1,0,Lalamove
+ORD1095,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD2297,J&T Express,Johor Bahru,Scheduled,11,1,0,Klang Valley zone
+ORD2342,In-house Rider,Klang Valley,Scheduled,17,1,0,Order value
+ORD2800,J&T Express,Other,Scheduled,47,1,0,High daily volume
+ORD2685,In-house Rider,Klang Valley,Scheduled,36,1,0,High daily volume
+ORD2627,J&T Express,Other,Scheduled,26,1,0,Klang Valley zone
+ORD2719,Ninja Van,Penang,Scheduled,36,1,0,Klang Valley zone
+ORD1088,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD1133,Lalamove,Klang Valley,Scheduled,14,1,0,Order value
+ORD3145,Lalamove,Klang Valley,Scheduled,16,1,0,Order hour
+ORD3155,GrabExpress,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD3127,Lalamove,Klang Valley,Scheduled,11,1,0,Order hour
+ORD3168,GrabExpress,Klang Valley,Scheduled,13,1,0,Lalamove
+ORD2253,In-house Rider,Klang Valley,Same Day,10,1,0,Tight requested window
+ORD2247,GrabExpress,Klang Valley,Same Day,10,1,0,In-house Rider
+ORD2585,In-house Rider,Klang Valley,Same Day,9,1,0,Same Day service
+ORD2658,GrabExpress,Klang Valley,Scheduled,37,1,0,High daily volume
+ORD1855,J&T Express,Penang,Scheduled,15,1,0,Klang Valley zone
+ORD1813,In-house Rider,Klang Valley,Next Day,13,1,0,Order value
+ORD1467,In-house Rider,Klang Valley,Scheduled,26,1,0,Order value
+ORD1496,J&T Express,Other,Scheduled,31,1,0,Klang Valley zone
+ORD1463,Lalamove,Klang Valley,Scheduled,26,1,0,Congratulations occasion
+ORD1533,In-house Rider,Klang Valley,Scheduled,38,1,0,High daily volume
+ORD1854,In-house Rider,Klang Valley,Scheduled,15,1,0,Anniversary occasion
+ORD3072,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2600,Lalamove,Klang Valley,Same Day,8,1,0,Order weekday
+ORD2650,GrabExpress,Klang Valley,Scheduled,37,1,0,High daily volume
+ORD2607,In-house Rider,Klang Valley,Same Day,8,1,0,Order value
+ORD2808,Lalamove,Klang Valley,Scheduled,47,1,0,High daily volume
+ORD2750,In-house Rider,Klang Valley,Scheduled,49,1,0,High daily volume
+ORD1459,Lalamove,Klang Valley,Next Day,26,1,0,Order hour
+ORD1246,GrabExpress,Klang Valley,Scheduled,7,1,0,Order value
+ORD2704,Lalamove,Klang Valley,Scheduled,36,1,0,High daily volume
+ORD3104,GrabExpress,Klang Valley,Scheduled,12,1,0,Anniversary occasion
+ORD3077,In-house Rider,Klang Valley,Same Day,11,1,0,Same Day service
+ORD3099,GrabExpress,Klang Valley,Scheduled,12,1,0,Order weekday
+ORD3376,In-house Rider,Klang Valley,Next Day,13,1,0,Lalamove
+ORD1702,GrabExpress,Klang Valley,Scheduled,23,1,0,In-house Rider
+ORD3073,Lalamove,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD3054,Lalamove,Klang Valley,Same Day,15,1,0,Same Day service
+ORD3401,Pos Laju,Johor Bahru,Next Day,14,1,0,Klang Valley zone
+ORD1151,GrabExpress,Klang Valley,Scheduled,13,1,0,Order value
+ORD1108,Lalamove,Klang Valley,Scheduled,13,1,0,Order hour
+ORD1052,Lalamove,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD1335,Pos Laju,Johor Bahru,Next Day,13,1,0,Klang Valley zone
+ORD1331,In-house Rider,Klang Valley,Next Day,13,1,0,Lalamove
+ORD1021,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2410,GrabExpress,Klang Valley,Same Day,13,1,0,Same Day service
+ORD3381,GrabExpress,Klang Valley,Next Day,13,1,0,Lalamove
+ORD1164,J&T Express,Penang,Scheduled,9,1,0,Klang Valley zone
+ORD1688,Lalamove,Klang Valley,Scheduled,24,1,0,In-house Rider
+ORD3119,GrabExpress,Klang Valley,Scheduled,12,1,0,Lalamove
+ORD1864,Lalamove,Klang Valley,Scheduled,15,1,0,Order hour
+ORD1875,In-house Rider,Klang Valley,Scheduled,15,1,0,Order weekday
+ORD1654,Ninja Van,Penang,Scheduled,26,1,0,Klang Valley zone
+ORD3030,GrabExpress,Klang Valley,Scheduled,12,1,0,Anniversary occasion
+ORD2214,GrabExpress,Klang Valley,Next Day,14,1,0,Lalamove
+ORD2205,Ninja Van,Johor Bahru,Next Day,14,1,0,Klang Valley zone
+ORD1235,Lalamove,Klang Valley,Same Day,12,1,0,Same Day service
+ORD1233,In-house Rider,Klang Valley,Same Day,12,1,0,Lalamove
+ORD1245,Lalamove,Klang Valley,Same Day,7,1,0,Tight requested window
+ORD1542,J&T Express,Johor Bahru,Scheduled,45,1,0,High daily volume
+ORD1883,Lalamove,Klang Valley,Same Day,11,1,0,In-house Rider
+ORD1143,GrabExpress,Klang Valley,Scheduled,13,1,0,Lalamove
+ORD3337,GrabExpress,Klang Valley,Next Day,6,1,0,Anniversary occasion
+ORD2390,In-house Rider,Klang Valley,Same Day,11,1,0,Tight requested window
+ORD1891,GrabExpress,Klang Valley,Same Day,7,1,0,In-house Rider
+ORD3339,GrabExpress,Klang Valley,Same Day,6,1,0,Tight requested window
+ORD1907,In-house Rider,Klang Valley,Same Day,14,1,0,Order hour
+ORD2998,Lalamove,Klang Valley,Same Day,9,1,0,Order weekday
+ORD1614,Ninja Van,Other,Next Day,57,1,0,High daily volume
+ORD2992,In-house Rider,Klang Valley,Same Day,9,1,0,Tight requested window
+ORD3008,In-house Rider,Klang Valley,Same Day,12,1,0,Lalamove
+ORD1407,GrabExpress,Klang Valley,Scheduled,13,1,0,Anniversary occasion
+ORD1716,J&T Express,Johor Bahru,Scheduled,9,1,0,Klang Valley zone
+ORD2260,GrabExpress,Klang Valley,Scheduled,15,1,0,Anniversary occasion
+ORD2197,Lalamove,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD1102,GrabExpress,Klang Valley,Scheduled,13,1,0,Order weekday
+ORD1098,Lalamove,Klang Valley,Scheduled,10,1,0,Order value
+ORD2276,GrabExpress,Klang Valley,Scheduled,12,1,0,Order weekday
+ORD1462,Lalamove,Klang Valley,Scheduled,26,1,0,Anniversary occasion
+ORD1661,Lalamove,Klang Valley,Next Day,26,1,0,Order weekday
+ORD3302,Ninja Van,Klang Valley,Next Day,12,1,0,Ninja Van
+ORD1914,Lalamove,Klang Valley,Next Day,14,1,0,Order hour
+ORD1906,In-house Rider,Klang Valley,Next Day,14,1,0,Lalamove
+ORD1904,Lalamove,Klang Valley,Next Day,14,1,0,In-house Rider
+ORD1112,Lalamove,Klang Valley,Next Day,13,1,0,Order hour
+ORD1157,Lalamove,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD2959,Lalamove,Klang Valley,Same Day,12,1,0,Same Day service
+ORD3299,In-house Rider,Klang Valley,Same Day,12,1,0,Order weekday
+ORD2170,In-house Rider,Klang Valley,Scheduled,13,1,0,Order value
+ORD1313,Lalamove,Klang Valley,Next Day,12,1,0,Anniversary occasion
+ORD2375,In-house Rider,Klang Valley,Same Day,8,1,0,Tight requested window
+ORD2718,In-house Rider,Klang Valley,Scheduled,36,1,0,High daily volume
+ORD1384,In-house Rider,Klang Valley,Same Day,8,1,0,Tight requested window
+ORD2372,In-house Rider,Klang Valley,Same Day,8,1,0,Tight requested window
+ORD1396,In-house Rider,Klang Valley,Next Day,13,1,0,Order hour
+ORD2947,Lalamove,Klang Valley,Same Day,8,1,0,Tight requested window
+ORD1988,In-house Rider,Klang Valley,Scheduled,17,1,0,Preserved Flowers
+ORD1933,In-house Rider,Klang Valley,Same Day,13,1,0,Same Day service
+ORD3314,Ninja Van,Klang Valley,Next Day,16,1,0,Ninja Van
+ORD1470,Ninja Van,Klang Valley,Next Day,26,1,0,Ninja Van
+ORD1544,In-house Rider,Klang Valley,Scheduled,45,1,0,High daily volume
+ORD1953,In-house Rider,Klang Valley,Same Day,10,1,0,Tight requested window
+ORD1959,Lalamove,Klang Valley,Same Day,10,1,0,In-house Rider
+ORD2928,Lalamove,Klang Valley,Next Day,11,1,0,Order value
+ORD2169,GrabExpress,Klang Valley,Scheduled,13,1,0,Order value
+ORD1426,In-house Rider,Klang Valley,Same Day,15,1,0,Same Day service
+ORD1357,GrabExpress,Klang Valley,Scheduled,14,1,0,Order hour
+ORD1351,Lalamove,Klang Valley,Next Day,14,1,0,Scheduled service
+ORD2702,Lalamove,Klang Valley,Scheduled,36,1,0,High daily volume
+ORD1591,Lalamove,Klang Valley,Scheduled,57,1,0,High daily volume
+ORD2955,GrabExpress,Klang Valley,Scheduled,12,1,0,Order value
+ORD2936,GrabExpress,Klang Valley,Next Day,10,1,0,In-house Rider
+ORD2962,Ninja Van,Johor Bahru,Scheduled,12,1,0,Klang Valley zone
+ORD1745,GrabExpress,Klang Valley,Scheduled,14,1,0,Order value
+ORD3313,Lalamove,Klang Valley,Scheduled,16,1,0,GrabExpress
+ORD2889,In-house Rider,Klang Valley,Same Day,17,1,0,Same Day service
+ORD2915,Lalamove,Klang Valley,Next Day,13,1,0,Order value
+ORD2018,In-house Rider,Klang Valley,Scheduled,14,1,0,Order value
+ORD1552,In-house Rider,Klang Valley,Scheduled,45,1,0,High daily volume
+ORD1162,GrabExpress,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD2976,GrabExpress,Klang Valley,Scheduled,18,1,0,Anniversary occasion
+ORD1984,GrabExpress,Klang Valley,Next Day,13,1,0,Lalamove
+ORD2148,In-house Rider,Klang Valley,Next Day,12,1,0,Lalamove
+ORD2211,GrabExpress,Klang Valley,Scheduled,14,1,0,Lalamove
+ORD2164,GrabExpress,Klang Valley,Scheduled,16,1,0,Order value
+ORD1187,GrabExpress,Klang Valley,Next Day,13,1,0,Lalamove
+ORD2264,GrabExpress,Klang Valley,Scheduled,15,1,0,Lalamove
+ORD2263,In-house Rider,Klang Valley,Scheduled,15,1,0,Anniversary occasion
+ORD2156,GrabExpress,Klang Valley,Scheduled,16,1,0,Lalamove
+ORD2055,Pos Laju,Johor Bahru,Scheduled,14,1,0,Klang Valley zone
+ORD1990,In-house Rider,Klang Valley,Next Day,17,1,0,Lalamove
+ORD1955,In-house Rider,Klang Valley,Same Day,10,1,0,Same Day service
+ORD1414,In-house Rider,Klang Valley,Same Day,9,1,0,Tight requested window
+ORD1417,Lalamove,Klang Valley,Same Day,9,1,0,In-house Rider
+ORD2873,Lalamove,Klang Valley,Same Day,14,1,0,Same Day service
+ORD1534,In-house Rider,Klang Valley,Scheduled,38,1,0,High daily volume
+ORD1515,Lalamove,Klang Valley,Scheduled,38,1,0,High daily volume
+ORD1150,GrabExpress,Klang Valley,Scheduled,13,1,0,Lalamove
+ORD2858,Lalamove,Klang Valley,Same Day,6,1,0,In-house Rider
+ORD2871,GrabExpress,Klang Valley,Same Day,14,1,0,Same Day service
+ORD1554,Ninja Van,Penang,Scheduled,45,1,0,Klang Valley zone
+ORD3240,GrabExpress,Klang Valley,Same Day,13,1,0,Same Day service
+ORD2163,In-house Rider,Klang Valley,Scheduled,16,1,0,Anniversary occasion
+ORD2125,In-house Rider,Klang Valley,Same Day,8,1,0,Order value
+ORD3263,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2853,In-house Rider,Klang Valley,Scheduled,16,1,0,Lalamove
+ORD2847,J&T Express,Penang,Scheduled,16,1,0,Klang Valley zone
+ORD2897,GrabExpress,Klang Valley,Scheduled,17,1,0,Order hour
+ORD2014,Lalamove,Klang Valley,Next Day,14,1,0,Birthday occasion
+ORD2545,GrabExpress,Klang Valley,Scheduled,15,1,0,Lalamove
+ORD2351,Lalamove,Klang Valley,Same Day,13,1,0,Same Day service
+ORD2364,In-house Rider,Klang Valley,Same Day,10,1,0,Same Day service
+ORD1206,In-house Rider,Klang Valley,Scheduled,16,1,0,Lalamove
+ORD2384,Lalamove,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD2846,In-house Rider,Klang Valley,Scheduled,16,1,0,High daily volume
+ORD1192,In-house Rider,Klang Valley,Scheduled,13,1,0,Order value
+ORD1163,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2395,Lalamove,Klang Valley,Scheduled,15,1,0,Anniversary occasion
+ORD1201,GrabExpress,Klang Valley,Scheduled,16,1,0,Order value
+ORD1273,In-house Rider,Klang Valley,Scheduled,14,1,0,Order weekday
+ORD2082,Lalamove,Klang Valley,Scheduled,15,1,0,Order weekday
+ORD2096,GrabExpress,Klang Valley,Scheduled,15,1,0,Order weekday
+ORD2113,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD2860,In-house Rider,Klang Valley,Same Day,6,1,0,Order value
+ORD2909,Lalamove,Klang Valley,Scheduled,13,1,0,Order value
+ORD2445,GrabExpress,Klang Valley,Scheduled,13,1,0,Order weekday
+ORD2111,In-house Rider,Klang Valley,Next Day,10,1,0,Order value
+ORD2579,GrabExpress,Klang Valley,Scheduled,9,1,0,Preserved Flowers
+ORD2157,J&T Express,Other,Scheduled,16,1,0,Klang Valley zone
+ORD2142,In-house Rider,Klang Valley,Scheduled,12,1,0,Order value
+ORD1238,GrabExpress,Klang Valley,Scheduled,12,1,0,Lalamove
+ORD2105,GrabExpress,Klang Valley,Scheduled,11,1,0,Order value
+ORD1336,In-house Rider,Klang Valley,Scheduled,13,1,0,Order value
+ORD2068,Lalamove,Klang Valley,Next Day,9,1,0,In-house Rider
+ORD2537,Lalamove,Klang Valley,Next Day,15,1,0,Order weekday
+ORD1362,In-house Rider,Klang Valley,Same Day,8,1,0,Order value
+ORD2392,GrabExpress,Klang Valley,Scheduled,15,1,0,Order value
+ORD1439,GrabExpress,Klang Valley,Same Day,8,1,0,In-house Rider
+ORD2571,GrabExpress,Klang Valley,Scheduled,11,1,0,Order hour
+ORD3416,Lalamove,Klang Valley,Same Day,12,1,0,Order weekday
+ORD3354,In-house Rider,Klang Valley,Same Day,12,1,0,Same Day service
+ORD2570,GrabExpress,Klang Valley,Scheduled,11,1,0,In-house Rider
+ORD2536,In-house Rider,Klang Valley,Scheduled,15,1,0,Order value
+ORD3304,GrabExpress,Klang Valley,Scheduled,12,1,0,Order weekday
+ORD1126,GrabExpress,Klang Valley,Scheduled,14,1,0,In-house Rider
+ORD2437,GrabExpress,Klang Valley,Same Day,6,1,0,In-house Rider
+ORD1692,Lalamove,Klang Valley,Next Day,24,1,0,Order value
+ORD3374,GrabExpress,Klang Valley,Scheduled,9,1,0,In-house Rider
+ORD1756,GrabExpress,Klang Valley,Scheduled,14,1,0,Lalamove
+ORD1282,In-house Rider,Klang Valley,Same Day,15,1,0,Same Day service
+ORD1540,Lalamove,Klang Valley,Scheduled,38,1,0,High daily volume
+ORD2107,In-house Rider,Klang Valley,Same Day,11,1,0,Same Day service
+ORD3430,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD1413,GrabExpress,Klang Valley,Scheduled,13,1,0,Lalamove
+ORD1392,GrabExpress,Klang Valley,Scheduled,13,1,0,Order value
+ORD2112,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD2067,In-house Rider,Klang Valley,Same Day,9,1,0,Same Day service
+ORD2074,Lalamove,Klang Valley,Next Day,11,1,0,In-house Rider
+ORD2085,Lalamove,Klang Valley,Next Day,15,1,0,In-house Rider
+ORD1574,In-house Rider,Klang Valley,Scheduled,45,1,0,High daily volume
+ORD2138,Ninja Van,Johor Bahru,Scheduled,9,1,0,Klang Valley zone
+ORD1267,GrabExpress,Klang Valley,Scheduled,14,1,0,Anniversary occasion
+ORD1242,J&T Express,Johor Bahru,Scheduled,12,1,0,Klang Valley zone
+ORD2419,GrabExpress,Klang Valley,Scheduled,15,1,0,Lalamove
+ORD1358,In-house Rider,Klang Valley,Same Day,14,1,0,Same Day service
+ORD3255,GrabExpress,Klang Valley,Scheduled,10,1,0,In-house Rider
+ORD1204,J&T Express,Other,Scheduled,16,1,1,Klang Valley zone
+ORD3405,In-house Rider,Klang Valley,Same Day,10,1,0,Same Day service
+ORD2493,Lalamove,Klang Valley,Scheduled,11,0,0,Anniversary occasion
+ORD1046,Lalamove,Klang Valley,Scheduled,15,0,0,Order hour
+ORD1025,Lalamove,Klang Valley,Next Day,12,0,0,In-house Rider
+ORD3412,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3425,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD3422,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1049,Lalamove,Klang Valley,Next Day,15,0,0,Order weekday
+ORD1026,Lalamove,Klang Valley,Same Day,12,0,1,Same Day service
+ORD1063,Lalamove,Klang Valley,Scheduled,7,0,0,Order value
+ORD1070,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1087,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD2460,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2481,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2480,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2467,In-house Rider,Klang Valley,Scheduled,9,0,0,Lalamove
+ORD3427,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD3380,In-house Rider,Klang Valley,Next Day,13,0,0,Lalamove
+ORD3415,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3418,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1078,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1671,Lalamove,Klang Valley,Scheduled,24,0,0,In-house Rider
+ORD1696,In-house Rider,Klang Valley,Scheduled,23,0,0,Preserved Flowers
+ORD1708,GrabExpress,Klang Valley,Scheduled,23,0,0,In-house Rider
+ORD1725,In-house Rider,Klang Valley,Scheduled,9,0,0,Order hour
+ORD1690,GrabExpress,Klang Valley,Scheduled,24,0,0,In-house Rider
+ORD1733,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1541,GrabExpress,Klang Valley,Scheduled,45,0,0,High daily volume
+ORD2857,In-house Rider,Klang Valley,Scheduled,6,0,0,Order value
+ORD2878,Lalamove,Klang Valley,Scheduled,14,0,0,Birthday occasion
+ORD2091,GrabExpress,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD2099,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2070,In-house Rider,Klang Valley,Next Day,9,0,0,Scheduled service
+ORD2881,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1359,In-house Rider,Klang Valley,Same Day,8,0,0,Birthday occasion
+ORD1145,Lalamove,Klang Valley,Next Day,13,0,0,In-house Rider
+ORD1183,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1179,GrabExpress,Klang Valley,Scheduled,8,0,0,Order weekday
+ORD1222,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2877,In-house Rider,Klang Valley,Scheduled,14,0,0,Order value
+ORD2870,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2077,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2104,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD2133,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2855,Lalamove,Klang Valley,Same Day,6,0,0,In-house Rider
+ORD2094,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2120,Lalamove,Klang Valley,Scheduled,6,0,0,In-house Rider
+ORD2131,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD2888,Lalamove,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD2150,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2132,GrabExpress,Klang Valley,Scheduled,9,0,0,Order weekday
+ORD2180,In-house Rider,Klang Valley,Scheduled,13,0,0,Order value
+ORD2176,GrabExpress,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD2119,In-house Rider,Klang Valley,Next Day,6,0,0,Birthday occasion
+ORD2146,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2147,In-house Rider,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD2154,In-house Rider,Klang Valley,Scheduled,16,0,0,High daily volume
+ORD1220,In-house Rider,Klang Valley,Scheduled,11,0,0,Order weekday
+ORD1210,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1205,In-house Rider,Klang Valley,Scheduled,16,0,0,GrabExpress
+ORD2875,GrabExpress,Klang Valley,Scheduled,14,0,0,Anniversary occasion
+ORD2919,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2867,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1214,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1239,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1176,In-house Rider,Klang Valley,Same Day,8,0,0,Tight requested window
+ORD1226,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1194,In-house Rider,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD1189,Lalamove,Klang Valley,Next Day,13,0,0,Anniversary occasion
+ORD1181,Lalamove,Klang Valley,Next Day,13,0,0,Birthday occasion
+ORD1219,In-house Rider,Klang Valley,Scheduled,11,0,0,Order value
+ORD2943,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD2047,Lalamove,Klang Valley,Scheduled,9,0,0,Order value
+ORD2061,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2108,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2065,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2161,In-house Rider,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD2198,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2195,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2162,Lalamove,Klang Valley,Scheduled,16,0,0,Birthday occasion
+ORD2185,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1237,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2779,In-house Rider,Klang Valley,Scheduled,47,0,0,High daily volume
+ORD2188,Lalamove,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD2036,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2039,J&T Express,Penang,Scheduled,9,0,0,Klang Valley zone
+ORD2032,In-house Rider,Klang Valley,Scheduled,9,0,0,Order value
+ORD2056,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2059,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2076,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2868,Lalamove,Klang Valley,Scheduled,14,0,0,Next Day service
+ORD2862,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD1977,Lalamove,Klang Valley,Scheduled,13,0,0,Birthday occasion
+ORD2087,In-house Rider,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD1375,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1410,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1381,In-house Rider,Klang Valley,Scheduled,8,0,0,Birthday occasion
+ORD1400,GrabExpress,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD1436,Lalamove,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD2954,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1193,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1177,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1184,In-house Rider,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD2876,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2939,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2920,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2922,In-house Rider,Klang Valley,Scheduled,11,0,0,Bouquet
+ORD1271,Lalamove,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD1171,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2175,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2183,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2172,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2193,Lalamove,Klang Valley,Scheduled,12,0,0,Order hour
+ORD2171,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD2190,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1264,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD1277,Lalamove,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD2209,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2060,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2019,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1998,Lalamove,Klang Valley,Scheduled,17,0,0,In-house Rider
+ORD2013,Lalamove,Klang Valley,Scheduled,14,0,0,Birthday occasion
+ORD2020,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1992,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD3015,Lalamove,Klang Valley,Scheduled,7,0,0,In-house Rider
+ORD2949,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2963,Lalamove,Klang Valley,Scheduled,12,0,0,Order value
+ORD3007,Lalamove,Klang Valley,Scheduled,12,0,0,Order value
+ORD1974,Lalamove,Klang Valley,Next Day,13,0,0,Anniversary occasion
+ORD2972,Lalamove,Klang Valley,Scheduled,18,0,0,GrabExpress
+ORD2946,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD2987,GrabExpress,Klang Valley,Scheduled,18,0,0,In-house Rider
+ORD2986,In-house Rider,Klang Valley,Scheduled,18,0,0,Lalamove
+ORD2927,GrabExpress,Klang Valley,Scheduled,11,0,0,Anniversary occasion
+ORD2967,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2007,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2010,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2037,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1995,Lalamove,Klang Valley,Scheduled,17,0,0,Order value
+ORD1168,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2001,Lalamove,Klang Valley,Scheduled,17,0,0,In-house Rider
+ORD1963,Lalamove,Klang Valley,Next Day,13,0,0,In-house Rider
+ORD2030,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2182,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2167,Lalamove,Klang Valley,Scheduled,16,0,0,Birthday occasion
+ORD1367,In-house Rider,Klang Valley,Scheduled,4,0,0,Order value
+ORD1342,In-house Rider,Klang Valley,Same Day,8,0,0,Tight requested window
+ORD1341,In-house Rider,Klang Valley,Same Day,8,0,0,Tight requested window
+ORD1409,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2217,GrabExpress,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD2213,In-house Rider,Klang Valley,Next Day,14,0,0,Lalamove
+ORD2799,In-house Rider,Klang Valley,Scheduled,47,0,0,High daily volume
+ORD1234,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2945,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD2938,GrabExpress,Klang Valley,Next Day,10,0,0,In-house Rider
+ORD2961,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1451,Lalamove,Klang Valley,Scheduled,26,0,0,In-house Rider
+ORD1442,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1438,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1455,J&T Express,Penang,Scheduled,26,0,0,Klang Valley zone
+ORD1411,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1469,GrabExpress,Klang Valley,Scheduled,26,0,0,Order value
+ORD2970,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2940,In-house Rider,Klang Valley,Same Day,8,0,0,Same Day service
+ORD2999,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2971,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2989,In-house Rider,Klang Valley,Scheduled,18,0,0,Lalamove
+ORD2012,In-house Rider,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD1956,In-house Rider,Klang Valley,Scheduled,10,0,0,Order weekday
+ORD1954,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD3019,Lalamove,Klang Valley,Scheduled,10,0,0,Order hour
+ORD2974,In-house Rider,Klang Valley,Scheduled,18,0,0,Order hour
+ORD1965,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1154,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1165,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD3035,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1244,In-house Rider,Klang Valley,Scheduled,7,0,0,Preserved Flowers
+ORD1265,GrabExpress,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD1256,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2173,In-house Rider,Klang Valley,Scheduled,13,0,0,Order value
+ORD2186,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2228,In-house Rider,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD2219,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD2236,In-house Rider,Klang Valley,Scheduled,12,0,0,Order weekday
+ORD2216,GrabExpress,Klang Valley,Same Day,14,0,0,Order hour
+ORD2279,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2235,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1419,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD3027,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2983,Lalamove,Klang Valley,Scheduled,18,0,0,In-house Rider
+ORD2994,In-house Rider,Klang Valley,Scheduled,9,0,0,Lalamove
+ORD2220,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2218,Lalamove,Klang Valley,Scheduled,14,0,0,Non-fresh
+ORD2239,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2246,In-house Rider,Klang Valley,Scheduled,10,0,0,Order value
+ORD2269,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2645,In-house Rider,Klang Valley,Scheduled,26,0,0,GrabExpress
+ORD2688,Lalamove,Klang Valley,Scheduled,36,0,0,High daily volume
+ORD2796,In-house Rider,Klang Valley,Scheduled,47,0,0,High daily volume
+ORD2655,Lalamove,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD2620,In-house Rider,Klang Valley,Next Day,13,0,0,Lalamove
+ORD3029,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3049,GrabExpress,Klang Valley,Scheduled,15,0,0,Order value
+ORD1938,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1889,In-house Rider,Klang Valley,Same Day,7,0,0,Same Day service
+ORD1927,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD3065,GrabExpress,Klang Valley,Scheduled,17,0,0,In-house Rider
+ORD1958,Lalamove,Klang Valley,Scheduled,10,0,0,Preserved Flowers
+ORD1946,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1970,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3017,In-house Rider,Klang Valley,Scheduled,7,0,0,Lalamove
+ORD3013,In-house Rider,Klang Valley,Scheduled,7,0,0,Lalamove
+ORD3041,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3011,In-house Rider,Klang Valley,Scheduled,7,0,0,Non-fresh
+ORD3031,Lalamove,Klang Valley,Scheduled,12,0,0,Order value
+ORD3082,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3055,GrabExpress,Klang Valley,Scheduled,17,0,0,Order value
+ORD3024,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1383,In-house Rider,Klang Valley,Same Day,8,0,0,Birthday occasion
+ORD3033,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3052,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1932,In-house Rider,Klang Valley,Scheduled,13,0,0,Anniversary occasion
+ORD1913,GrabExpress,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD1897,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD1896,In-house Rider,Klang Valley,Scheduled,10,0,0,Anniversary occasion
+ORD1890,Lalamove,Klang Valley,Next Day,7,0,0,In-house Rider
+ORD1908,Lalamove,Klang Valley,Scheduled,14,0,0,Order value
+ORD3051,GrabExpress,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD3043,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3032,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3012,Lalamove,Klang Valley,Next Day,7,0,0,In-house Rider
+ORD3071,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD3034,In-house Rider,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD1909,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD1902,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1928,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD3050,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3084,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD3093,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3068,In-house Rider,Klang Valley,Scheduled,17,0,0,GrabExpress
+ORD3076,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD2819,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2689,Lalamove,Klang Valley,Scheduled,36,0,0,High daily volume
+ORD2256,Lalamove,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD2287,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2231,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2237,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD2230,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD2245,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1251,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD1297,In-house Rider,Klang Valley,Scheduled,10,0,0,Order value
+ORD1328,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1132,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1127,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1348,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1318,Lalamove,Klang Valley,Same Day,12,0,0,Same Day service
+ORD1386,In-house Rider,Klang Valley,Scheduled,8,0,0,Lalamove
+ORD1377,Lalamove,Klang Valley,Scheduled,9,0,0,Order value
+ORD1361,In-house Rider,Klang Valley,Scheduled,8,0,0,Lalamove
+ORD2226,GrabExpress,Klang Valley,Next Day,13,0,0,Lalamove
+ORD2278,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD2251,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2686,Ninja Van,Johor Bahru,Scheduled,36,0,0,Klang Valley zone
+ORD2606,In-house Rider,Klang Valley,Same Day,8,0,0,Tight requested window
+ORD1104,Lalamove,Klang Valley,Scheduled,13,0,0,Next Day service
+ORD1135,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD1881,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1887,Lalamove,Klang Valley,Scheduled,7,0,0,Order value
+ORD3144,Lalamove,Klang Valley,Scheduled,16,0,0,Anniversary occasion
+ORD3134,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1916,In-house Rider,Klang Valley,Scheduled,14,0,0,Order hour
+ORD1898,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD3112,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3090,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD3121,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3087,In-house Rider,Klang Valley,Scheduled,8,0,0,Lalamove
+ORD3118,In-house Rider,Klang Valley,Scheduled,12,0,0,Order value
+ORD3060,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD1900,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1865,GrabExpress,Klang Valley,Scheduled,15,0,0,Order value
+ORD1872,GrabExpress,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD1840,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1156,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1118,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1427,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1877,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1915,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD3123,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3132,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1248,Lalamove,Klang Valley,Scheduled,7,0,0,Order hour
+ORD1269,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2640,In-house Rider,Klang Valley,Scheduled,26,0,0,Birthday occasion
+ORD2676,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD2687,GrabExpress,Klang Valley,Scheduled,36,0,0,High daily volume
+ORD2647,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD2631,GrabExpress,Klang Valley,Scheduled,26,0,0,In-house Rider
+ORD3086,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD3130,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3097,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3096,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3169,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD1105,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1064,Lalamove,Klang Valley,Same Day,7,0,0,In-house Rider
+ORD1801,GrabExpress,Klang Valley,Same Day,8,0,0,In-house Rider
+ORD1880,Lalamove,Klang Valley,Scheduled,11,0,0,Anniversary occasion
+ORD1811,Lalamove,Klang Valley,Next Day,13,0,0,Order value
+ORD1858,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3150,In-house Rider,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD3100,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3120,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3109,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3110,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1862,GrabExpress,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD1408,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1486,Ninja Van,Johor Bahru,Scheduled,31,0,0,Klang Valley zone
+ORD1498,In-house Rider,Klang Valley,Scheduled,31,0,0,High daily volume
+ORD3193,Lalamove,Klang Valley,Scheduled,13,0,0,Anniversary occasion
+ORD3217,In-house Rider,Klang Valley,Scheduled,12,0,0,Order hour
+ORD3153,GrabExpress,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD3154,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2283,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2320,GrabExpress,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD2317,In-house Rider,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD2299,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2272,In-house Rider,Klang Valley,Scheduled,12,0,0,Order weekday
+ORD2330,In-house Rider,Klang Valley,Scheduled,10,0,0,Anniversary occasion
+ORD2262,Lalamove,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD2288,Lalamove,Klang Valley,Scheduled,14,0,0,Next Day service
+ORD2628,GrabExpress,Klang Valley,Scheduled,26,0,0,Anniversary occasion
+ORD2698,GrabExpress,Klang Valley,Scheduled,36,0,0,High daily volume
+ORD2662,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD3189,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3188,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3207,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1845,Lalamove,Klang Valley,Scheduled,14,0,0,Preserved Flowers
+ORD1851,Lalamove,Klang Valley,Scheduled,15,0,0,Birthday occasion
+ORD1116,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2360,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2343,Lalamove,Klang Valley,Scheduled,17,0,0,In-house Rider
+ORD2337,Lalamove,Klang Valley,Scheduled,17,0,0,Order weekday
+ORD2286,In-house Rider,Klang Valley,Next Day,14,0,0,Lalamove
+ORD2589,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2710,GrabExpress,Klang Valley,Scheduled,36,0,0,High daily volume
+ORD2678,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD1085,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1153,In-house Rider,Klang Valley,Scheduled,11,0,0,Bouquet
+ORD1149,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1122,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2370,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2376,Lalamove,Klang Valley,Scheduled,8,0,0,Anniversary occasion
+ORD2347,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD2329,Lalamove,Klang Valley,Scheduled,10,0,0,Order hour
+ORD2358,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2595,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2646,GrabExpress,Klang Valley,Scheduled,26,0,0,Anniversary occasion
+ORD2614,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2622,Lalamove,Klang Valley,Scheduled,26,0,0,Anniversary occasion
+ORD2665,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD1800,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1859,GrabExpress,Klang Valley,Scheduled,15,0,0,Order weekday
+ORD1860,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1824,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1882,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD1818,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1468,In-house Rider,Klang Valley,Scheduled,26,0,0,Order hour
+ORD1454,Lalamove,Klang Valley,Scheduled,26,0,0,Order hour
+ORD3203,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3202,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3180,Lalamove,Klang Valley,Scheduled,15,0,0,Order value
+ORD3156,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3157,In-house Rider,Klang Valley,Next Day,11,0,0,Lalamove
+ORD1807,In-house Rider,Klang Valley,Scheduled,13,0,0,Anniversary occasion
+ORD1812,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1809,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD1789,Lalamove,Klang Valley,Scheduled,9,0,0,Order value
+ORD1873,In-house Rider,Klang Valley,Scheduled,15,0,0,Order hour
+ORD3211,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3186,Lalamove,Klang Valley,Scheduled,15,0,0,Birthday occasion
+ORD3174,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2604,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD3173,Lalamove,Klang Valley,Same Day,13,0,0,Same Day service
+ORD3196,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1771,In-house Rider,Klang Valley,Scheduled,17,0,0,GrabExpress
+ORD1804,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1753,Lalamove,Klang Valley,Scheduled,14,0,0,GrabExpress
+ORD1793,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1763,Lalamove,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD1795,Lalamove,Klang Valley,Next Day,9,0,0,In-house Rider
+ORD3222,GrabExpress,Klang Valley,Scheduled,19,0,0,Order value
+ORD3249,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3200,Lalamove,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD1484,In-house Rider,Klang Valley,Scheduled,31,0,0,High daily volume
+ORD1443,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1428,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1447,J&T Express,Penang,Scheduled,26,0,0,Klang Valley zone
+ORD1457,J&T Express,Johor Bahru,Scheduled,26,0,0,Klang Valley zone
+ORD3227,In-house Rider,Klang Valley,Scheduled,19,0,0,Order value
+ORD2668,Lalamove,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD1338,Lalamove,Klang Valley,Scheduled,8,0,0,Order weekday
+ORD1322,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1312,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1327,Lalamove,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD1334,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2675,In-house Rider,Klang Valley,Scheduled,37,0,0,High daily volume
+ORD2611,Lalamove,Klang Valley,Scheduled,13,0,0,Birthday occasion
+ORD2560,Lalamove,Klang Valley,Next Day,10,0,0,In-house Rider
+ORD2590,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2602,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD2617,In-house Rider,Klang Valley,Scheduled,13,0,0,Order value
+ORD2624,In-house Rider,Klang Valley,Scheduled,26,0,0,Anniversary occasion
+ORD3197,Lalamove,Klang Valley,Scheduled,13,0,0,Anniversary occasion
+ORD3176,In-house Rider,Klang Valley,Same Day,13,0,0,Same Day service
+ORD1798,GrabExpress,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1765,In-house Rider,Klang Valley,Scheduled,12,0,0,Order value
+ORD1785,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD1792,In-house Rider,Klang Valley,Scheduled,9,0,0,Lalamove
+ORD1816,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD3252,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD3265,In-house Rider,Klang Valley,Scheduled,11,0,0,Anniversary occasion
+ORD3198,Lalamove,Klang Valley,Next Day,13,0,0,In-house Rider
+ORD3286,In-house Rider,Klang Valley,Scheduled,11,0,0,Order hour
+ORD3291,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3262,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3246,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD3233,In-house Rider,Klang Valley,Scheduled,19,0,0,Lalamove
+ORD3184,In-house Rider,Klang Valley,Scheduled,15,0,0,Order value
+ORD3212,GrabExpress,Klang Valley,Scheduled,12,0,0,Order weekday
+ORD3238,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3298,Lalamove,Klang Valley,Scheduled,12,0,0,Bouquet
+ORD3284,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1774,Lalamove,Klang Valley,Scheduled,17,0,0,GrabExpress
+ORD2388,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD2346,In-house Rider,Klang Valley,Scheduled,17,0,0,GrabExpress
+ORD2387,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2394,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2331,In-house Rider,Klang Valley,Next Day,10,0,0,Anniversary occasion
+ORD2368,GrabExpress,Klang Valley,Scheduled,10,0,0,Preserved Flowers
+ORD2416,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2399,GrabExpress,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD1316,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD1790,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1776,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD1803,In-house Rider,Klang Valley,Scheduled,8,0,0,Preserved Flowers
+ORD1754,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1339,In-house Rider,Klang Valley,Scheduled,8,0,0,Order value
+ORD2608,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2553,GrabExpress,Klang Valley,Next Day,10,0,0,In-house Rider
+ORD2588,Lalamove,Klang Valley,Scheduled,13,0,0,Order value
+ORD2629,Lalamove,Klang Valley,Scheduled,26,0,0,In-house Rider
+ORD2569,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2371,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD1311,GrabExpress,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1353,GrabExpress,Klang Valley,Scheduled,14,0,0,Anniversary occasion
+ORD1319,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1577,In-house Rider,Klang Valley,Scheduled,45,0,0,High daily volume
+ORD3287,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD3303,In-house Rider,Klang Valley,Scheduled,12,0,0,Order weekday
+ORD1783,In-house Rider,Klang Valley,Scheduled,17,0,0,Lalamove
+ORD1751,GrabExpress,Klang Valley,Scheduled,14,0,0,Order weekday
+ORD3288,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1750,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD3274,GrabExpress,Klang Valley,Scheduled,15,0,0,Preserved Flowers
+ORD1125,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1113,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1080,In-house Rider,Klang Valley,Scheduled,10,0,0,Birthday occasion
+ORD1121,Lalamove,Klang Valley,Scheduled,13,0,0,Anniversary occasion
+ORD1124,In-house Rider,Klang Valley,Scheduled,13,0,0,Order value
+ORD1123,Lalamove,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD1741,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1713,Lalamove,Klang Valley,Scheduled,23,0,0,GrabExpress
+ORD1718,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1735,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1519,GrabExpress,Klang Valley,Scheduled,38,0,0,High daily volume
+ORD1423,Lalamove,Klang Valley,Scheduled,15,0,0,Order value
+ORD1261,Lalamove,Klang Valley,Scheduled,14,0,0,In-house Rider
+ORD1291,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2568,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2535,Lalamove,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD2452,GrabExpress,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD2578,Lalamove,Klang Valley,Scheduled,9,0,0,Order weekday
+ORD2552,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2599,Lalamove,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD2548,Lalamove,Klang Valley,Scheduled,10,0,0,Preserved Flowers
+ORD2398,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2385,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2540,Lalamove,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD3271,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3324,Lalamove,Klang Valley,Scheduled,16,0,0,Anniversary occasion
+ORD3283,Lalamove,Klang Valley,Next Day,15,0,0,Hard-date occasion
+ORD1673,GrabExpress,Klang Valley,Scheduled,24,0,0,Lalamove
+ORD1711,Lalamove,Klang Valley,Scheduled,23,0,0,Anniversary occasion
+ORD1701,In-house Rider,Klang Valley,Scheduled,23,0,0,Anniversary occasion
+ORD3343,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3357,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1450,In-house Rider,Klang Valley,Scheduled,26,0,0,Order weekday
+ORD1553,In-house Rider,Klang Valley,Scheduled,45,0,0,High daily volume
+ORD1759,Lalamove,Klang Valley,Scheduled,12,0,0,Order value
+ORD3352,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3306,In-house Rider,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD3344,GrabExpress,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3307,In-house Rider,Klang Valley,Next Day,12,0,0,Lalamove
+ORD1727,In-house Rider,Klang Valley,Scheduled,9,0,0,Lalamove
+ORD1762,GrabExpress,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD3294,GrabExpress,Klang Valley,Scheduled,11,0,0,Anniversary occasion
+ORD2428,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2404,Lalamove,Klang Valley,Scheduled,15,0,0,In-house Rider
+ORD2413,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2539,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD3327,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD3346,Lalamove,Klang Valley,Scheduled,12,0,0,Birthday occasion
+ORD2401,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2423,Lalamove,Klang Valley,Scheduled,15,0,0,Birthday occasion
+ORD2412,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2439,In-house Rider,Klang Valley,Scheduled,6,0,0,Lalamove
+ORD2427,Lalamove,Klang Valley,Scheduled,15,0,0,Order value
+ORD2434,Lalamove,Klang Valley,Scheduled,6,0,0,In-house Rider
+ORD2582,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2463,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2532,Lalamove,Klang Valley,Scheduled,15,0,0,Anniversary occasion
+ORD2489,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2522,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2486,GrabExpress,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD2528,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD3367,In-house Rider,Klang Valley,Scheduled,9,0,0,Lalamove
+ORD3387,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD3360,Lalamove,Klang Valley,Scheduled,12,0,0,Order hour
+ORD3407,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD3375,Lalamove,Klang Valley,Scheduled,13,0,0,Order weekday
+ORD3417,GrabExpress,Klang Valley,Scheduled,12,0,0,Anniversary occasion
+ORD3385,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1656,Lalamove,Klang Valley,Scheduled,26,0,0,GrabExpress
+ORD1659,In-house Rider,Klang Valley,Scheduled,26,0,0,Anniversary occasion
+ORD1073,In-house Rider,Klang Valley,Scheduled,12,0,0,Order value
+ORD1090,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1081,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1107,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD1526,In-house Rider,Klang Valley,Scheduled,38,0,0,High daily volume
+ORD1645,In-house Rider,Klang Valley,Scheduled,26,0,0,GrabExpress
+ORD1473,Lalamove,Klang Valley,Scheduled,31,0,0,High daily volume
+ORD3349,Lalamove,Klang Valley,Scheduled,12,0,0,In-house Rider
+ORD1647,GrabExpress,Klang Valley,Scheduled,26,0,0,Lalamove
+ORD3397,GrabExpress,Klang Valley,Scheduled,14,0,0,Anniversary occasion
+ORD3365,In-house Rider,Klang Valley,Scheduled,12,0,0,Order weekday
+ORD2555,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD2479,In-house Rider,Klang Valley,Next Day,9,0,0,Lalamove
+ORD2550,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2543,In-house Rider,Klang Valley,Scheduled,15,0,0,Lalamove
+ORD2465,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2466,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD2417,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2461,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD2482,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1294,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1337,In-house Rider,Klang Valley,Scheduled,8,0,0,Anniversary occasion
+ORD1329,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD3400,GrabExpress,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD2526,In-house Rider,Klang Valley,Scheduled,10,0,0,Lalamove
+ORD3424,Lalamove,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD1697,Lalamove,Klang Valley,Scheduled,23,0,0,In-house Rider
+ORD3426,In-house Rider,Klang Valley,Same Day,10,0,0,Same Day service
+ORD1058,In-house Rider,Klang Valley,Scheduled,11,0,0,Lalamove
+ORD3432,GrabExpress,Klang Valley,Scheduled,10,0,0,Anniversary occasion
+ORD2511,Lalamove,Klang Valley,Scheduled,17,0,0,In-house Rider
+ORD2450,Lalamove,Klang Valley,Scheduled,13,0,0,Birthday occasion
+ORD2502,In-house Rider,Klang Valley,Scheduled,17,0,0,Order weekday
+ORD2469,Lalamove,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD3413,In-house Rider,Klang Valley,Scheduled,12,0,0,Lalamove
+ORD3384,Lalamove,Klang Valley,Scheduled,13,0,0,In-house Rider
+ORD3372,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1670,Lalamove,Klang Valley,Scheduled,24,0,0,GrabExpress
+ORD2453,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD2430,Lalamove,Klang Valley,Scheduled,15,0,0,Order value
+ORD2139,GrabExpress,Klang Valley,Scheduled,9,0,0,In-house Rider
+ORD1203,GrabExpress,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD2859,GrabExpress,Klang Valley,Scheduled,6,0,0,In-house Rider
+ORD1146,In-house Rider,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1382,In-house Rider,Klang Valley,Scheduled,8,0,0,Lalamove
+ORD1389,Lalamove,Klang Valley,Scheduled,13,0,0,Congratulations occasion
+ORD1403,GrabExpress,Klang Valley,Scheduled,13,0,0,Lalamove
+ORD1231,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider
+ORD1174,Lalamove,Klang Valley,Scheduled,8,0,0,In-house Rider
+ORD1197,GrabExpress,Klang Valley,Scheduled,16,0,0,Lalamove
+ORD2181,Lalamove,Klang Valley,Scheduled,13,0,0,GrabExpress
+ORD3388,In-house Rider,Klang Valley,Scheduled,14,0,0,Lalamove
+ORD1712,GrabExpress,Klang Valley,Scheduled,23,0,0,In-house Rider
+ORD1677,GrabExpress,Klang Valley,Scheduled,24,0,0,Order value
+ORD3411,GrabExpress,Klang Valley,Scheduled,10,0,0,In-house Rider
+ORD2487,Lalamove,Klang Valley,Scheduled,11,0,0,In-house Rider

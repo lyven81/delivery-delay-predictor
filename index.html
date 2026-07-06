@@ -1,0 +1,139 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delivery Delay Predictor — Operations Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#1a73e8;--blue-d:#12518a;--green:#16a34a;--teal:#2f9e9e;--teal-l:#8fd3d0;--ink:#12212e;--gray:#6b7684;--line:#e7edf3;--bg:#f4f7fb;--red:#e2483d;--red-l:#fdecea;--amber:#e79a2b;--amber-l:#fdf3e2;}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.app{display:grid;grid-template-columns:236px 1fr;min-height:100vh}
+.side{background:#eef2f7;border-right:1px solid var(--line);padding:22px 18px}
+.side h2{font-size:19px;font-weight:800;margin-bottom:20px}
+.fg{margin-bottom:15px}
+.fg label{display:block;font-size:12.5px;font-weight:600;color:#44505e;margin-bottom:5px}
+.fg select{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px;font-family:inherit;background:#fff}
+.upload{width:100%;margin-top:8px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:12.5px;font-weight:600;color:#44505e;cursor:pointer;text-align:center;line-height:1.35;display:block}
+.main{padding:22px 26px 40px}
+.head h1{font-size:29px;font-weight:800;letter-spacing:-.6px}
+.head .sub{font-size:13px;color:var(--gray);margin-top:1px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0 16px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px 20px;box-shadow:0 1px 3px rgba(20,40,60,.04)}
+.kpi .lab{font-size:13px;color:var(--gray);font-weight:500}
+.kpi .val{font-size:30px;font-weight:800;margin-top:6px;letter-spacing:-.8px}
+.row{display:grid;grid-template-columns:1fr 320px;gap:16px;margin-bottom:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px 20px;box-shadow:0 1px 3px rgba(20,40,60,.04)}
+.card h3{font-size:16px;font-weight:800;margin-bottom:13px}
+.card h3 .g{font-size:11px;font-weight:700;color:#fff;background:linear-gradient(100deg,#8b5cf6,#1a73e8);padding:2px 9px;border-radius:20px;margin-left:2px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-size:12px;color:var(--gray);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:11px 10px;border-bottom:1px solid var(--line)}
+tbody tr:last-child td{border-bottom:none}
+tr.hi{background:var(--red-l)}tr.md{background:var(--amber-l)}
+.oid{font-weight:700;font-family:ui-monospace,monospace;font-size:12.5px}
+.rk{font-weight:800}tr.hi .rk{color:var(--red)}tr.md .rk{color:var(--amber)}tr.lo .rk{color:var(--green)}
+.recs{list-style:none}
+.recs li{position:relative;padding:0 0 13px 18px;font-size:13px;color:#2c3a48}
+.recs li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;border-radius:50%;background:var(--blue)}
+.recs li:nth-child(2)::before{background:var(--amber)}.recs li:nth-child(3)::before{background:var(--green)}
+.ask{display:flex;gap:8px;margin-top:6px}
+.ask input{flex:1;border:1px solid var(--line);border-radius:10px;padding:11px 13px;font-size:13px;font-family:inherit}
+.ask button{background:var(--blue);color:#fff;border:none;border-radius:10px;padding:0 15px;font-weight:600;cursor:pointer;font-size:13px}
+#answer{margin-top:10px;font-size:12.5px;color:#2c3a48;background:#f6f9ff;border:1px solid #dbe6fb;border-radius:9px;padding:10px 12px;display:none}
+.charts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.chartbox{position:relative;height:230px}
+.foot{font-size:11px;color:var(--gray);margin-top:22px;text-align:center}
+@media(max-width:1000px){.app{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.row,.charts{grid-template-columns:1fr}}
+</style></head><body>
+<div class="app">
+  <aside class="side">
+    <h2>Filters</h2>
+    <div class="fg"><label>Courier</label><select id="fCourier"><option>All couriers</option></select></div>
+    <div class="fg"><label>Delivery Zone</label><select id="fZone"><option>All zones</option></select></div>
+    <div class="fg"><label>Delivery Service</label><select id="fService"><option>All services</option><option>Same Day</option><option>Next Day</option><option>Scheduled</option></select></div>
+    <div style="margin-top:16px;padding-top:15px;border-top:1px solid var(--line)">
+      <div style="font-size:11.5px;color:#6b7684;line-height:1.45;margin-bottom:9px">Dashboard is pre-loaded with live demo data, so <b>no upload is needed</b>. Optionally, score your own orders:</div>
+      <label class="upload" for="csv" style="margin-top:0">＋ Score New Orders (upload CSV)</label>
+      <input id="csv" type="file" accept=".csv" style="display:none">
+      <a href="/api/sample" download style="display:block;text-align:center;margin-top:7px;font-size:11.5px;color:var(--blue);text-decoration:none;font-weight:600">↓ Download sample CSV</a>
+    </div>
+  </aside>
+  <main class="main">
+    <div class="head"><h1>Delivery Delay Predictor</h1><div class="sub">Operations Dashboard</div></div>
+    <div class="kpis" id="kpis"></div>
+    <div class="row">
+      <div class="card">
+        <h3>Priority Alert List</h3>
+        <div style="font-size:12px;color:#6b7684;margin:-6px 0 12px">Open orders predicted at risk of late delivery, scored before dispatch from order signals only. Act on these before they ship.</div>
+        <table><thead><tr><th>Order ID</th><th>Courier</th><th>Zone</th><th>Service</th><th>Predicted Risk</th><th>Key Driver</th><th>Recommended Action</th></tr></thead>
+        <tbody id="alerts"></tbody></table>
+      </div>
+      <div class="card">
+        <h3>AI Recommendations <span class="g">Gemini</span></h3>
+        <ul class="recs" id="recs"></ul>
+        <div class="ask"><input id="q" placeholder="Ask a question..."><button onclick="ask()">Ask</button></div>
+        <div id="answer"></div>
+      </div>
+    </div>
+    <div class="charts">
+      <div class="card"><h3>Courier Performance</h3><div class="chartbox"><canvas id="c1"></canvas></div></div>
+      <div class="card"><h3>Delivery Zone Analysis</h3><div class="chartbox"><canvas id="c2"></canvas></div></div>
+      <div class="card"><h3>Operational Bottleneck</h3><div class="chartbox"><canvas id="c3"></canvas></div></div>
+    </div>
+    <div class="foot">Live predictions from a local XGBoost + SHAP model · KPIs from cleaned.csv (2,409 orders) · BigQuery + Vertex AI (Gemini) + Cloud Run · © 2026</div>
+  </main>
+</div>
+<script>
+const blue='#1a73e8',blueD='#12518a',teal='#2f9e9e',tealL='#8fd3d0',green='#16a34a',amber='#e79a2b',red='#e2483d';
+Chart.defaults.font.family='Inter';Chart.defaults.font.size=11;Chart.defaults.color='#6b7684';
+function band(r){return r>=85?'hi':r>=60?'md':'lo';}
+let charts={}, dropdownsReady=false;
+function mkChart(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
+function q(id){return document.getElementById(id).value;}
+async function load(){
+  const params=new URLSearchParams({courier:q('fCourier'),zone:q('fZone'),service:q('fService')});
+  document.getElementById('alerts').innerHTML='<tr><td colspan="7" style="text-align:center;color:#6b7684;padding:20px">Loading predictions…</td></tr>';
+  let d;
+  try{ d=await (await fetch('/api/data?'+params)).json(); }
+  catch(e){
+    document.querySelector('.main').insertAdjacentHTML('afterbegin',
+      '<div style="background:#fdecea;border:1px solid #f5c6c2;color:#a3231b;padding:13px 16px;border-radius:10px;margin-bottom:16px;font-size:13px">'+
+      'This dashboard runs through its server, not as a file. In the <code>delivery-delay-predictor</code> folder run '+
+      '<b>python -m uvicorn main:app --port 8080</b>, then open <b>http://localhost:8080/</b> (do not open index.html directly).</div>');
+    return;
+  }
+  const k=d.kpis;
+  // populate dropdowns once (from the full unfiltered option set)
+  if(!dropdownsReady && d.options){
+    document.getElementById('fCourier').innerHTML='<option>All couriers</option>'+d.options.couriers.map(c=>`<option>${c}</option>`).join('');
+    document.getElementById('fZone').innerHTML='<option>All zones</option>'+d.options.zones.map(z=>`<option>${z}</option>`).join('');
+    dropdownsReady=true;
+  }
+  document.getElementById('kpis').innerHTML=[
+    ['On-Time Rate',k.on_time_rate+'%'],['At-Risk Orders',d.alerts.filter(a=>a.risk>=60).length],
+    ['Avg Delay',k.avg_delay_hours+' hrs'],['Refund Cost','RM '+k.refund_cost_rm.toLocaleString()]
+  ].map(x=>`<div class="kpi"><div class="lab">${x[0]}</div><div class="val">${x[1]}</div></div>`).join('');
+  document.getElementById('alerts').innerHTML = d.alerts.length
+    ? d.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID}</td><td>${a.Courier}</td><td>${a.DeliveryZone}</td><td>${a.DeliveryService}</td><td class="rk">${a.risk}%</td><td>${a.key_driver}</td><td>${a.action||''}</td></tr>`).join('')
+    : '<tr><td colspan="7" style="text-align:center;color:#6b7684;padding:18px">No orders match this filter.</td></tr>';
+  document.getElementById('recs').innerHTML=d.recommendations.map(r=>`<li>${r}</li>`).join('');
+  mkChart('c1',{type:'bar',data:{labels:Object.keys(k.courier_on_time),datasets:[{data:Object.values(k.courier_on_time),backgroundColor:teal,borderRadius:5}]},options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% on-time'}}},scales:{x:{max:100,grid:{color:'#eef2f7'}},y:{grid:{display:false}}},maintainAspectRatio:false}});
+  mkChart('c2',{type:'bar',data:{labels:Object.keys(k.zone_delay_rate),datasets:[{data:Object.values(k.zone_delay_rate),backgroundColor:Object.values(k.zone_delay_rate).map(v=>v>=16?red:v>=13?amber:teal),borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% late'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'Delay rate %'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
+  mkChart('c3',{type:'bar',data:{labels:['Warehouse\nHandling','Dispatch','Courier\nTransit'],datasets:[{data:[k.bottleneck_pct['Warehouse Handling'],k.bottleneck_pct['Dispatch'],k.bottleneck_pct['Courier Transit']],backgroundColor:[tealL,teal,blueD],borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% of delay hours'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'% of delay hours'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
+}
+['fCourier','fZone','fService'].forEach(id=>document.getElementById(id).addEventListener('change',load));
+async function ask(){
+  const q=document.getElementById('q').value;if(!q)return;
+  const el=document.getElementById('answer');el.style.display='block';el.textContent='Thinking…';
+  const r=await (await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})})).json();
+  el.textContent=r.answer;
+}
+document.getElementById('csv').addEventListener('change',async e=>{
+  const fd=new FormData();fd.append('file',e.target.files[0]);
+  const r=await (await fetch('/api/score',{method:'POST',body:fd})).json();
+  if(r.error){alert(r.error);return;}
+  document.getElementById('alerts').innerHTML=r.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID||''}</td><td>${a.Courier||''}</td><td>${a.DeliveryZone||''}</td><td>${a.DeliveryService||''}</td><td class="rk">${a.risk}%</td><td>uploaded</td></tr>`).join('');
+});
+load();
+</script>
+</body></html>
