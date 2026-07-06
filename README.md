@@ -7,6 +7,8 @@ Built for the Gen AI Academy APAC Cohort 2 Hackathon (Track 2).
 **Live demo:** https://delivery-delay-predictor-522143897885.asia-southeast1.run.app
 
 > The dashboard loads with live demo data on open, no upload required. The optional "Score New Orders" feature has a "Download sample CSV" link so you can test scoring against your own file.
+
+![Deployed dashboard](docs/deployed-snapshot.png)
 ---
 
 ## What it does
