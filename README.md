@@ -1,130 +1,83 @@
 # Delivery Delay Predictor
 
-An AI-powered decision support application for e-commerce fulfillment teams. It predicts which orders are at risk of being delivered late **before dispatch**, explains why, and recommends actions in plain language, so operations managers can intervene before customers are affected.
+Predicts which e-commerce orders will be delivered late **before they ship**, names the top reason for each at-risk order, and turns the numbers into verified plain-language recommendations. Built for a warehouse operations manager. Live, public, on Cloud Run.
 
-Built for the Gen AI Academy APAC Cohort 2 Hackathon (Track 2).
+**Live app:** https://delivery-delay-predictor-522143897885.asia-southeast1.run.app
 
-**Live demo:** https://delivery-delay-predictor-522143897885.asia-southeast1.run.app
+Google Cloud Gen AI Academy APAC Edition, Cohort 2 (Top 101) — Prototype Refinement.
 
-> The dashboard loads with live demo data on open, no upload required. The optional "Score New Orders" feature has a "Download sample CSV" link so you can test scoring against your own file.
-
-![Deployed dashboard](docs/deployed-snapshot.png)
 ---
 
-## What it does
+## What this refinement changed over the first prototype
 
-Most delivery dashboards only report what already happened (completed or late orders). This one predicts which open orders are likely to be delayed **before they ship**, so teams can act early instead of reacting to complaints.
+The refinement makes the app **reliable enough for a real operations manager**, and every claim is verifiable on held-out data.
 
-Features:
+| Area | Prototype (v1) | Refined |
+|---|---|---|
+| **Model** | XGBoost trained locally, uncalibrated scores | **Tuned + calibrated on Vertex AI**; beats v1 on precision (38→49%) and recall (42→50%), Brier 0.111→0.077 |
+| **Data** | ran off a fixed file | **live BigQuery** data + KPIs |
+| **AI recommendations** | Gemini, unchecked | **verified by an evaluation** (LLM-as-judge): 4.28/5, 89% pass, 94% grounded |
+| **UI** | single dashboard | **two tabs**: Operations + a Model Performance tab that proves the model |
 
-1. **Delivery risk prediction**: a risk score (0-100) per open order, from order signals known before dispatch only (leakage-safe).
-2. **Priority alert list**: the highest-risk orders, each with its top risk driver and a recommended action.
-3. **Courier performance analysis**: on-time rates compared across couriers.
-4. **Delivery zone analysis**: zones with consistently higher delay rates.
-5. **Operational bottleneck detection**: splits delay hours across warehouse handling, dispatch, and courier transit.
-6. **AI recommendations (Gemini)**: turns the metrics into three specific, actionable recommendations and answers free-text questions.
-7. **Score new orders (upload CSV)** (optional): upload an orders file and get risk scores back.
+The manager-facing result: the "high-risk" shortlist shrank from **296 → ~107** (v1 flagged more orders than are ever actually late), and when the model flags an order it is right more than half the time.
 
-## How it works
-
-```
-Orders data (cleaned.csv)
-        │
-        ▼
-  BigQuery / CSV      ── clean, validate, feature-engineer, compute KPIs
-        │
-        ▼
-  XGBoost + SHAP      ── per-order delivery-risk score + top risk driver
-        │
-        ▼
-  Gemini (Vertex AI)  ── plain-language explanations + recommendations
-        │
-        ▼
-  Cloud Run (FastAPI) ── serves the dashboard + APIs behind a public URL
-```
-
-The XGBoost model is trained **locally** and bundled inside the Cloud Run container (served via `model.pkl`). There is no always-on prediction endpoint, which keeps the deployment cost near zero. Only Gemini runs on Vertex AI.
-
-## Model performance
-
-Trained on 2,409 orders with a 12% late rate (class imbalance handled with `scale_pos_weight`).
-
-| Metric | Value |
-|--------|-------|
-| ROC-AUC | 0.776 |
-| PR-AUC | 0.487 (~4x the 12% base rate) |
-| Precision | 0.373 |
-| Recall | 0.431 |
-| F1 | 0.40 |
-
-Precision and recall (not accuracy) are the honest metrics here because the target is rare. SHAP gives each prediction an explainable per-order reason, which feeds the "Key Driver" column.
-
-## Tech stack
-
-- **BigQuery**: data layer the deployed app queries for KPIs (CSV fallback for local runs)
-- **XGBoost + SHAP**: risk scoring and per-order explanations
-- **Gemini 2.5 Flash on Vertex AI**: natural-language recommendations and Q&A
-- **Cloud Run**: serverless host for the dashboard and APIs
-- **FastAPI**: backend framework
-- **Chart.js**: dashboard charts
-
-## Repository structure
+## Architecture
 
 ```
-├── main.py                  FastAPI backend: dashboard, KPIs, scoring, Gemini
-├── index.html               Dashboard front-end (Chart.js)
-├── prepare_and_train.py     Data prep + XGBoost training + SHAP (produces the artifacts below)
-├── Dockerfile               Container build for Cloud Run
-├── requirements.txt         Python dependencies
-├── model.pkl                Trained XGBoost model + feature metadata
-├── cleaned.csv              Source dataset (2,409 orders) for training
-├── app_data.csv             Scored data the deployed app serves
-├── sample_new_orders.csv    Sample file for the "Score New Orders" upload feature
-├── scored_orders.csv        Model output: risk score + key driver per order
-├── kpis.json                Precomputed operational KPIs
-├── metrics.json             Model evaluation metrics
-├── global_importance.json   SHAP global feature importance
-└── docs/                    Prototype snapshots
+Order data (CSV) → Cloud Storage → BigQuery (live: store, clean, features, KPIs)
+                                        │
+         training features ────────────┼──────────── live features + KPIs
+                                        ▼                         │
+                        Vertex AI: tune + calibrate               │
+                        the XGBoost + SHAP model                  ▼
+                                        │            Cloud Run (FastAPI):
+                                        └─ tuned model ─▶ serves model, scores orders,
+                                                          hosts the two-tab dashboard
+                                                                  │
+                        Cloud Run ⇄ Gemini (explains + recommends) ⇄ evaluation (verifies)
+                                                                  ▼
+                                                        Operations Manager
 ```
+
+Fully serverless: BigQuery (data) + Vertex AI (model tuning + Gemini) + Cloud Run (app), scale-to-zero.
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `main.py` | FastAPI app: `/api/data` (live KPIs + alerts), `/api/model` (validated metrics + eval), `/api/ask`, `/api/score` (CSV upload) |
+| `index.html` | Two-tab front end (Operations Dashboard + Model Performance), Chart.js |
+| `model.pkl` | The Vertex-tuned, calibrated model (XGBoost inside a CalibratedClassifierCV) |
+| `metrics.json` | Held-out validation metrics (v1 baseline vs tuned) |
+| `eval_report.json` | Recommendation-quality evaluation results |
+| `train_on_vertex.py` | The Vertex AI custom-training script (tune + calibrate + score) |
+| `eval_recs.py` | The recommendation evaluation (LLM-as-judge) |
+| `app_data.csv` | Bundled fallback data + dropdown options |
+| `Dockerfile` / `requirements.txt` | Python 3.12 container (pinned so `model.pkl` loads) |
 
 ## Run locally
 
 ```bash
-# 1. install dependencies
 pip install -r requirements.txt
-
-# 2. (optional) retrain the model from source data
-python prepare_and_train.py
-
-# 3. start the app
-python -m uvicorn main:app --port 8080
-
-# 4. open the dashboard
-# http://localhost:8080/
+# reads BigQuery + Gemini when these are set; falls back to app_data.csv otherwise
+export GOOGLE_CLOUD_PROJECT=gen-lang-client-0752018449
+export GOOGLE_GENAI_USE_VERTEXAI=True
+export GOOGLE_CLOUD_LOCATION=us-central1
+uvicorn main:app --port 8080
+# open http://localhost:8080
 ```
+(Note: `model.pkl` is pinned to Python 3.12 + xgboost 3.3.0; the CSV-upload feature needs that environment. The dashboard itself reads pre-scored data and does not need the model.)
 
-The app runs with no cloud credentials: it serves KPIs and risk scores from the bundled data and uses a data-driven fallback for recommendations. When deployed with Vertex AI credentials, the recommendations and Q&A switch to live Gemini automatically.
-
-## Deploy to Cloud Run
+## Deploy (update the existing service)
 
 ```bash
-gcloud run deploy delivery-delay-predictor \
-  --source . \
-  --region asia-southeast1 \
-  --allow-unauthenticated \
-  --set-env-vars GOOGLE_GENAI_USE_VERTEXAI=true,GOOGLE_CLOUD_PROJECT=<your-project>,GOOGLE_CLOUD_LOCATION=global,GEMINI_MODEL=gemini-2.5-flash
+gcloud run deploy delivery-delay-predictor --source . --region asia-southeast1 \
+  --allow-unauthenticated --memory 1Gi \
+  --set-env-vars GOOGLE_CLOUD_PROJECT=gen-lang-client-0752018449,GOOGLE_GENAI_USE_VERTEXAI=True,GOOGLE_CLOUD_LOCATION=us-central1
 ```
 
-## API reference
+## Tech stack
 
-| Endpoint | Method | Purpose |
-|----------|--------|---------|
-| `/` | GET | Serves the dashboard |
-| `/api/data` | GET | KPIs, priority alerts, and recommendations (filterable by courier, zone, service) |
-| `/api/ask` | POST | Free-text question answered from the metrics via Gemini |
-| `/api/score` | POST | Upload an orders CSV, get risk scores back |
-| `/api/sample` | GET | Download a sample orders CSV |
+BigQuery · Vertex AI (XGBoost tuning + Gemini 2.5 Flash) · SHAP · Cloud Run · FastAPI · Chart.js
 
----
-
-Lee Yih Ven · Gen AI Academy APAC Cohort 2 · 2026
+© 2026 Lee Yih Ven

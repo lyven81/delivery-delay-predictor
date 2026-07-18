@@ -1,0 +1,192 @@
+{
+  "n": 18,
+  "pass_rate_pct": 89,
+  "avg_overall": 4.28,
+  "avg_out_of_5": 4.28,
+  "avg_accuracy": 4.83,
+  "avg_usefulness": 3.67,
+  "avg_relevance": 4.72,
+  "grounded_rate_pct": 94,
+  "rows": [
+    {
+      "accuracy": 5,
+      "usefulness": 5,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "All orders",
+      "rec": "Prioritize reducing delays during courier transit, which accounts for 67% of all bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "All orders",
+      "rec": "Evaluate or reduce reliance on Ninja Van due to its significantly lower 82% on-time delivery rate compared to other couriers"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 4,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "All orders",
+      "rec": "Investigate and implement targeted improvements for deliveries in 'Other' and Penang zones, which exhibit the highest delay rates at 20% and 16% respectively"
+    },
+    {
+      "accuracy": 2,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": false,
+      "overall": 2,
+      "pass": false,
+      "scenario": "Ninja Van",
+      "rec": "Implement performance improvement plans with Ninja Van to reduce the 86% of delays attributed to courier transit"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Ninja Van",
+      "rec": "Optimize warehouse handling processes to reduce the 9% of late deliveries originating from this stage"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 5,
+      "relevance": 3,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Ninja Van",
+      "rec": "Streamline dispatch procedures to eliminate the 5% of delays caused during the dispatch phase"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "In-house Rider",
+      "rec": "Optimize warehouse handling processes to directly address its 50% contribution to delivery bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "In-house Rider",
+      "rec": "Investigate and streamline courier transit operations, which account for 26% of all delivery bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "In-house Rider",
+      "rec": "Improve dispatch efficiency and workflow to reduce its 24% contribution to late deliveries"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 5,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "Other zone",
+      "rec": "Reallocate deliveries from Ninja Van, given its 73% on-time rate, to higher-performing couriers like J&T Express"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 4,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Other zone",
+      "rec": "Investigate and resolve the specific operational challenges contributing to the \"Other\" zone's 20% delay rate"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "Other zone",
+      "rec": "Implement performance incentives or penalties for all couriers to address the 88% bottleneck in Courier Transit"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Penang",
+      "rec": "Implement strategies to reduce delays caused by courier transit, as it accounts for 80% of bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "Penang",
+      "rec": "Investigate performance issues with J&T Express and Ninja Van, as their on-time rates are lower than Pos Laju"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 4,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Penang",
+      "rec": "Optimize warehouse handling processes to reduce the 13% of bottlenecks occurring in this stage"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 4,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 5,
+      "pass": true,
+      "scenario": "Same Day",
+      "rec": "Optimize warehouse handling processes to reduce its 50% contribution to delivery bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 2,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 3,
+      "pass": false,
+      "scenario": "Same Day",
+      "rec": "Implement strategies to improve efficiency during courier transit, which accounts for 25% of bottlenecks"
+    },
+    {
+      "accuracy": 5,
+      "usefulness": 3,
+      "relevance": 5,
+      "grounded": true,
+      "overall": 4,
+      "pass": true,
+      "scenario": "Same Day",
+      "rec": "Streamline dispatch procedures to reduce its 25% contribution to overall delivery bottlenecks"
+    }
+  ]
+}

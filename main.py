@@ -11,10 +11,17 @@ from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 
 app = FastAPI(title="Delivery Delay Predictor")
 
-# ---------- load model + filterable data ----------
-with open("model.pkl", "rb") as f:
-    BUNDLE = pickle.load(f)
-MODEL, FEATURES, CAT, NUM = BUNDLE["model"], BUNDLE["features"], BUNDLE["cat"], BUNDLE["num"]
+# ---------- feature schema (fixed) + lazy model (only needed for CSV-upload scoring) ----------
+CAT = ["DeliveryZone", "Courier", "DeliveryService", "Occasion", "ProductCategory", "FreshFlowers"]
+NUM = ["LeadTimeDays", "OrderValue", "ZoneStandardDays", "DailyOrderVolume",
+       "order_weekday", "order_hour", "requested_slack_hours", "HardDateOccasion_int"]
+_BUNDLE = None
+def _model():
+    global _BUNDLE
+    if _BUNDLE is None:
+        with open("model.pkl", "rb") as f:
+            _BUNDLE = pickle.load(f)
+    return _BUNDLE
 
 DATA = pd.read_csv("app_data.csv")
 DATA["OnTime"] = DATA["OnTime"].astype(str).str.strip().str.lower().isin(["true", "1"]).astype(int)
@@ -42,6 +49,31 @@ def compute_kpis(df):
     }
 
 FULL_KPIS = compute_kpis(DATA)
+
+# ---------- model performance + eval (Model Performance tab) ----------
+def _load_json(path, default):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+_METRICS = _load_json("metrics.json", {})
+_EVAL = _load_json("eval_report.json", {})
+
+def model_perf():
+    b = _METRICS.get("baseline", {}); t = _METRICS.get("tuned", {})
+    pct = lambda x: round(100 * x) if isinstance(x, (int, float)) else None
+    return {
+        "shortlist": {"v1": 296, "refined": int(_METRICS.get("at_risk_count", 0))},
+        "precision": {"v1": pct(b.get("precision")), "refined": pct(t.get("precision"))},
+        "recall": {"v1": pct(b.get("recall")), "refined": pct(t.get("recall"))},
+        "roc_auc": {"v1": b.get("roc_auc"), "refined": t.get("roc_auc")},
+        "pr_auc": {"v1": b.get("pr_auc"), "refined": t.get("pr_auc")},
+        "f1": {"v1": b.get("f1"), "refined": t.get("f1")},
+        "brier": {"v1": _METRICS.get("brier_base"), "refined": _METRICS.get("brier_tuned")},
+        "eval": {"quality": _EVAL.get("avg_out_of_5"), "pass_rate": _EVAL.get("pass_rate_pct"),
+                 "grounded": _EVAL.get("grounded_rate_pct")},
+    }
 
 def filter_df(courier, zone, service):
     df = DATA
@@ -106,12 +138,12 @@ def build_features(df):
     df["requested_slack_hours"] = (df["RequestedDeliveryDateTime"] - df["OrderTimestamp"]).dt.total_seconds()/3600
     df["HardDateOccasion_int"] = df.get("HardDateOccasion", False).astype(int)
     X = pd.concat([pd.get_dummies(df[CAT], prefix=CAT), df[NUM]], axis=1)
-    return X.reindex(columns=FEATURES, fill_value=0)
+    return X.reindex(columns=_model()["features"], fill_value=0)
 
 def score(df):
     X = build_features(df)
     df = df.copy()
-    df["risk"] = (MODEL.predict_proba(X)[:, 1] * 100).round().astype(int)
+    df["risk"] = (_model()["model"].predict_proba(X)[:, 1] * 100).round().astype(int)
     return df.sort_values("risk", ascending=False)
 
 # ---------- Gemini (with offline fallback) ----------
@@ -191,12 +223,14 @@ def data(courier: str = "", zone: str = "", service: str = ""):
         return JSONResponse(_cache[key])
     df, source = get_data(courier, zone, service)
     kpis = compute_kpis(df)
-    cols = ["OrderID", "Courier", "DeliveryZone", "DeliveryService", "risk", "key_driver"]
+    cols = ["OrderID", "Courier", "DeliveryZone", "DeliveryService", "DailyOrderVolume", "risk", "key_driver"]
     alerts = df.sort_values("risk", ascending=False).head(8)[cols].to_dict("records") if len(df) else []
     for a in alerts:
         a["action"] = action_for(a["risk"], a.get("key_driver", ""))
     payload = {"kpis": kpis, "alerts": alerts, "recommendations": recommendations(kpis),
-               "count": int(len(df)), "source": source,
+               "count": int(len(df)),
+               "at_risk": int((df["risk"] >= 60).sum()) if ("risk" in df.columns and len(df)) else 0,
+               "source": source,
                "options": {"couriers": list(FULL_KPIS["courier_on_time"].keys()),
                            "zones": list(FULL_KPIS["zone_delay_rate"].keys())}}
     _cache[key] = payload
@@ -232,13 +266,17 @@ async def score_upload(file: UploadFile = File(...)):
         out = score(df).head(20)
     except Exception as e:
         return JSONResponse({"error": f"Scoring failed: {e}"}, status_code=400)
-    cols = [c for c in ["OrderID", "Courier", "DeliveryZone", "DeliveryService", "risk"] if c in out.columns]
+    cols = [c for c in ["OrderID", "Courier", "DeliveryZone", "DeliveryService", "DailyOrderVolume", "risk"] if c in out.columns]
     return {"alerts": out[cols].to_dict(orient="records")}
 
 @app.get("/api/sample")
 def sample():
     """Bundled sample orders CSV so a reviewer can test the upload feature without a dataset."""
     return FileResponse("sample_new_orders.csv", media_type="text/csv", filename="sample_new_orders.csv")
+
+@app.get("/api/model")
+def model():
+    return JSONResponse(model_perf())
 
 @app.get("/", response_class=HTMLResponse)
 def home():

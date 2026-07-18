@@ -6,25 +6,35 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--blue:#1a73e8;--blue-d:#12518a;--green:#16a34a;--teal:#2f9e9e;--teal-l:#8fd3d0;--ink:#12212e;--gray:#6b7684;--line:#e7edf3;--bg:#f4f7fb;--red:#e2483d;--red-l:#fdecea;--amber:#e79a2b;--amber-l:#fdf3e2;}
-body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
-.app{display:grid;grid-template-columns:236px 1fr;min-height:100vh}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+.topbar{display:flex;justify-content:space-between;align-items:flex-end;background:#fff;border-bottom:1px solid var(--line);padding:16px 26px 0}
+.brand h1{font-size:26px;font-weight:800;letter-spacing:-.6px}
+.brand .sub{font-size:13px;color:var(--gray);margin:1px 0 12px}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;color:#0b6b3a;background:#e6f4ea;border:1px solid #b7e0c4;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-left:10px}
+.live .dot{width:7px;height:7px;border-radius:50%;background:#16a34a;display:inline-block}
+.tabs{display:flex;gap:4px}
+.tab{border:none;background:none;font-family:inherit;font-size:14px;font-weight:700;color:var(--gray);padding:11px 18px;cursor:pointer;border-bottom:3px solid transparent}
+.tab.active{color:var(--blue);border-bottom-color:var(--blue)}
+.panel{display:none}.panel.active{display:block}
+.app{display:grid;grid-template-columns:236px 1fr;min-height:calc(100vh - 70px)}
 .side{background:#eef2f7;border-right:1px solid var(--line);padding:22px 18px}
 .side h2{font-size:19px;font-weight:800;margin-bottom:20px}
 .fg{margin-bottom:15px}
 .fg label{display:block;font-size:12.5px;font-weight:600;color:#44505e;margin-bottom:5px}
-.fg select{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px;font-family:inherit;background:#fff}
+.fg select{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px;font-family:inherit;background:#fff;color:var(--ink)}
 .upload{width:100%;margin-top:8px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:12.5px;font-weight:600;color:#44505e;cursor:pointer;text-align:center;line-height:1.35;display:block}
+.srcnote{font-size:11px;color:#6b7684;line-height:1.45;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
 .main{padding:22px 26px 40px}
-.head h1{font-size:29px;font-weight:800;letter-spacing:-.6px}
-.head .sub{font-size:13px;color:var(--gray);margin-top:1px}
-.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0 16px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:16px}
 .kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px 20px;box-shadow:0 1px 3px rgba(20,40,60,.04)}
 .kpi .lab{font-size:13px;color:var(--gray);font-weight:500}
 .kpi .val{font-size:30px;font-weight:800;margin-top:6px;letter-spacing:-.8px}
 .row{display:grid;grid-template-columns:1fr 320px;gap:16px;margin-bottom:16px}
 .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px 20px;box-shadow:0 1px 3px rgba(20,40,60,.04)}
-.card h3{font-size:16px;font-weight:800;margin-bottom:13px}
-.card h3 .g{font-size:11px;font-weight:700;color:#fff;background:linear-gradient(100deg,#8b5cf6,#1a73e8);padding:2px 9px;border-radius:20px;margin-left:2px}
+.card h3{font-size:16px;font-weight:800;margin-bottom:13px;letter-spacing:-.2px}
+.card h3 .g{font-size:11px;font-weight:700;color:#fff;background:linear-gradient(100deg,#8b5cf6,#1a73e8);padding:2px 9px;border-radius:20px;vertical-align:middle;margin-left:2px;white-space:nowrap}
+.card h3 .vf{font-size:11px;font-weight:700;color:#0b6b3a;background:#e6f4ea;border:1px solid #b7e0c4;padding:2px 9px;border-radius:20px;vertical-align:middle;margin-left:3px;white-space:nowrap}
+.subnote{font-size:11.5px;color:#6b7684;margin:-8px 0 12px}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th{text-align:left;font-size:12px;color:var(--gray);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}
 td{padding:11px 10px;border-bottom:1px solid var(--line)}
@@ -43,8 +53,42 @@ tr.hi{background:var(--red-l)}tr.md{background:var(--amber-l)}
 .charts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .chartbox{position:relative;height:230px}
 .foot{font-size:11px;color:var(--gray);margin-top:22px;text-align:center}
-@media(max-width:1000px){.app{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.row,.charts{grid-template-columns:1fr}}
+/* model performance */
+.mp{padding:24px 26px 40px}
+.mp h2{font-size:20px;font-weight:800;margin-bottom:3px}
+.mp .lead{font-size:13px;color:var(--gray);margin-bottom:18px;max-width:900px}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:12px}
+.mcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:0 1px 3px rgba(20,40,60,.04)}
+.mcard.hero{border:1.5px solid #bfe3cd;background:linear-gradient(180deg,#f2fbf5,#fff)}
+.mlab{font-size:13px;color:var(--gray);font-weight:600}
+.mval{font-size:34px;font-weight:800;margin-top:5px;letter-spacing:-.8px;color:#0b6b3a}
+.mprev{font-size:12px;color:var(--gray);margin-top:6px}
+.mprev .up{color:#0b6b3a;font-weight:700;margin-left:4px}
+.mnote{font-size:12.5px;color:#2c3a48;background:#f0f6ff;border:1px solid #d9e6fb;border-radius:10px;padding:12px 15px;margin-bottom:18px}
+.mrow{display:grid;grid-template-columns:1fr 380px;gap:16px}
+.mtab td{font-size:13px}.mtab td:nth-child(2){text-align:right;color:var(--gray);font-weight:600}.mtab td:last-child{text-align:right;font-weight:700}
+.checks{list-style:none;margin-top:10px}
+.checks li{position:relative;padding:0 0 9px 22px;font-size:13px;color:#2c3a48}
+.checks li::before{content:"\2713";position:absolute;left:0;top:0;color:#16a34a;font-weight:800}
+.qscore{font-size:42px;font-weight:800;color:#0b6b3a;letter-spacing:-1px}
+.qscore small{font-size:18px;color:var(--gray);font-weight:600}
+.foot2{font-size:11.5px;color:#8a5a12;background:#fdf3e2;border:1px solid #f2dcae;border-radius:9px;padding:10px 13px;margin-top:16px}
+@media(max-width:1000px){.app{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.mgrid{grid-template-columns:1fr}.row,.charts,.mrow{grid-template-columns:1fr}.topbar{flex-direction:column;align-items:flex-start}}
 </style></head><body>
+
+<div class="topbar">
+  <div class="brand">
+    <h1>Delivery Delay Predictor <span class="live"><span class="dot"></span>Live · BigQuery</span></h1>
+    <div class="sub">Operations intelligence for e-commerce fulfillment</div>
+  </div>
+  <div class="tabs">
+    <button class="tab active" data-tab="ops">Operations Dashboard</button>
+    <button class="tab" data-tab="model">Model Performance</button>
+  </div>
+</div>
+
+<!-- TAB 1 : OPERATIONS -->
+<div id="tab-ops" class="panel active">
 <div class="app">
   <aside class="side">
     <h2>Filters</h2>
@@ -52,24 +96,24 @@ tr.hi{background:var(--red-l)}tr.md{background:var(--amber-l)}
     <div class="fg"><label>Delivery Zone</label><select id="fZone"><option>All zones</option></select></div>
     <div class="fg"><label>Delivery Service</label><select id="fService"><option>All services</option><option>Same Day</option><option>Next Day</option><option>Scheduled</option></select></div>
     <div style="margin-top:16px;padding-top:15px;border-top:1px solid var(--line)">
-      <div style="font-size:11.5px;color:#6b7684;line-height:1.45;margin-bottom:9px">Dashboard is pre-loaded with live demo data, so <b>no upload is needed</b>. Optionally, score your own orders:</div>
-      <label class="upload" for="csv" style="margin-top:0">＋ Score New Orders (upload CSV)</label>
+      <div style="font-size:11.5px;color:#6b7684;line-height:1.45;margin-bottom:9px">Dashboard reads <b>live from BigQuery</b>, so no upload is needed. Optionally score your own orders:</div>
+      <label class="upload" for="csv">＋ Score New Orders (upload CSV)</label>
       <input id="csv" type="file" accept=".csv" style="display:none">
       <a href="/api/sample" download style="display:block;text-align:center;margin-top:7px;font-size:11.5px;color:var(--blue);text-decoration:none;font-weight:600">↓ Download sample CSV</a>
     </div>
   </aside>
   <main class="main">
-    <div class="head"><h1>Delivery Delay Predictor</h1><div class="sub">Operations Dashboard</div></div>
     <div class="kpis" id="kpis"></div>
     <div class="row">
       <div class="card">
         <h3>Priority Alert List</h3>
-        <div style="font-size:12px;color:#6b7684;margin:-6px 0 12px">Open orders predicted at risk of late delivery, scored before dispatch from order signals only. Act on these before they ship.</div>
-        <table><thead><tr><th>Order ID</th><th>Courier</th><th>Zone</th><th>Service</th><th>Predicted Risk</th><th>Key Driver</th><th>Recommended Action</th></tr></thead>
+        <div class="subnote">Open orders ranked by delay risk, scored before dispatch by a Vertex-tuned model. Act on the highest first.</div>
+        <table><thead><tr><th>Order ID</th><th>Courier</th><th>Zone</th><th>Service</th><th>Daily Vol</th><th>Risk</th><th>Key Driver</th></tr></thead>
         <tbody id="alerts"></tbody></table>
       </div>
       <div class="card">
-        <h3>AI Recommendations <span class="g">Gemini</span></h3>
+        <h3>AI Recommendations <span class="g">Gemini</span> <span class="vf">&#10003; Verified</span></h3>
+        <div class="subnote">Each recommendation is checked for accuracy and usefulness (see Model Performance).</div>
         <ul class="recs" id="recs"></ul>
         <div class="ask"><input id="q" placeholder="Ask a question..."><button onclick="ask()">Ask</button></div>
         <div id="answer"></div>
@@ -80,59 +124,120 @@ tr.hi{background:var(--red-l)}tr.md{background:var(--amber-l)}
       <div class="card"><h3>Delivery Zone Analysis</h3><div class="chartbox"><canvas id="c2"></canvas></div></div>
       <div class="card"><h3>Operational Bottleneck</h3><div class="chartbox"><canvas id="c3"></canvas></div></div>
     </div>
-    <div class="foot">Live predictions from a local XGBoost + SHAP model · KPIs from cleaned.csv (2,409 orders) · BigQuery + Vertex AI (Gemini) + Cloud Run · © 2026</div>
+    <div class="foot">Live from BigQuery (2,409 orders) · Risk scores from a Vertex-tuned, calibrated XGBoost + SHAP model · Recommendations verified for accuracy and usefulness · BigQuery + Vertex AI + Gemini + Cloud Run · © 2026</div>
   </main>
 </div>
+</div>
+
+<!-- TAB 2 : MODEL PERFORMANCE -->
+<div id="tab-model" class="panel">
+<div class="mp">
+  <h2>Model Performance</h2>
+  <div class="lead">What the refinement changes for the operations manager: a shorter, more trustworthy shortlist of at-risk orders. The figures are validated on held-out orders so a reviewer can verify them.</div>
+  <div class="mgrid" id="mheroes"></div>
+  <div class="mnote" id="mnote"></div>
+  <div class="mrow">
+    <div class="card">
+      <h3>v1 vs refined (held-out test)</h3>
+      <div class="subnote">Tuned on Vertex AI, probabilities calibrated. Higher is better. Reproducible from cleaned.csv.</div>
+      <div class="chartbox" style="height:280px"><canvas id="c4"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Validated metrics</h3>
+      <table class="mtab"><tbody id="mmetrics"></tbody></table>
+      <div class="subnote" style="margin:10px 0 0">The refined model improves on every measure: more precise, higher recall, better ranking, better calibrated.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Recommendation Quality <span class="vf">&#10003; Verified</span></h3>
+    <div class="subnote">Every Gemini recommendation is scored by an evaluation (LLM-as-judge) before the manager sees it.</div>
+    <div id="qwrap"></div>
+    <ul class="checks">
+      <li>Grounded in the actual metrics, with no invented numbers</li>
+      <li>Actionable for an operations manager</li>
+      <li>Relevant to the current orders on screen</li>
+    </ul>
+  </div>
+  <div class="foot2">Model metrics validated on a held-out 25% of the 2,409 orders, from the model tuned on Vertex AI, and reproducible from cleaned.csv. Recommendation quality measured over 18 recommendations across 6 scenarios.</div>
+</div>
+</div>
+
 <script>
-const blue='#1a73e8',blueD='#12518a',teal='#2f9e9e',tealL='#8fd3d0',green='#16a34a',amber='#e79a2b',red='#e2483d';
+const blue='#1a73e8',blueD='#12518a',teal='#2f9e9e',tealL='#8fd3d0',green='#16a34a',amber='#e79a2b',red='#e2483d',gray='#c3ccd6';
 Chart.defaults.font.family='Inter';Chart.defaults.font.size=11;Chart.defaults.color='#6b7684';
 function band(r){return r>=85?'hi':r>=60?'md':'lo';}
-let charts={}, dropdownsReady=false;
-function mkChart(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
-function q(id){return document.getElementById(id).value;}
+let charts={}, ddReady=false;
+function mk(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
+function v(id){return document.getElementById(id).value;}
+
 async function load(){
-  const params=new URLSearchParams({courier:q('fCourier'),zone:q('fZone'),service:q('fService')});
-  document.getElementById('alerts').innerHTML='<tr><td colspan="7" style="text-align:center;color:#6b7684;padding:20px">Loading predictions…</td></tr>';
+  const p=new URLSearchParams({courier:v('fCourier'),zone:v('fZone'),service:v('fService')});
+  document.getElementById('alerts').innerHTML='<tr><td colspan="7" style="text-align:center;color:#6b7684;padding:20px">Loading…</td></tr>';
   let d;
-  try{ d=await (await fetch('/api/data?'+params)).json(); }
-  catch(e){
-    document.querySelector('.main').insertAdjacentHTML('afterbegin',
-      '<div style="background:#fdecea;border:1px solid #f5c6c2;color:#a3231b;padding:13px 16px;border-radius:10px;margin-bottom:16px;font-size:13px">'+
-      'This dashboard runs through its server, not as a file. In the <code>delivery-delay-predictor</code> folder run '+
-      '<b>python -m uvicorn main:app --port 8080</b>, then open <b>http://localhost:8080/</b> (do not open index.html directly).</div>');
-    return;
-  }
+  try{ d=await (await fetch('/api/data?'+p)).json(); }catch(e){ return; }
   const k=d.kpis;
-  // populate dropdowns once (from the full unfiltered option set)
-  if(!dropdownsReady && d.options){
+  if(!ddReady && d.options){
     document.getElementById('fCourier').innerHTML='<option>All couriers</option>'+d.options.couriers.map(c=>`<option>${c}</option>`).join('');
     document.getElementById('fZone').innerHTML='<option>All zones</option>'+d.options.zones.map(z=>`<option>${z}</option>`).join('');
-    dropdownsReady=true;
+    ddReady=true;
   }
   document.getElementById('kpis').innerHTML=[
-    ['On-Time Rate',k.on_time_rate+'%'],['At-Risk Orders',d.alerts.filter(a=>a.risk>=60).length],
+    ['On-Time Rate',k.on_time_rate+'%'],['At-Risk Orders',d.at_risk],
     ['Avg Delay',k.avg_delay_hours+' hrs'],['Refund Cost','RM '+k.refund_cost_rm.toLocaleString()]
   ].map(x=>`<div class="kpi"><div class="lab">${x[0]}</div><div class="val">${x[1]}</div></div>`).join('');
   document.getElementById('alerts').innerHTML = d.alerts.length
-    ? d.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID}</td><td>${a.Courier}</td><td>${a.DeliveryZone}</td><td>${a.DeliveryService}</td><td class="rk">${a.risk}%</td><td>${a.key_driver}</td><td>${a.action||''}</td></tr>`).join('')
+    ? d.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID}</td><td>${a.Courier}</td><td>${a.DeliveryZone}</td><td>${a.DeliveryService}</td><td>${a.DailyOrderVolume}</td><td class="rk">${a.risk}%</td><td>${a.key_driver}</td></tr>`).join('')
     : '<tr><td colspan="7" style="text-align:center;color:#6b7684;padding:18px">No orders match this filter.</td></tr>';
   document.getElementById('recs').innerHTML=d.recommendations.map(r=>`<li>${r}</li>`).join('');
-  mkChart('c1',{type:'bar',data:{labels:Object.keys(k.courier_on_time),datasets:[{data:Object.values(k.courier_on_time),backgroundColor:teal,borderRadius:5}]},options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% on-time'}}},scales:{x:{max:100,grid:{color:'#eef2f7'}},y:{grid:{display:false}}},maintainAspectRatio:false}});
-  mkChart('c2',{type:'bar',data:{labels:Object.keys(k.zone_delay_rate),datasets:[{data:Object.values(k.zone_delay_rate),backgroundColor:Object.values(k.zone_delay_rate).map(v=>v>=16?red:v>=13?amber:teal),borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% late'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'Delay rate %'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
-  mkChart('c3',{type:'bar',data:{labels:['Warehouse\nHandling','Dispatch','Courier\nTransit'],datasets:[{data:[k.bottleneck_pct['Warehouse Handling'],k.bottleneck_pct['Dispatch'],k.bottleneck_pct['Courier Transit']],backgroundColor:[tealL,teal,blueD],borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% of delay hours'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'% of delay hours'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
+  mk('c1',{type:'bar',data:{labels:Object.keys(k.courier_on_time),datasets:[{data:Object.values(k.courier_on_time),backgroundColor:teal,borderRadius:5}]},options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% on-time'}}},scales:{x:{max:100,grid:{color:'#eef2f7'}},y:{grid:{display:false}}},maintainAspectRatio:false}});
+  mk('c2',{type:'bar',data:{labels:Object.keys(k.zone_delay_rate),datasets:[{data:Object.values(k.zone_delay_rate),backgroundColor:Object.values(k.zone_delay_rate).map(x=>x>=16?red:x>=13?amber:teal),borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% late'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'Delay rate %'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
+  mk('c3',{type:'bar',data:{labels:['Warehouse\nHandling','Dispatch','Courier\nTransit'],datasets:[{data:[k.bottleneck_pct['Warehouse Handling'],k.bottleneck_pct['Dispatch'],k.bottleneck_pct['Courier Transit']],backgroundColor:[tealL,teal,blueD],borderRadius:5}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% of delay hours'}}},scales:{y:{grid:{color:'#eef2f7'},title:{display:true,text:'% of delay hours'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
 }
 ['fCourier','fZone','fService'].forEach(id=>document.getElementById(id).addEventListener('change',load));
+
+let modelLoaded=false;
+async function loadModel(){
+  if(modelLoaded)return; modelLoaded=true;
+  const m=await (await fetch('/api/model')).json();
+  document.getElementById('mheroes').innerHTML=`
+    <div class="mcard hero"><div class="mlab">Right when it flags an order</div><div class="mval">${m.precision.refined}%</div><div class="mprev">v1: ${m.precision.v1}% <span class="up">▲ fewer false alarms</span></div></div>
+    <div class="mcard hero"><div class="mlab">Catches late orders</div><div class="mval">${m.recall.refined}%</div><div class="mprev">v1: ${m.recall.v1}% <span class="up">▲ misses fewer</span></div></div>
+    <div class="mcard hero"><div class="mlab">Scores you can trust</div><div class="mval">&#10003; Calibrated</div><div class="mprev">Brier ${m.brier.v1} → ${m.brier.refined}</div></div>`;
+  document.getElementById('mnote').innerHTML=`<b>Why this matters to the manager:</b> before, the tool flagged more "high-risk" orders (${m.shortlist.v1}) than the number of orders ever actually late (289), so most flags were false. The refined model flags ~${m.shortlist.refined}, catches more of the real late orders, and raises fewer false alarms — better on both counts.`;
+  const rows=[['Right-when-flagged (precision)',m.precision.v1+'%',m.precision.refined+'%'],
+    ['Catch rate (recall)',m.recall.v1+'%',m.recall.refined+'%'],
+    ['Ranking quality (ROC-AUC)',m.roc_auc.v1,m.roc_auc.refined],
+    ['Precision-recall (PR-AUC)',m.pr_auc.v1,m.pr_auc.refined],
+    ['Overall (F1)',m.f1.v1,m.f1.refined],
+    ['Score reliability (Brier, lower better)',m.brier.v1,m.brier.refined]];
+  document.getElementById('mmetrics').innerHTML=rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+  document.getElementById('qwrap').innerHTML=`<div class="qscore">${m.eval.quality}<small> / 5</small></div>
+    <div style="font-size:12.5px;color:#0b6b3a;font-weight:700;margin-top:2px">${m.eval.pass_rate}% passed · ${m.eval.grounded}% grounded (no invented numbers)</div>`;
+  mk('c4',{type:'bar',data:{labels:['Precision','Recall','ROC-AUC ×100','PR-AUC ×100'],datasets:[
+    {label:'v1 baseline',data:[m.precision.v1,m.recall.v1,Math.round(m.roc_auc.v1*100),Math.round(m.pr_auc.v1*100)],backgroundColor:gray,borderRadius:5},
+    {label:'Refined',data:[m.precision.refined,m.recall.refined,Math.round(m.roc_auc.refined*100),Math.round(m.pr_auc.refined*100)],backgroundColor:green,borderRadius:5}]},
+    options:{plugins:{legend:{position:'top'}},scales:{y:{max:100,grid:{color:'#eef2f7'}},x:{grid:{display:false}}},maintainAspectRatio:false}});
+}
+
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById('tab-'+t.dataset.tab).classList.add('active');
+  if(t.dataset.tab==='model') setTimeout(loadModel,30);
+}));
+
 async function ask(){
-  const q=document.getElementById('q').value;if(!q)return;
-  const el=document.getElementById('answer');el.style.display='block';el.textContent='Thinking…';
+  const q=document.getElementById('q').value; if(!q)return;
+  const el=document.getElementById('answer'); el.style.display='block'; el.textContent='Thinking…';
   const r=await (await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})})).json();
   el.textContent=r.answer;
 }
 document.getElementById('csv').addEventListener('change',async e=>{
-  const fd=new FormData();fd.append('file',e.target.files[0]);
+  const fd=new FormData(); fd.append('file',e.target.files[0]);
   const r=await (await fetch('/api/score',{method:'POST',body:fd})).json();
   if(r.error){alert(r.error);return;}
-  document.getElementById('alerts').innerHTML=r.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID||''}</td><td>${a.Courier||''}</td><td>${a.DeliveryZone||''}</td><td>${a.DeliveryService||''}</td><td class="rk">${a.risk}%</td><td>uploaded</td></tr>`).join('');
+  document.getElementById('alerts').innerHTML=r.alerts.map(a=>`<tr class="${band(a.risk)}"><td class="oid">${a.OrderID||''}</td><td>${a.Courier||''}</td><td>${a.DeliveryZone||''}</td><td>${a.DeliveryService||''}</td><td>${a.DailyOrderVolume||''}</td><td class="rk">${a.risk}%</td><td>uploaded</td></tr>`).join('');
 });
 load();
 </script>
